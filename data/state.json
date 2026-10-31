@@ -1,5 +1,37 @@
 {
  "jobs": {
+  "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833/": {
+   "arbeitsmodell": "k. A.",
+   "art": "Praktikum",
+   "bewertet_von": "regeln",
+   "company": "Schaeffler",
+   "fachbereich": "Personal (HR)",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": null,
+   "standort": "Regensburg",
+   "start": "k. A.",
+   "title": "Internship - Project Management for HR Digital Transformation Program (d/f/m) Job Details | Schaeffler",
+   "umfang": "k. A.",
+   "url": "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833/"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=12388": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Einkauf & Supply Chain",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-01",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Speditionslogistik – Excel-Tools",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12388"
+  },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=1261": {
    "arbeitsmodell": "k. A.",
    "art": "Praktikum",
@@ -13,8 +45,24 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Fülltechnik Supply Chain Management",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1261"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1265": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Einkauf & Supply Chain",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Fülltechnik Supply Chain Management",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1265"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=1283": {
    "arbeitsmodell": "k. A.",
@@ -29,8 +77,40 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Prozessoptimierung im Bereich der Externen Logistik",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1283"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1332": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Personal (HR)",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-10-19",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* HR Business Partner & Führungskräftebetreuung",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1332"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=13576": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Material Master Data Management & Classification",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=13576"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=157": {
    "arbeitsmodell": "k. A.",
@@ -45,7 +125,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Digitalisierung Arbeitssicherheit",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=157"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=24313": {
@@ -61,7 +141,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Wareneingang Logistik",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=24313"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=258": {
@@ -77,7 +157,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Lagerlogistik",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=258"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=266": {
@@ -93,7 +173,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Prozessoptimierung und Logistikplanung Lifecycle Service",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=266"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=280": {
@@ -109,7 +189,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Internationales Zoll- und Logistikmanagement - Schwerpunkt Zoll und Logistik",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=280"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=337": {
@@ -125,7 +205,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Konzerncontrolling",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=337"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=342": {
@@ -141,7 +221,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Steuern",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=342"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=349": {
@@ -157,7 +237,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Controlling",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=349"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=351": {
@@ -173,7 +253,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Controlling im Bereich International Operations and Services",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=351"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=354": {
@@ -189,8 +269,40 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Controlling Systeme",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=354"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=46060": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* International Sales",
+   "umfang": "6 Monate",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=46060"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=56900": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Einkauf & Supply Chain",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Corporate Procurement - Drawing Parts",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=56900"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=56950": {
    "arbeitsmodell": "k. A.",
@@ -205,7 +317,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Internationales Logistikmanagement",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=56950"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=573": {
@@ -237,7 +349,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Social Media - Unternehmenskommunikation",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=575"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=57642": {
@@ -253,7 +365,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Qualitätsmanagement – Operatives Lieferantenmanagement",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=57642"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=577": {
@@ -272,6 +384,22 @@
    "umfang": "6–8 Monate",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=577"
   },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=57890": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Marketing & Kommunikation",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Unternehmenskommunikation CGI 3D Design/Animation/Virtual Experience",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=57890"
+  },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=605": {
    "arbeitsmodell": "k. A.",
    "art": "Praktikum",
@@ -285,7 +413,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Strategischer Einkauf",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=605"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=627": {
@@ -301,7 +429,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* HR Internationale Mitarbeitereinsätze",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=627"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=629": {
@@ -317,7 +445,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* HR Internationales Visa- und Immigrationmanagement",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=629"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=639": {
@@ -333,7 +461,7 @@
    "standort": "Neutraubling",
    "start": "Februar 2027",
    "title": "Praktikant (m/w/d)* bei HR Operations",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=639"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=674": {
@@ -349,7 +477,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Digitale Transformation und Projektmanagement",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=674"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=68806": {
@@ -365,7 +493,7 @@
    "standort": "Regensburg",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Business Development, Marketing, Entrepreneurship im Krones Design Lab",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=68806"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=689": {
@@ -381,7 +509,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Internal Project and Portfolio Management, Engineering Projekte",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=689"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69390": {
@@ -397,7 +525,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Außenmontageprojekte - Support, Controlling und Koordination",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=69390"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69952": {
@@ -413,7 +541,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* technische Projektkoordination Nachrüstung LCS",
-   "umfang": "k. A.",
+   "umfang": "Teilzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=69952"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=702": {
@@ -429,8 +557,56 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Projektportfolio-Management in der Forschung und Entwicklung",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=702"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=70548": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Medienverwaltung und Datenbankpflege",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=70548"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=70697": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Einkauf & Supply Chain",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Strategic purchaser",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=70697"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71096": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Einkauf & Supply Chain",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Datenanalyse, Reporting und Berichterstellung in PowerBI im Bereich Supply Chain Management",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71096"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71205": {
    "arbeitsmodell": "k. A.",
@@ -445,7 +621,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Corporate Procurement - Drawing Parts",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71205"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71337": {
@@ -461,8 +637,120 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Digital Learning",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71337"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71648": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Process Transformation & Digitalization",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71648"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71792": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Projektmanagement",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* IT Projektunterstützung",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71792"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71936": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Projektmanagement",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Projektkoordination Softwareentwicklung - Digital Studio",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71936"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Personal (HR)",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-15",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Global HR Systems & ServiceNow",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72126": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Finanzen & Controlling",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-20",
+   "standort": "Neutraubling",
+   "start": "Januar 2027",
+   "title": "Werkstudent (m/w/d)* Digitalisierung / Prozessoptimierung / Analytics Reporting IOS Region Westeuropa",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72126"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72150": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-10-02",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Berichterstellung und Datenanalyse in Power BI",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72150"
+  },
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72165": {
+   "arbeitsmodell": "k. A.",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Krones",
+   "fachbereich": "Projektmanagement",
+   "first_seen": "2026-10-31",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-10-31",
+   "posted": "2026-09-29",
+   "standort": "Neutraubling",
+   "start": "k. A.",
+   "title": "Werkstudent (m/w/d)* Projektplanung Operations Planning - Product Planning",
+   "umfang": "Teilzeit",
+   "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72165"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72202": {
    "arbeitsmodell": "Hybrid",
@@ -493,7 +781,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Pflichtpraktikum - IT-Projektmanagement (all genders)",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72215"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72217": {
@@ -525,7 +813,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* für Supply Chain Management LDT",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72221"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72235": {
@@ -541,7 +829,7 @@
    "standort": "Neutraubling",
    "start": "Januar 2027",
    "title": "Praktikant (m/w/d)* Corporate HR Transformation, Leadership, Learning",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72235"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=822": {
@@ -557,7 +845,7 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Sales Lifecycle Service",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=822"
   },
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=826": {
@@ -589,11 +877,12 @@
    "standort": "Neutraubling",
    "start": "k. A.",
    "title": "Praktikant (m/w/d)* Fabrikplanung Schwerpunkt Planungs- und Beratungsprojekte",
-   "umfang": "k. A.",
+   "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=854"
   }
  },
  "rejected": {
+  "https://jobs.infineon.com/careers/job/563808972054587": "2026-10-31",
   "https://jobs.infineon.com/careers/job/563808972142500": "2026-10-31",
   "https://jobs.infineon.com/careers/job/563808972194645": "2026-10-31",
   "https://jobs.infineon.com/careers/job/563808972198268": "2026-10-31",
@@ -602,13 +891,23 @@
   "https://jobs.infineon.com/careers/job/563808972247987": "2026-10-31",
   "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833/": "2026-10-31",
   "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/526600": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1101": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1102": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=12107": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=12175": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=12354": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=1238": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=12449": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=12456": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=12667": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=12878": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1318": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=13200": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1324": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=13575": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1460": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=159": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=1673": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=1884": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=211": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=215": "2026-10-31",
@@ -622,8 +921,10 @@
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=249": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=268": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=302": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=311": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=34415": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=34470": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=34491": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=34878": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=35123": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=369": "2026-10-31",
@@ -635,10 +936,14 @@
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=427": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=434": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=457": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=46449": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=46484": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=511": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=553": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=555": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=57132": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=57155": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=57273": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=57673": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=57674": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=57840": "2026-10-31",
@@ -650,24 +955,46 @@
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=68716": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=68741": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=68749": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=68918": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69061": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69063": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=69671": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69729": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69807": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=69874": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=70007": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=70711": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=70865": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71013": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71086": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71150": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71164": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71171": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71222": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71223": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71231": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71232": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71351": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71358": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71373": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71467": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71468": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71471": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71513": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71634": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71657": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71664": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71681": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=71834": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=71855": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72009": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72023": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72072": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72076": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72125": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72148": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72174": "2026-10-31",
+  "https://www.krones.com/de/karriere/stellenausschreibung/?job=72191": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72199": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72201": "2026-10-31",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=72222": "2026-10-31",
