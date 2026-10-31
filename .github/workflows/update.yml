@@ -1,0 +1,77 @@
+name: Stellen aktualisieren
+
+on:
+  schedule:
+    # Jeden Montag um 05:17 Uhr deutscher Zeit (04:17 UTC im Winter)
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Rohdaten der Karriereseiten im Ordner debug/ speichern"
+        type: boolean
+        default: false
+      only:
+        description: "Nur diese Firmen (leer = alle), z. B. Infineon Krones"
+        type: string
+        default: ""
+      reclassify:
+        description: "Alle Stellen neu bewerten"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      HAS_CLAUDE: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' || secrets.ANTHROPIC_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Python-Pakete und Browser installieren
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Claude Code installieren (nur wenn Zugang hinterlegt)
+        if: ${{ env.HAS_CLAUDE == 'true' }}
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Stellen sammeln und bewerten
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IN_DEBUG: ${{ inputs.debug }}
+          IN_RECLASSIFY: ${{ inputs.reclassify }}
+          IN_ONLY: ${{ inputs.only }}
+        run: |
+          ARGS=()
+          [ "$IN_DEBUG" = "true" ] && ARGS+=(--debug)
+          [ "$IN_RECLASSIFY" = "true" ] && ARGS+=(--reclassify)
+          if [ -n "$IN_ONLY" ]; then read -ra ONLY <<< "$IN_ONLY"; ARGS+=(--only "${ONLY[@]}"); fi
+          python -m scraper.run "${ARGS[@]}"
+
+      - name: Ergebnis speichern
+        run: |
+          git config user.name "studijobs-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/jobs.json data/state.json
+          if [ -d debug ]; then git add -f debug; fi
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Stellen aktualisiert $(date +'%Y-%m-%d')"
+            git push
+          fi

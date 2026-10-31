@@ -1,0 +1,65 @@
+# Einstellungen für die Auswahl der Stellen
+
+# Orte, die als "Regensburg" zählen (Stadt + direktes Umland, z. B. Krones in Neutraubling)
+region:
+  - Regensburg
+  - Neutraubling
+  - Obertraubling
+  - Barbing
+  - Lappersdorf
+  - Pentling
+  - Regenstauf
+  - Tegernheim
+  - Wenzenbach
+  - Sinzing
+  - Pettendorf
+  - Zeitlarn
+  - Donaustauf
+  - Mintraching
+
+# Stellenart: Titel muss eines dieser Muster enthalten (Kleinschreibung, Muster gilt ab Wortanfang, Regex erlaubt)
+include_title:
+  - praktik          # Praktikum, Praktikant
+  - pflichtprakt
+  - intern(ship)?\b  # Intern, Internship (nicht: international)
+  - werkstud
+  - werksstud
+  - working student
+  - studentische
+  - student assistant
+  - junior
+  - trainee
+  - einsteiger
+  - berufseinst
+  - absolvent
+  - graduate
+  - entry level
+  - young professional
+  - career starter
+
+# Diese Stellen fliegen immer raus
+exclude_title:
+  - ausbildung
+  - auszubild
+  - azubi
+  - dual
+  - apprentice
+  - abschlussarbeit
+  - bachelorarbeit
+  - masterarbeit
+  - thesis
+  - doktor
+  - phd
+
+# Erlaubte Fachbereiche (so werden sie auf der Seite angezeigt)
+fachbereiche:
+  - Vertrieb & Kundenmanagement
+  - Einkauf & Supply Chain
+  - Marketing & Kommunikation
+  - Finanzen & Controlling
+  - Business Development & Strategie
+  - Personal (HR)
+  - Projektmanagement
+  - Digitalisierung, Daten & KI
+  - Recht & Compliance
+  - Sonstiges BWL

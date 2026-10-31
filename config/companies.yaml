@@ -1,0 +1,87 @@
+# Firmenliste für StudiJobs Regensburg
+# ------------------------------------
+# Neue Firma hinzufügen: Block kopieren, Name + Karriereseite eintragen.
+# enabled: false  -> Firma wird (noch) nicht abgefragt.
+#
+# Technische Felder (nur ändern, wenn du weißt, was du tust):
+#   list_url    Seite mit der Stellenliste (am besten schon auf Regensburg gefiltert)
+#   job_link    Muster (Regex), an dem Links zu einzelnen Stellen erkannt werden
+#   pages       optional: Blätter-Logik, {offset} bzw. {page} wird ersetzt
+#   job_url     optional: Link-Vorlage, falls die Stellen nur als Daten (JSON) kommen
+
+- name: Infineon
+  career_url: https://jobs.infineon.com/careers
+  enabled: true
+  list_url: https://jobs.infineon.com/careers?location=Regensburg&sort_by=timestamp
+  job_link: /careers/job/\d+
+  job_url: https://jobs.infineon.com/careers/job/{id}
+
+- name: Schaeffler
+  career_url: https://jobs.schaeffler.com/default/?locale=de_DE
+  enabled: true
+  list_url: https://jobs.schaeffler.com/search/?q=&locationsearch=Regensburg&locale=de_DE
+  job_link: /job/[^?#]+/\d+
+  pages:
+    template: https://jobs.schaeffler.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow={offset}
+    step: 25
+    max_pages: 12
+
+- name: Siemens
+  career_url: https://jobs.siemens.com/de_DE/externaljobs
+  enabled: true
+  list_url: https://jobs.siemens.com/de_DE/externaljobs/SearchJobs/Regensburg?jobRecordsPerPage=50
+  job_link: /externaljobs/JobDetail/
+  pages:
+    template: https://jobs.siemens.com/de_DE/externaljobs/SearchJobs/Regensburg?jobRecordsPerPage=50&jobOffset={offset}
+    step: 50
+    max_pages: 10
+
+- name: Krones
+  career_url: https://www.krones.com/de/karriere/jobs/jobs-deutschland/
+  enabled: true
+  list_url: https://www.krones.com/de/karriere/jobs/jobs-deutschland/
+  job_link: /karriere/stellenausschreibung/\?job=\d+
+
+- name: Deutsche Telekom
+  career_url: https://careers.telekom.com/de/jobs
+  enabled: true
+  list_url: https://careers.telekom.com/de/jobs?location=Regensburg%2C+Deutschland
+  job_link: /(de|en)/jobs/\d+
+
+# ---- noch nicht aktiv (folgen nach dem Prototyp) ----
+
+- name: BMW Group
+  career_url: https://www.bmwgroup.jobs/de/de.html
+  enabled: false
+
+- name: 42 Coding Solutions
+  career_url: https://42-coding-solutions.com/
+  enabled: false
+
+- name: BSH Hausgeräte
+  career_url: https://jobs.bsh-group.de/index
+  enabled: false
+
+- name: Bayernwerk
+  career_url: https://jobs.bayernwerk.de/de
+  enabled: false
+
+- name: Maschinenfabrik Reinhausen
+  career_url: https://www.reinhausen.com/de/karriere/jobs
+  enabled: false
+
+- name: Continental
+  career_url: https://jobs.continental.com/de/#/
+  enabled: false
+
+- name: Aumovio
+  career_url: https://jobs.aumovio.com/en/jobs/#/
+  enabled: false
+
+- name: ams OSRAM
+  career_url: https://jobs.ams-osram.com/de?utm_source=careerpage
+  enabled: false
+
+- name: Schneider Electric
+  career_url: https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg
+  enabled: false
