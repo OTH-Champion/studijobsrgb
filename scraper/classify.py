@@ -22,23 +22,24 @@ MODELLE = ["Präsenz", "Hybrid", "Remote", KA]
 # Stichwort-Regeln
 # ---------------------------------------------------------------------------
 FACH_RULES = [
-    ("Vertrieb & Kundenmanagement", r"vertrieb|sales|key account|account manag|kundenbetreuung|customer success|innendienst|pricing"),
-    ("Einkauf & Supply Chain", r"einkauf|procurement|purchas|beschaffung|sourcing|supply chain|logistik|logistics|scm|materialwirtschaft|disposition|lieferanten"),
-    ("Marketing & Kommunikation", r"marketing|kommunikation|communication|\bpr\b|social media|brand|content|events?\b|employer branding"),
-    ("Finanzen & Controlling", r"controlling|controller|finance|finanz|accounting|buchhaltung|rechnungswesen|steuer|\btax|treasury|audit|revision|reporting"),
-    ("Business Development & Strategie", r"business development|strateg|m&a|corporate development|innovation management|geschäftsentwicklung|portfolio"),
-    ("Personal (HR)", r"\bhr\b|human resources|personal|recruit|talent|people|ausbildungsmarketing|learning"),
-    ("Projektmanagement", r"projekt|project|\bpmo\b|program management"),
-    ("Digitalisierung, Daten & KI", r"digital|data|daten|analytics|\bbi\b|business intelligence|\bsap\b|\bcrm\b|\bki\b|\bai\b|künstliche intelligenz|prozessmanagement|process management|it-?consult|power bi|business analyst"),
-    ("Recht & Compliance", r"legal|recht|compliance|contract|vertragsmanagement|export control|exportkontrolle"),
+    ("Vertrieb & Kundenmanagement", r"vertrieb|sales|key account|account manag|kundenbetreuung|customer|innendienst|pricing|order management|auftragsmanagement|auftragsabwicklung|e-?business|e-?commerce"),
+    ("Einkauf & Supply Chain", r"einkauf|procurement|purchas|beschaffung|sourcing|supply|logisti|\bscm\b|materialwirtschaft|disposition|lieferanten|zoll|customs|transport|spedition|total cost|\btco\b|scheduling|resource management|travel"),
+    ("Marketing & Kommunikation", r"marketing|kommunikation|communication|\bpr\b|social media|brand|content|event|employer branding|storytelling|video|redaktion|text"),
+    ("Finanzen & Controlling", r"controlling|controller|finance|finanz|accounting|buchhaltung|rechnungswesen|steuer|\btax|treasury|audit|revision|reporting|ifrs|financial|bilanz|konsolidierung"),
+    ("Business Development & Strategie", r"business development|strateg|m&a|corporate development|innovation|geschäftsentwicklung|portfolio|entrepreneur"),
+    ("Personal (HR)", r"\bhr\b|human resources|personal|recruit|talent|people|learning|change management|adoption|health management|gesundheitsmanagement"),
+    ("Projektmanagement", r"projekt|project|\bpmo\b|program management|koordination|coordination"),
+    ("Digitalisierung, Daten & KI", r"digital|data|daten|analytics|\bbi\b|power ?bi|business intelligence|\bsap\b|\bcrm\b|\bki\b|\bai\b|künstliche intelligenz|prozessmanagement|prozessoptimierung|process management|process transformation|it-?consult|business analyst|servicenow|microsoft 365|master data|stammdaten"),
+    ("Recht & Compliance", r"legal|recht|compliance|contract|vertragsmanagement|export control|exportkontrolle|governance|datenschutz"),
 ]
 TECH = re.compile(
-    r"engineer|ingenieur|entwickl|development (?!manager)|software|firmware|hardware|embedded|elektro|"
+    r"engineer|ingenieur|entwickl|software|firmware|hardware|embedded|elektro|"
     r"electric|mechani|mechatron|konstrukt|physik|physics|chemi|verfahrenstechn|process engineering|"
-    r"prozessentwicklung|equipment|metrolog|mems|halbleiter|semiconductor|test engineer|verification|"
-    r"simulation|layout|frontend|backend|full.?stack|devops|cyber|security engineer|robot|automatisier|"
-    r"automation|fertigung|produktion|production|montage|wartung|maintenance|labor|lab\b|chip|wafer|"
-    r"r&d|research|forschung|programmier|informatik",
+    r"prozesstechn|equipment|metrolog|mems|halbleiter|semiconductor|verification|"
+    r"simulation|layout|frontend|backend|full.?stack|devops|cyber|robot|automatisier|"
+    r"automation|fertigung|produktion|production|montage|wartung|maintenance|labor\b|\blab\b|chip|wafer|"
+    r"r&d|research|forschung|programmier|informatik|sensor|messtechn|material|kunststoff|"
+    r"versuchstechn|servicetechn|cad\b|bim\b|unreal|unity|animation|qualitäts|quality|technolog",
     re.I,
 )
 
@@ -48,8 +49,8 @@ def heuristic(job: dict) -> dict:
     text = job.get("text", "")
     t = title.lower()
     fach = [name for name, pat in FACH_RULES if re.search(pat, t, re.I)]
-    tech_hit = bool(TECH.search(title))
-    relevant = bool(fach) and (not tech_hit or len(fach) >= 2)
+    tech_hits = {m.group(0).lower() for m in TECH.finditer(title)}
+    relevant = len(fach) > len(tech_hits)
     return {
         "relevant": relevant,
         "grund": "Stichwort-Regel",

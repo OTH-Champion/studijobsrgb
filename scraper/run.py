@@ -7,6 +7,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import traceback
@@ -24,6 +25,15 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0 Safari/537.36")
 MAX_DETAILS_PER_COMPANY = 300
 STATE_VERSION = 1
+
+
+def pick_title(list_title: str, detail_title: str) -> str:
+    """Listen-Titel ist meist sauber; Seitentitel enthält oft '| Firma' o. Ä."""
+    t = clean(list_title)
+    if 6 <= len(t) <= 160:
+        return t
+    d = re.split(r"\s+[|]\s+|\s+-\s+Job Detail|\s+Job Details", clean(detail_title))[0]
+    return d or t[:160]
 
 
 def load_state() -> dict:
@@ -131,7 +141,7 @@ def main() -> int:
                     job = {
                         "url": url,
                         "company": name,
-                        "title": det["title"] if len(det["title"]) > len(c["title"]) - 5 and det["title"] else c["title"],
+                        "title": pick_title(c["title"], det["title"]),
                         "list_title": c["title"],
                         "location_hint": loc_hint,
                         "posted_source": c.get("posted") or det.get("posted"),
