@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-31T16:21+00:00",
+ "aktualisiert": "2026-10-31T16:47+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -28,7 +28,7 @@
    "career_url": "https://www.krones.com/de/karriere/jobs/jobs-deutschland/",
    "ok": true,
    "note": "",
-   "stellen": 54
+   "stellen": 66
   },
   {
    "name": "Deutsche Telekom",
@@ -40,7 +40,7 @@
  ],
  "stellen": [
   {
-   "titel": "Internship - Project Management for HR Digital Transformation Program (d/f/m) Job Details | Schaeffler",
+   "titel": "Internship - Project Management for HR Digital Transformation Program (d/f/m)",
    "firma": "Schaeffler",
    "art": "Praktikum",
    "standort": "Regensburg",
@@ -105,6 +105,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1332"
   },
   {
+   "titel": "Praktikant (m/w/d)* HR Prozessoptimierung und Automatisierung",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-10-19",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72199"
+  },
+  {
    "titel": "Pflichtpraktikum - IT-Projektmanagement (all genders)",
    "firma": "Krones",
    "art": "Praktikum",
@@ -131,6 +144,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72202"
   },
   {
+   "titel": "Praktikant (m/w/d)* E-Learning & Schulungsvideo-Produktion (Synthesia)",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "ab sofort",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-15",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72201"
+  },
+  {
    "titel": "Praktikant (m/w/d)* HR Internationale Mitarbeitereinsätze",
    "firma": "Krones",
    "art": "Praktikum",
@@ -142,6 +168,19 @@
    "veroeffentlicht": "2026-10-14",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=627"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Customer & Travel Coordination",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-10-12",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72191"
   },
   {
    "titel": "Werkstudent (m/w/d)* Berichterstellung und Datenanalyse in Power BI",
@@ -222,6 +261,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114"
   },
   {
+   "titel": "Werkstudent (m/w/d)* Fülltechnik Supply Chain Management",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1265"
+  },
+  {
    "titel": "Praktikant (m/w/d)* Wareneingang Logistik",
    "firma": "Krones",
    "art": "Praktikum",
@@ -233,6 +285,32 @@
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=24313"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* International Sales",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=46060"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Corporate Procurement - Drawing Parts",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=56900"
   },
   {
    "titel": "Praktikant (m/w/d)* Mediengestaltung Unternehmenskommunikation",
@@ -261,84 +339,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=577"
   },
   {
-   "titel": "Werkstudent (m/w/d)* Corporate Procurement - Drawing Parts",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=56900"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Datenanalyse, Reporting und Berichterstellung in PowerBI im Bereich Supply Chain Management",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71096"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Fülltechnik Supply Chain Management",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1265"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* International Sales",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Vertrieb & Kundenmanagement",
-   "start": "k. A.",
-   "umfang": "6 Monate",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=46060"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* IT Projektunterstützung",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Projektmanagement",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71792"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Material Master Data Management & Classification",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Digitalisierung, Daten & KI",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=13576"
-  },
-  {
    "titel": "Werkstudent (m/w/d)* Medienverwaltung und Datenbankpflege",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -350,32 +350,6 @@
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=70548"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Process Transformation & Digitalization",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Digitalisierung, Daten & KI",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71648"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Projektkoordination Softwareentwicklung - Digital Studio",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Projektmanagement",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71936"
   },
   {
    "titel": "Werkstudent (m/w/d)* Strategic purchaser",
@@ -391,17 +365,134 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=70697"
   },
   {
-   "titel": "Werkstudent (m/w/d)* Unternehmenskommunikation CGI 3D Design/Animation/Virtual Experience",
+   "titel": "Werkstudent (m/w/d)* Datenanalyse, Reporting und Berichterstellung in PowerBI im Bereich Supply Chain Management",
    "firma": "Krones",
    "art": "Werkstudent",
    "standort": "Neutraubling",
    "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
+   "fachbereich": "Einkauf & Supply Chain",
    "start": "k. A.",
    "umfang": "Teilzeit",
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=57890"
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71096"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Process Transformation & Digitalization",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71648"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* IT Projektunterstützung",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71792"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Corporate Cyber Security mit Schwerpunkt Konzerndatenschutz",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=34415"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* FI Group Financial Statements IFRS",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12175"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* für die Unterstützung im ServiceNow Plattformteam",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71358"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* IT-Prozesse, IT-Governance und Informationssicherheit",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Recht & Compliance",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1324"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Microsoft 365 Adoption & Change Management",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71834"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Total Cost of Ownership (TCO)",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71634"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Speditionslogistik – Excel-Tools",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12388"
   },
   {
    "titel": "Praktikant (m/w/d)* Fülltechnik Supply Chain Management",
@@ -573,19 +664,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=575"
   },
   {
-   "titel": "Praktikant (m/w/d)* Qualitätsmanagement – Operatives Lieferantenmanagement",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=57642"
-  },
-  {
    "titel": "Praktikant (m/w/d)* Strategischer Einkauf",
    "firma": "Krones",
    "art": "Praktikum",
@@ -677,19 +755,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=69952"
   },
   {
-   "titel": "Praktikant (m/w/d)* Projektportfolio-Management in der Forschung und Entwicklung",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Business Development & Strategie",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=702"
-  },
-  {
    "titel": "Praktikant (m/w/d)* Corporate Procurement - Drawing Parts",
    "firma": "Krones",
    "art": "Praktikum",
@@ -742,7 +807,98 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=854"
   },
   {
-   "titel": "Werkstudent (m/w/d)* Speditionslogistik – Excel-Tools",
+   "titel": "Praktikant (m/w/d)* eBusiness",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=957"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Eventmanagement",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1884"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Health Management",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=635"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Innovationsmanagement",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=555"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Internationales Zollmanagement: Schwerpunkt Freihandelsabkommen und Warenursprung",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=268"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* IT-Prozesse und IT-Governance",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Recht & Compliance",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=511"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Scheduling & Resource Management Lifecycle Service",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=233"
+  },
+  {
+   "titel": "Werkstudent (m/w/d*) Operations Transport",
    "firma": "Krones",
    "art": "Werkstudent",
    "standort": "Neutraubling",
@@ -752,7 +908,7 @@
    "umfang": "Teilzeit",
    "veroeffentlicht": "2026-09-01",
    "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12388"
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12667"
   }
  ]
 }
