@@ -39,6 +39,11 @@ include_title:
 
 # Diese Stellen fliegen immer raus
 exclude_title:
+  - schülerprakt
+  - schuelerprakt
+  - berufsorientierung
+  - career orientation
+  - schnupper
   - ausbildung
   - auszubild
   - azubi

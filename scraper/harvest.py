@@ -67,7 +67,15 @@ def _collect_links(page: Page, link_re: str) -> list[dict]:
             for (const a of document.querySelectorAll('a[href]')) {
                 const href = a.href;
                 if (!re.test(href)) continue;
-                const card = a.closest('li, article, tr, [class*="job"], [class*="Job"], [class*="result"], [class*="card"], [class*="tile"]');
+                // Karte = nächster Vorfahre, der deutlich mehr Text als der Link enthält
+                const linkLen = (a.innerText || '').trim().length;
+                let card = a.closest('li, article, tr');
+                if (!card) {
+                    let el = a.parentElement;
+                    for (let i = 0; el && i < 6; i++, el = el.parentElement) {
+                        if ((el.innerText || '').trim().length > linkLen + 15) { card = el; break; }
+                    }
+                }
                 const textOf = (el) => {
                     const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
                     const parts = [];
@@ -244,6 +252,8 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
                               "card": card, "source": "link"})
     for j in jobs_from_json(payloads, company, company["list_url"]):
         if j["url"] in jobs:
+            if j["title"] and j["title"].lower() in jobs[j["url"]]["title"].lower():
+                jobs[j["url"]]["title"] = j["title"]
             for k in ("location", "posted", "department"):
                 if j.get(k) and not jobs[j["url"]].get(k):
                     jobs[j["url"]][k] = j[k]

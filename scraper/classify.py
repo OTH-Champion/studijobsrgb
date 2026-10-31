@@ -106,7 +106,9 @@ def guess_umfang(text: str, art: str) -> str:
     m = re.search(r"(?:für|dauer(?: von)?|for|duration of)?\s*(\d{1,2})\s*(?:-|–|bis)?\s*(\d{1,2})?\s*monat", t)
     if m and art in ("Praktikum", "Werkstudent", "Trainee"):
         return f"{m.group(1)}{'–' + m.group(2) if m.group(2) else ''} Monate"
-    if art == "Junior / Berufseinstieg" and re.search(r"vollzeit|full.?time", t):
+    if re.search(r"teilzeit|part.?time", t) and not re.search(r"vollzeit|full.?time", t):
+        return "Teilzeit"
+    if re.search(r"vollzeit|full.?time", t):
         return "Vollzeit"
     return KA
 

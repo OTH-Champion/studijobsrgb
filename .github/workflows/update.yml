@@ -61,13 +61,14 @@ jobs:
           [ "$IN_DEBUG" = "true" ] && ARGS+=(--debug)
           [ "$IN_RECLASSIFY" = "true" ] && ARGS+=(--reclassify)
           if [ -n "$IN_ONLY" ]; then read -ra ONLY <<< "$IN_ONLY"; ARGS+=(--only "${ONLY[@]}"); fi
-          python -m scraper.run "${ARGS[@]}"
+          python -m scraper.run "${ARGS[@]}" 2>&1 | tee data/last_run.log
+          exit ${PIPESTATUS[0]}
 
       - name: Ergebnis speichern
         run: |
           git config user.name "studijobs-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/jobs.json data/state.json
+          git add docs/data/jobs.json data/state.json data/last_run.log
           if [ -d debug ]; then git add -f debug; fi
           if git diff --cached --quiet; then
             echo "Keine Änderungen."

@@ -22,7 +22,7 @@ from .harvest import harvest
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0 Safari/537.36")
-MAX_DETAILS_PER_COMPANY = 120
+MAX_DETAILS_PER_COMPANY = 300
 STATE_VERSION = 1
 
 
@@ -123,7 +123,8 @@ def main() -> int:
                         print(f"  ! Detailseite fehlgeschlagen: {url} ({e.__class__.__name__})")
                         continue
                     loc_hint = c.get("location_hint") or region_match(det["location"], settings) \
-                        or region_match(det["text"][:2500], settings)
+                        or region_match(url.replace("-", " "), settings) \
+                        or region_match(det["text"][:6000], settings)
                     if not loc_hint:
                         state["rejected"][url] = today
                         continue

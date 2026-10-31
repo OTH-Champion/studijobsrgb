@@ -15,6 +15,10 @@
   list_url: https://jobs.infineon.com/careers?location=Regensburg&sort_by=timestamp
   job_link: /careers/job/\d+
   job_url: https://jobs.infineon.com/careers/job/{id}
+  pages:
+    template: https://jobs.infineon.com/careers?location=Regensburg&sort_by=timestamp&start={offset}
+    step: 10
+    max_pages: 30
 
 - name: Schaeffler
   career_url: https://jobs.schaeffler.com/default/?locale=de_DE
@@ -46,7 +50,7 @@
   career_url: https://careers.telekom.com/de/jobs
   enabled: true
   list_url: https://careers.telekom.com/de/jobs?location=Regensburg%2C+Deutschland
-  job_link: /(de|en)/jobs/\d+
+  job_link: /(de|en)/jobs/[a-z0-9-]*\d{5,}$
 
 # ---- noch nicht aktiv (folgen nach dem Prototyp) ----
 
