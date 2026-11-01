@@ -1,7 +1,11 @@
-Firmen: BMW Group, Continental, Aumovio
+Firmen: BMW Group, Continental
 Bewertung: Stichwort-Regeln
 
 == BMW Group ==
+    [extra] https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=en_US -> 0 neu
+    [extra] https://jobs.bmwgroup.com/search/?q=Praktikant&locationsearch=Regensburg&locale=de_DE -> 0 neu
+    [extra] https://jobs.bmwgroup.com/search/?q=Werkstudent&locationsearch=Regensburg&locale=de_DE -> 0 neu
+    [page] https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow=10 -> 0 neu
   10 Stellen-Links gefunden
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
@@ -12,12 +16,5 @@ Bewertung: Stichwort-Regeln
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
   (nur Liste) Beispiele: []
-
-== Aumovio ==
-  10 Stellen-Links gefunden
-  3 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  3 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['Praktikum - HR Employer Branding', 'Praktikum - Fertigungsplanung', 'Internship - Strategic Purchasing Electronics']
   OK  BMW Group: 10 Links, 21s 
-  OK  Continental: 10 Links, 10s 
-  OK  Aumovio: 10 Links, 10s 
+  OK  Continental: 10 Links, 11s 
