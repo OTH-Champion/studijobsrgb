@@ -101,7 +101,8 @@ def main() -> int:
                 raw = harvest(page, comp, dbg)
                 status["found"] = len(raw)
                 print(f"  {len(raw)} Stellen-Links gefunden")
-                cands = [r for r in raw if title_is_student_job(r["title"] + " " + r.get("card", "")[:160], settings)]
+                cands = [r for r in raw if title_is_student_job(
+                    r["title"] if len(r["title"]) >= 8 else r["title"] + " " + r.get("card", "")[:160], settings)]
                 print(f"  {len(cands)} davon Praktikum/Werkstudent/Junior/Trainee (Titel)")
 
                 # Ortsfilter auf Listenebene, falls Ort bekannt
@@ -135,7 +136,7 @@ def main() -> int:
                         break
                     n_detail += 1
                     try:
-                        det = fetch_detail(page, url)
+                        det = fetch_detail(page, url, fast=comp.get("detail_fast", False))
                     except Exception as e:  # noqa: BLE001
                         print(f"  ! Detailseite fehlgeschlagen: {url} ({e.__class__.__name__})")
                         continue

@@ -1,7 +1,9 @@
 """Liest eine einzelne Stellenanzeige: strukturierte Daten (JSON-LD) und Fließtext."""
 from __future__ import annotations
 
+import html as htmllib
 import json
+import re
 
 from playwright.sync_api import Page, TimeoutError as PWTimeout
 
@@ -50,7 +52,46 @@ def _jsonld_location(jp: dict) -> str:
     return "; ".join(o for o in out if o)
 
 
-def fetch_detail(page: Page, url: str) -> dict:
+def _fast(page: Page, url: str) -> dict | None:
+    """Schneller Abruf ohne Rendern (für serverseitig erzeugte Seiten)."""
+    try:
+        resp = page.request.get(url, timeout=30_000)
+        if not resp.ok:
+            return None
+        raw = resp.text()
+    except Exception:  # noqa: BLE001
+        return None
+    jp = {}
+    for m in re.finditer(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', raw, re.S | re.I):
+        try:
+            d = json.loads(m.group(1))
+        except Exception:  # noqa: BLE001
+            continue
+        for x in (d if isinstance(d, list) else d.get("@graph", [d]) if isinstance(d, dict) else []):
+            if isinstance(x, dict) and x.get("@type") == "JobPosting":
+                jp = x
+                break
+    body = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", raw, flags=re.S | re.I)
+    body = re.sub(r"<br\s*/?>|</(p|div|li|h\d|tr)>", "\n", body, flags=re.I)
+    text = htmllib.unescape(re.sub(r"<[^>]+>", " ", body))
+    text = "\n".join(clean(l) for l in text.splitlines() if clean(l))
+    if len(text) < 300:
+        return None
+    t = re.search(r"<title>(.*?)</title>", raw, re.S | re.I)
+    return {
+        "title": clean(jp.get("title")) or clean(htmllib.unescape(t.group(1))) if t else clean(jp.get("title")),
+        "posted": parse_date(jp.get("datePosted")),
+        "location": _jsonld_location(jp) if jp else "",
+        "employment_type": jp.get("employmentType"),
+        "text": text[:MAX_TEXT],
+    }
+
+
+def fetch_detail(page: Page, url: str, fast: bool = False) -> dict:
+    if fast:
+        d = _fast(page, url)
+        if d:
+            return d
     page.goto(url, wait_until="domcontentloaded", timeout=60_000)
     try:
         page.wait_for_load_state("networkidle", timeout=12_000)
