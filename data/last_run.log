@@ -1,4 +1,4 @@
-Firmen: BMW Group, Continental
+Firmen: BMW Group, Continental, Aumovio
 Bewertung: Stichwort-Regeln
 
 == BMW Group ==
@@ -12,9 +12,28 @@ Bewertung: Stichwort-Regeln
   (nur Liste) Beispiele: []
 
 == Continental ==
-  10 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+    [follow] _conjobs_toc%5BcurrentPage%5D=2&cHash=57abc1183b225b89b65b2ee4f3509b27 -> 200 neu
+    [follow] _conjobs_toc%5BcurrentPage%5D=3&cHash=6a0bb833685dfc89b5ffe80d2bf6a916 -> 166 neu
+    [follow] conjobs_toc%5BcurrentPage%5D=2&cHash=57abc1183b225b89b65b2ee4f3509b27# -> 0 neu
+    [follow] _conjobs_toc%5BcurrentPage%5D=1&cHash=7b7cc65a27b86d8735c139bec447ea80 -> 0 neu
+    [follow] conjobs_toc%5BcurrentPage%5D=3&cHash=6a0bb833685dfc89b5ffe80d2bf6a916# -> 0 neu
+    [follow] conjobs_toc%5BcurrentPage%5D=1&cHash=7b7cc65a27b86d8735c139bec447ea80# -> 0 neu
+  566 Stellen-Links gefunden
+  410 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  410 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['(Pflicht)praktikum - Personalwesen und -marketing der Berufs', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle']
+
+== Aumovio ==
+    [follow] _conjobs_toc%5BcurrentPage%5D=2&cHash=6e61a188632327233282afe1437135f4 -> 200 neu
+    [follow] _conjobs_toc%5BcurrentPage%5D=3&cHash=853b5eb01020ebcaaf2c238736132a12 -> 158 neu
+    [follow] conjobs_toc%5BcurrentPage%5D=2&cHash=6e61a188632327233282afe1437135f4# -> 0 neu
+    [follow] _conjobs_toc%5BcurrentPage%5D=1&cHash=0db719482b6906a8b1f3e8f718d748db -> 0 neu
+    [follow] conjobs_toc%5BcurrentPage%5D=3&cHash=853b5eb01020ebcaaf2c238736132a12# -> 0 neu
+    [follow] conjobs_toc%5BcurrentPage%5D=1&cHash=0db719482b6906a8b1f3e8f718d748db# -> 0 neu
+  558 Stellen-Links gefunden
+  237 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  237 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['2027 C-Drive Trainee Program', 'Advanced Wireless Prototyping Intern [IDA:00029]', 'AI Adoption & Training Intern (H/F) - Stage', 'AI Automation Engineer Intern [IDA:00054]', 'AI Data Engineer Intern']
   OK  BMW Group: 10 Links, 21s 
-  OK  Continental: 10 Links, 11s 
+  OK  Continental: 566 Links, 29s 
+  OK  Aumovio: 558 Links, 25s 
