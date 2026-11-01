@@ -14,6 +14,10 @@ on:
         description: "Nur diese Firmen (leer = alle), z. B. Infineon Krones"
         type: string
         default: ""
+      list_only:
+        description: "Test: nur Stellenlisten lesen, nichts veröffentlichen"
+        type: boolean
+        default: false
       reclassify:
         description: "Alle Stellen neu bewerten"
         type: boolean
@@ -55,20 +59,25 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           IN_DEBUG: ${{ inputs.debug }}
           IN_RECLASSIFY: ${{ inputs.reclassify }}
+          IN_LIST_ONLY: ${{ inputs.list_only }}
           IN_ONLY: ${{ inputs.only }}
         run: |
           ARGS=()
           [ "$IN_DEBUG" = "true" ] && ARGS+=(--debug)
           [ "$IN_RECLASSIFY" = "true" ] && ARGS+=(--reclassify)
+          [ "$IN_LIST_ONLY" = "true" ] && ARGS+=(--list-only)
           if [ -n "$IN_ONLY" ]; then read -ra ONLY <<< "$IN_ONLY"; ARGS+=(--only "${ONLY[@]}"); fi
           python -m scraper.run "${ARGS[@]}" 2>&1 | tee data/last_run.log
           exit ${PIPESTATUS[0]}
 
       - name: Ergebnis speichern
+        env:
+          IN_LIST_ONLY: ${{ inputs.list_only }}
         run: |
           git config user.name "studijobs-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/jobs.json data/state.json data/last_run.log
+          git add data/last_run.log
+          [ "$IN_LIST_ONLY" = "true" ] || git add docs/data/jobs.json data/state.json
           if [ -d debug ]; then git add -f debug; fi
           if git diff --cached --quiet; then
             echo "Keine Änderungen."

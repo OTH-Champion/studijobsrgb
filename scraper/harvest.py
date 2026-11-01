@@ -33,9 +33,9 @@ LOAD_MORE = re.compile(
 TITLE_KEYS = ("name", "title", "jobTitle", "job_title", "positionTitle", "postingTitle", "displayName")
 ID_KEYS = ("id", "jobId", "job_id", "jobReqId", "reqId", "requisitionId", "displayJobId", "ats_job_id")
 URL_KEYS = ("canonicalPositionUrl", "positionUrl", "jobUrl", "url", "applyUrl", "externalUrl", "link", "href")
-LOC_KEYS = ("location", "locations", "city", "primaryLocation", "jobLocation", "locationName",
+LOC_KEYS = ("location", "locations", "full_location", "short_location", "city", "primaryLocation", "jobLocation", "locationName",
             "standardizedLocations", "cityState", "workLocation")
-DATE_KEYS = ("t_create", "postedTs", "postedDate", "datePosted", "createdDate", "publishedDate",
+DATE_KEYS = ("posted_date", "t_create", "postedTs", "postedDate", "datePosted", "createdDate", "publishedDate",
              "postingDate", "creationDate", "posted_on", "startDate_posted", "releasedDate")
 
 
@@ -113,11 +113,21 @@ def _settle(page: Page, ms: int = 2500) -> None:
     page.wait_for_timeout(ms)
 
 
+def _unwrap(d: dict) -> dict:
+    """Manche APIs packen jede Stelle ein, z. B. {"data": {...}} oder {"node": {...}}."""
+    if any(k in d for k in TITLE_KEYS):
+        return d
+    for v in d.values():
+        if isinstance(v, dict) and any(k in v for k in TITLE_KEYS):
+            return v
+    return d
+
+
 def _walk_json(obj, found: list[dict], depth: int = 0) -> None:
     if depth > 8:
         return
     if isinstance(obj, list):
-        dicts = [o for o in obj if isinstance(o, dict)]
+        dicts = [_unwrap(o) for o in obj if isinstance(o, dict)]
         if dicts and sum(1 for d in dicts if any(k in d for k in TITLE_KEYS)) >= max(1, len(dicts) // 2):
             for d in dicts:
                 found.append(d)
@@ -158,8 +168,13 @@ def jobs_from_json(payloads: list, company: dict, base_url: str) -> list[dict]:
         jid = _first(d, ID_KEYS)
         if isinstance(url, str) and url:
             url = urljoin(base_url, url)
-        elif jid is not None and company.get("job_url"):
-            url = company["job_url"].format(id=jid)
+        elif company.get("job_url"):
+            fields = {k: v for k, v in d.items() if isinstance(v, (str, int))}
+            fields.setdefault("id", jid)
+            try:
+                url = company["job_url"].format(**fields)
+            except (KeyError, IndexError, ValueError):
+                continue
         else:
             continue
         jobs.append({
@@ -185,7 +200,7 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
                 if len(body) < 5_000_000:
                     payloads.append(json.loads(body))
                     if debug is not None:
-                        debug.setdefault("network", []).append({"url": resp.url, "size": len(body), "sample": body[:3000]})
+                        debug.setdefault("network", []).append({"url": resp.url, "size": len(body), "sample": body[:8000]})
         except Exception:
             pass
 

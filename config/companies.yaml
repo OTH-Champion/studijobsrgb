@@ -52,40 +52,64 @@
   list_url: https://careers.telekom.com/de/jobs?location=Regensburg%2C+Deutschland
   job_link: /(de|en)/jobs/[a-z0-9-]*\d{5,}$
 
-# ---- noch nicht aktiv (folgen nach dem Prototyp) ----
-
 - name: BMW Group
   career_url: https://www.bmwgroup.jobs/de/de.html
-  enabled: false
+  enabled: true
+  list_url: https://www.bmwgroup.jobs/de/de/search.html
+  job_link: (jobfinder|job-description|/job/).*\d{4,}
+
+- name: BSH Hausgeräte
+  career_url: https://jobs.bsh-group.de/index
+  enabled: true
+  list_url: https://jobs.bsh-group.de/index?persist_lang=de
+  job_link: /\d+-[^/]+/(de|en)/job\.html
+  pages:
+    template: https://jobs.bsh-group.de/index?persist_lang=de&page={page}
+    max_pages: 10
+
+- name: Bayernwerk
+  career_url: https://jobs.bayernwerk.de/de
+  enabled: true
+  list_url: https://jobs.bayernwerk.de/de
+  job_link: /job/[^/]+/\d+
+
+- name: Maschinenfabrik Reinhausen
+  career_url: https://www.reinhausen.com/de/karriere/jobs
+  enabled: true
+  list_url: https://www.reinhausen.com/de/karriere/jobs
+  job_link: career\.reinhausen\.com/(?!job_agent).*\d+|/karriere/jobs/(?!initiativbewerbung)[^?#]+
+
+- name: Continental
+  career_url: https://jobs.continental.com/de/
+  enabled: true
+  list_url: https://jobs.continental.com/de/#/?location=Regensburg
+  job_link: /detail-page/job-detail/
+
+- name: Aumovio
+  career_url: https://jobs.aumovio.com/de/jobs/
+  enabled: true
+  list_url: https://jobs.aumovio.com/de/jobs/#/?location=Regensburg
+  job_link: /detail-page/job-detail/
+
+- name: ams OSRAM
+  career_url: https://jobs.ams-osram.com/de
+  enabled: true
+  list_url: https://jobs.ams-osram.com/de
+  job_link: /job/[^?#]+\?id=\d+
+
+- name: Schneider Electric
+  career_url: https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg
+  enabled: true
+  list_url: https://careers.se.com/jobs?lang=de-DE&page=1&sortBy=relevance&country=Germany&city=Regensburg
+  job_link: /jobs/\d+
+  job_url: https://careers.se.com/jobs/{slug}?lang=de-DE
+  pages:
+    template: https://careers.se.com/jobs?lang=de-DE&page={page}&sortBy=relevance&country=Germany&city=Regensburg
+    max_pages: 10
+
+# ---- ohne eigene Stellenseite (wird nicht abgefragt) ----
 
 - name: 42 Coding Solutions
   career_url: https://42-coding-solutions.com/
   enabled: false
-
-- name: BSH Hausgeräte
-  career_url: https://jobs.bsh-group.de/index
-  enabled: false
-
-- name: Bayernwerk
-  career_url: https://jobs.bayernwerk.de/de
-  enabled: false
-
-- name: Maschinenfabrik Reinhausen
-  career_url: https://www.reinhausen.com/de/karriere/jobs
-  enabled: false
-
-- name: Continental
-  career_url: https://jobs.continental.com/de/#/
-  enabled: false
-
-- name: Aumovio
-  career_url: https://jobs.aumovio.com/en/jobs/#/
-  enabled: false
-
-- name: ams OSRAM
-  career_url: https://jobs.ams-osram.com/de?utm_source=careerpage
-  enabled: false
-
-- name: Schneider Electric
-  career_url: https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg
-  enabled: false
+  # Sitz in Obertraubling, aber keine Karriereseite mit Stellenliste vorhanden

@@ -66,6 +66,7 @@ def main() -> int:
     ap.add_argument("--debug", action="store_true", help="Rohdaten nach debug/ schreiben")
     ap.add_argument("--only", nargs="*", help="Nur diese Firmen")
     ap.add_argument("--no-claude", action="store_true")
+    ap.add_argument("--list-only", action="store_true", help="Nur Stellenlisten lesen (Test), nichts speichern")
     ap.add_argument("--reclassify", action="store_true", help="Bereits bewertete Stellen neu bewerten")
     args = ap.parse_args()
 
@@ -111,6 +112,9 @@ def main() -> int:
                     filtered.append(c)
                 print(f"  {len(filtered)} nach Ortsfilter (Liste)")
 
+                if args.list_only:
+                    print(f"  (nur Liste) Beispiele: {[c['title'][:60] for c in filtered[:5]]}")
+                    filtered = []
                 details_dbg = []
                 n_detail = 0
                 for c in filtered:
@@ -169,6 +173,11 @@ def main() -> int:
                 write_debug(comp, dbg)
 
         browser.close()
+
+    if args.list_only:
+        for s in company_status:
+            print(f"  {'OK ' if s['ok'] else 'ERR'} {s['name']}: {s['found']} Links, {s['seconds']}s {s['note']}")
+        return 0
 
     # ---- Bewertung neuer Stellen ----
     print(f"\n{len(to_classify)} neue Stellen werden bewertet …")
