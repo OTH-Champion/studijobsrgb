@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-31T16:47+00:00",
+ "aktualisiert": "2026-11-01T20:09+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -36,6 +36,55 @@
    "ok": true,
    "note": "",
    "stellen": 0
+  },
+  {
+   "name": "BMW Group",
+   "career_url": "https://www.bmwgroup.jobs/de/de.html",
+   "ok": true,
+   "note": "",
+   "stellen": 0
+  },
+  {
+   "name": "BSH Hausgeräte",
+   "career_url": "https://jobs.bsh-group.de/index",
+   "ok": true,
+   "note": "",
+   "stellen": 2
+  },
+  {
+   "name": "Bayernwerk",
+   "career_url": "https://jobs.bayernwerk.de/de",
+   "ok": true,
+   "note": "",
+   "stellen": 0
+  },
+  {
+   "name": "Maschinenfabrik Reinhausen",
+   "career_url": "https://www.reinhausen.com/de/karriere/jobs",
+   "ok": true,
+   "note": "",
+   "stellen": 12
+  },
+  {
+   "name": "Continental",
+   "career_url": "https://jobs.continental.com/de/",
+   "ok": true,
+   "note": "",
+   "stellen": 0
+  },
+  {
+   "name": "Aumovio",
+   "career_url": "https://jobs.aumovio.com/de/jobs/",
+   "ok": true,
+   "note": "",
+   "stellen": 25
+  },
+  {
+   "name": "ams OSRAM",
+   "career_url": "https://jobs.ams-osram.com/de",
+   "ok": true,
+   "note": "",
+   "stellen": 0
   }
  ],
  "stellen": [
@@ -48,9 +97,35 @@
    "fachbereich": "Personal (HR)",
    "start": "k. A.",
    "umfang": "k. A.",
-   "veroeffentlicht": "2026-10-31",
+   "veroeffentlicht": "2026-11-01",
    "datum_geschaetzt": true,
-   "link": "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833/"
+   "link": "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833"
+  },
+  {
+   "titel": "Internship - Strategic Purchasing Electronics",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-10-30",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82186O-p-0b8cd1d46f9963fb1bb9e140c36cb1c9/internship-strategic-purchasing-electronics"
+  },
+  {
+   "titel": "Praktikum - HR Employer Branding",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "5–6 Monate",
+   "veroeffentlicht": "2026-10-30",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82270B-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-hr-employer-branding"
   },
   {
    "titel": "Praktikant (m/w/d)* Corporate HR Transformation, Leadership, Learning",
@@ -66,6 +141,58 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72235"
   },
   {
+   "titel": "Praktikum - Digitalprojekte",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "Februar",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-28",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82110H-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-digitalprojekte"
+  },
+  {
+   "titel": "Praktikum - Projektmanagement / Value Management (ReDTC)",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-28",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12562D-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-projektmanagement-value-management-redtc-"
+  },
+  {
+   "titel": "Praktikant im Bereich Product Management für Digital Customer Experience (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-10-27",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/12172-praktikant-im-bereich-product-management-fuer-digital-customer-experience-m-w-d/job.html"
+  },
+  {
+   "titel": "Pflichtpraktikum - Supplier Management / Lieferanten Management / SCM",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-26",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12519Y-p-3cdae6c979ba52c5ae3aef6959c6fd2b/pflichtpraktikum-supplier-management-lieferanten-management-scm"
+  },
+  {
    "titel": "Praktikant (m/w/d)* für Supply Chain Management LDT",
    "firma": "Krones",
    "art": "Praktikum",
@@ -79,6 +206,71 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72221"
   },
   {
+   "titel": "Praktikum - Disposition (Supply Chain Management)",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "Februar 2027",
+   "umfang": "4–6 Monate",
+   "veroeffentlicht": "2026-10-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82090G-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-disposition-supply-chain-management-"
+  },
+  {
+   "titel": "Praktikum - Kommunikation & Marketing",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82087Y-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-kommunikation-marketing"
+  },
+  {
+   "titel": "Praktikum - Produktionssteuerung (SCM)",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82086K-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-produktionssteuerung-scm-"
+  },
+  {
+   "titel": "Praktikum - Sales",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82085L-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-sales"
+  },
+  {
+   "titel": "Praktikum - Wirtschaftsrecht (International HR, Arbeitsrecht & Corporate Governance)",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-21",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF11099N-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-wirtschaftsrecht-international-hr-arbeitsrecht-corporate-governance-"
+  },
+  {
    "titel": "Praktikant (m/w/d)* HR Learning, Leadership & Change - Schwerpunkt Trainingsmanagement",
    "firma": "Krones",
    "art": "Praktikum",
@@ -90,6 +282,58 @@
    "veroeffentlicht": "2026-10-20",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72217"
+  },
+  {
+   "titel": "Praktikum - Datenanalyse / Innovationsmanagement",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-20",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82032T-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-datenanalyse-innovationsmanagement"
+  },
+  {
+   "titel": "Praktikum - Innovationsmanagement und Marketing",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-20",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82029I-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-innovationsmanagement-und-marketing"
+  },
+  {
+   "titel": "Praktikum - IT / Mitarbeit an Plattformen des Innovations- und Ideenmanagements",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-20",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82031U-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-it-mitarbeit-an-plattformen-des-innovations-und-ideenmanagements"
+  },
+  {
+   "titel": "Praktikum - Supply Chain Management",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "Februar 2027",
+   "umfang": "4–6 Monate",
+   "veroeffentlicht": "2026-10-20",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12559C-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-supply-chain-management"
   },
   {
    "titel": "Werkstudent (m/w/d)* HR Business Partner & Führungskräftebetreuung",
@@ -131,17 +375,30 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72215"
   },
   {
-   "titel": "Pflichtpraktikum Human Resources / Personalmanagement (all genders)",
-   "firma": "Krones",
+   "titel": "Praktikant im Bereich Content und Kommunikation (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
    "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Personal (HR)",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
    "start": "k. A.",
-   "umfang": "6 Monate",
-   "veroeffentlicht": "2026-10-15",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-10-16",
    "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72202"
+   "link": "https://career.reinhausen.com/12137-praktikant-im-bereich-content-und-kommunikation-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich Sales Excellence (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-10-16",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/12114-praktikant-im-bereich-sales-excellence-m-w-d/job.html"
   },
   {
    "titel": "Praktikant (m/w/d)* E-Learning & Schulungsvideo-Produktion (Synthesia)",
@@ -157,6 +414,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72201"
   },
   {
+   "titel": "Pflichtpraktikum Human Resources / Personalmanagement (all genders)",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-15",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72202"
+  },
+  {
    "titel": "Praktikant (m/w/d)* HR Internationale Mitarbeitereinsätze",
    "firma": "Krones",
    "art": "Praktikum",
@@ -170,6 +440,32 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=627"
   },
   {
+   "titel": "Praktikum - Kommunikation, Marketing und Events",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-10-14",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12360W-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-kommunikation-marketing-und-events-"
+  },
+  {
+   "titel": "Pflichtpraktikant/-in im Bereich Motoransteuerung (m/w/d)",
+   "firma": "BSH Hausgeräte",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "Januar 2027",
+   "umfang": "35 Std./Woche",
+   "veroeffentlicht": "2026-10-13",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.bsh-group.de/45827-pflichtpraktikant-in-im-bereich-motoransteuerung-m-w-d/de/job.html"
+  },
+  {
    "titel": "Werkstudent (m/w/d)* Customer & Travel Coordination",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -181,6 +477,19 @@
    "veroeffentlicht": "2026-10-12",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72191"
+  },
+  {
+   "titel": "Praktikant im Bereich Business Development – Service Solutions (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-10-05",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/12060-praktikant-im-bereich-business-development-service-solutions-m-w-d/job.html"
   },
   {
    "titel": "Werkstudent (m/w/d)* Berichterstellung und Datenanalyse in Power BI",
@@ -222,6 +531,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71337"
   },
   {
+   "titel": "Praktikum - Innovationsmanagement",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Business Development & Strategie",
+   "start": "Februar 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-30",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12563M-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-innovationsmanagement"
+  },
+  {
    "titel": "Werkstudent (m/w/d)* Projektplanung Operations Planning - Product Planning",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -233,6 +555,214 @@
    "veroeffentlicht": "2026-09-29",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72165"
+  },
+  {
+   "titel": "Praktikum - Automotive Communication & Public Affairs",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-29",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12556Y-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-automotive-communication-public-affairs"
+  },
+  {
+   "titel": "Praktikum - Operative und strategische HR-Prozesse",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-28",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12517R-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-operative-und-strategische-hr-prozesse"
+  },
+  {
+   "titel": "Praktikum - Strategy and Portfolio / Value Management",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "Januar",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-28",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12422M-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-strategy-and-portfolio-value-management"
+  },
+  {
+   "titel": "Praktikant im Bereich Business Development - Components (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-24",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11966-praktikant-im-bereich-business-development-components-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich Digitale Kanäle - Corporate Website (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-24",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11977-praktikant-im-bereich-digitale-kanaele-corporate-website-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich Einkauf (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-24",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11974-praktikant-im-bereich-einkauf-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich Employer Branding (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-24",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11995-praktikant-im-bereich-employer-branding-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich HR Development (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-24",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11970-praktikant-im-bereich-hr-development-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikum - HR Talent Acquisition",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "Februar",
+   "umfang": "4–6 Monate",
+   "veroeffentlicht": "2026-09-24",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12352D-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-hr-talent-acquisition"
+  },
+  {
+   "titel": "Praktikant im Bereich Multiprojektmanagement (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-23",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11951-praktikant-im-bereich-multiprojektmanagement-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich Social Media (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-23",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11953-praktikant-im-bereich-social-media-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikant im Bereich Studentenrecruiting und -betreuung (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-23",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/11947-praktikant-im-bereich-studentenrecruiting-und-betreuung-m-w-d/job.html"
+  },
+  {
+   "titel": "Praktikum - Betriebliches Gesundheitsmanagement",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12357F-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-betriebliches-gesundheitsmanagement-"
+  },
+  {
+   "titel": "Praktikum - Business Development und Marketing",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12356J-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-business-development-und-marketing"
+  },
+  {
+   "titel": "Praktikum - Controlling",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12351M-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-controlling"
+  },
+  {
+   "titel": "Praktikum - Lean Management - Digitalisierung und Standardisierung von Prozessabläufen",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "März 2027",
+   "umfang": "4 Monate",
+   "veroeffentlicht": "2026-09-22",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12354Y-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-lean-management-digitalisierung-und-standardisierung-von-prozessablaeufen"
   },
   {
    "titel": "Werkstudent (m/w/d)* Digitalisierung / Prozessoptimierung / Analytics Reporting IOS Region Westeuropa",
@@ -261,6 +791,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114"
   },
   {
+   "titel": "Werkstudent (m/w/d)* FI Group Financial Statements IFRS",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12175"
+  },
+  {
    "titel": "Werkstudent (m/w/d)* Fülltechnik Supply Chain Management",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -274,6 +817,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1265"
   },
   {
+   "titel": "Werkstudent (m/w/d)* IT-Prozesse, IT-Governance und Informationssicherheit",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Recht & Compliance",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1324"
+  },
+  {
    "titel": "Praktikant (m/w/d)* Wareneingang Logistik",
    "firma": "Krones",
    "art": "Praktikum",
@@ -285,6 +841,19 @@
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=24313"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Corporate Cyber Security mit Schwerpunkt Konzerndatenschutz",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=34415"
   },
   {
    "titel": "Werkstudent (m/w/d)* International Sales",
@@ -378,6 +947,32 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71096"
   },
   {
+   "titel": "Werkstudent (m/w/d)* für die Unterstützung im ServiceNow Plattformteam",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71358"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Total Cost of Ownership (TCO)",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-02",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71634"
+  },
+  {
    "titel": "Werkstudent (m/w/d)* Process Transformation & Digitalization",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -404,58 +999,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71792"
   },
   {
-   "titel": "Praktikant (m/w/d)* Corporate Cyber Security mit Schwerpunkt Konzerndatenschutz",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Digitalisierung, Daten & KI",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=34415"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* FI Group Financial Statements IFRS",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12175"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* für die Unterstützung im ServiceNow Plattformteam",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Digitalisierung, Daten & KI",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71358"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* IT-Prozesse, IT-Governance und Informationssicherheit",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Recht & Compliance",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1324"
-  },
-  {
    "titel": "Werkstudent (m/w/d)* Microsoft 365 Adoption & Change Management",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -467,19 +1010,6 @@
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71834"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Total Cost of Ownership (TCO)",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71634"
   },
   {
    "titel": "Werkstudent (m/w/d)* Speditionslogistik – Excel-Tools",
@@ -508,6 +1038,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1261"
   },
   {
+   "titel": "Werkstudent (m/w/d*) Operations Transport",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12667"
+  },
+  {
    "titel": "Praktikant (m/w/d)* Prozessoptimierung im Bereich der Externen Logistik",
    "firma": "Krones",
    "art": "Praktikum",
@@ -534,6 +1077,32 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=157"
   },
   {
+   "titel": "Praktikant (m/w/d)* Eventmanagement",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1884"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Scheduling & Resource Management Lifecycle Service",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=233"
+  },
+  {
    "titel": "Praktikant (m/w/d)* Lagerlogistik",
    "firma": "Krones",
    "art": "Praktikum",
@@ -558,6 +1127,19 @@
    "veroeffentlicht": "2026-09-01",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=266"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Internationales Zollmanagement: Schwerpunkt Freihandelsabkommen und Warenursprung",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=268"
   },
   {
    "titel": "Praktikant (m/w/d)* Internationales Zoll- und Logistikmanagement - Schwerpunkt Zoll und Logistik",
@@ -638,6 +1220,32 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=354"
   },
   {
+   "titel": "Praktikant (m/w/d)* IT-Prozesse und IT-Governance",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Recht & Compliance",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=511"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Innovationsmanagement",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Business Development & Strategie",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=555"
+  },
+  {
    "titel": "Praktikant (m/w/d)* Internationales Logistikmanagement",
    "firma": "Krones",
    "art": "Praktikum",
@@ -675,6 +1283,19 @@
    "veroeffentlicht": "2026-09-01",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=605"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Health Management",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Personal (HR)",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=635"
   },
   {
    "titel": "Praktikant (m/w/d)* bei HR Operations",
@@ -820,95 +1441,30 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=957"
   },
   {
-   "titel": "Praktikant (m/w/d)* Eventmanagement",
-   "firma": "Krones",
+   "titel": "Praktikant/in KI-gest. Analyse von App-Store-Feedback (m/w/d)",
+   "firma": "BSH Hausgeräte",
    "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "Oktober 2026",
+   "umfang": "35 Std./Woche",
+   "veroeffentlicht": "2026-08-19",
    "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1884"
+   "link": "https://jobs.bsh-group.de/45311-praktikant-in-ki-gest-analyse-von-app-store-feedback-m-w-d/de/job.html"
   },
   {
-   "titel": "Praktikant (m/w/d)* Health Management",
-   "firma": "Krones",
+   "titel": "Praktikum - Projektmanagement / Value Management (ReDTC) - REF7641R",
+   "firma": "Aumovio",
    "art": "Praktikum",
-   "standort": "Neutraubling",
+   "standort": "Regensburg",
    "arbeitsmodell": "k. A.",
-   "fachbereich": "Personal (HR)",
-   "start": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "September 2026",
    "umfang": "6 Monate",
-   "veroeffentlicht": "2026-09-01",
+   "veroeffentlicht": "2026-03-16",
    "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=635"
-  },
-  {
-   "titel": "Praktikant (m/w/d)* Innovationsmanagement",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Business Development & Strategie",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=555"
-  },
-  {
-   "titel": "Praktikant (m/w/d)* Internationales Zollmanagement: Schwerpunkt Freihandelsabkommen und Warenursprung",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=268"
-  },
-  {
-   "titel": "Praktikant (m/w/d)* IT-Prozesse und IT-Governance",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Recht & Compliance",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=511"
-  },
-  {
-   "titel": "Praktikant (m/w/d)* Scheduling & Resource Management Lifecycle Service",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=233"
-  },
-  {
-   "titel": "Werkstudent (m/w/d*) Operations Transport",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12667"
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF7641R-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-projektmanagement-value-management-redtc-ref7641r"
   }
  ]
 }

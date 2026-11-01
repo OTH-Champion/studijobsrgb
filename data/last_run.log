@@ -1,15 +1,64 @@
-Firmen: BMW Group, Continental, Aumovio
+Firmen: Infineon, Schaeffler, Siemens, Krones, Deutsche Telekom, BMW Group, BSH Hausgeräte, Bayernwerk, Maschinenfabrik Reinhausen, Continental, Aumovio, ams OSRAM
 Bewertung: Stichwort-Regeln
 
+== Infineon ==
+    [page] https://jobs.infineon.com/careers?location=Regensburg&sort_by=timestamp&start=10 -> 13 neu
+    [page] https://jobs.infineon.com/careers?location=Regensburg&sort_by=timestamp&start=20 -> 0 neu
+  33 Stellen-Links gefunden
+  10 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  6 nach Ortsfilter (Liste)
+
+== Schaeffler ==
+    [extra] https://jobs.schaeffler.com/search/?q=&locationsearch=Regensburg&locale=en_US -> 0 neu
+    [extra] https://jobs.schaeffler.com/search/?q=Regensburg&locale=de_DE -> 0 neu
+    [page] https://jobs.schaeffler.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow=25 -> 0 neu
+  2 Stellen-Links gefunden
+  1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  1 nach Ortsfilter (Liste)
+
+== Siemens ==
+    [page] https://jobs.siemens.com/de_DE/externaljobs/SearchJobs/Regensburg?jobRecordsPerPage=50&job -> 0 neu
+  2 Stellen-Links gefunden
+  1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  1 nach Ortsfilter (Liste)
+
+== Krones ==
+  250 Stellen-Links gefunden
+  175 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  175 nach Ortsfilter (Liste)
+
+== Deutsche Telekom ==
+  10 Stellen-Links gefunden
+  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  0 nach Ortsfilter (Liste)
+
 == BMW Group ==
+    [next] kein weiterer Knopf nach 2 Klick(s)
     [extra] https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=en_US -> 0 neu
     [extra] https://jobs.bmwgroup.com/search/?q=Praktikant&locationsearch=Regensburg&locale=de_DE -> 0 neu
     [extra] https://jobs.bmwgroup.com/search/?q=Werkstudent&locationsearch=Regensburg&locale=de_DE -> 0 neu
     [page] https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow=10 -> 0 neu
-  10 Stellen-Links gefunden
+  16 Stellen-Links gefunden
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+
+== BSH Hausgeräte ==
+    [page] https://jobs.bsh-group.de/index?persist_lang=de&page=2 -> 30 neu
+    [page] https://jobs.bsh-group.de/index?persist_lang=de&page=3 -> 13 neu
+    [page] https://jobs.bsh-group.de/index?persist_lang=de&page=4 -> 0 neu
+  73 Stellen-Links gefunden
+  29 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  2 nach Ortsfilter (Liste)
+
+== Bayernwerk ==
+  45 Stellen-Links gefunden
+  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  0 nach Ortsfilter (Liste)
+
+== Maschinenfabrik Reinhausen ==
+  130 Stellen-Links gefunden
+  48 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  35 nach Ortsfilter (Liste)
 
 == Continental ==
     [follow] _conjobs_toc%5BcurrentPage%5D=2&cHash=57abc1183b225b89b65b2ee4f3509b27 -> 200 neu
@@ -19,9 +68,8 @@ Bewertung: Stichwort-Regeln
     [follow] conjobs_toc%5BcurrentPage%5D=3&cHash=6a0bb833685dfc89b5ffe80d2bf6a916# -> 0 neu
     [follow] conjobs_toc%5BcurrentPage%5D=1&cHash=7b7cc65a27b86d8735c139bec447ea80# -> 0 neu
   566 Stellen-Links gefunden
-  410 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  410 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['(Pflicht)praktikum - Personalwesen und -marketing der Berufs', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle', '(Senior) Area Sales Manager Fleet - Dresden / Erfurt / Halle']
+  41 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  41 nach Ortsfilter (Liste)
 
 == Aumovio ==
     [follow] _conjobs_toc%5BcurrentPage%5D=2&cHash=6e61a188632327233282afe1437135f4 -> 200 neu
@@ -31,9 +79,115 @@ Bewertung: Stichwort-Regeln
     [follow] conjobs_toc%5BcurrentPage%5D=3&cHash=853b5eb01020ebcaaf2c238736132a12# -> 0 neu
     [follow] conjobs_toc%5BcurrentPage%5D=1&cHash=0db719482b6906a8b1f3e8f718d748db# -> 0 neu
   558 Stellen-Links gefunden
-  237 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  237 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['2027 C-Drive Trainee Program', 'Advanced Wireless Prototyping Intern [IDA:00029]', 'AI Adoption & Training Intern (H/F) - Stage', 'AI Automation Engineer Intern [IDA:00054]', 'AI Data Engineer Intern']
-  OK  BMW Group: 10 Links, 21s 
-  OK  Continental: 566 Links, 29s 
-  OK  Aumovio: 558 Links, 25s 
+  131 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  131 nach Ortsfilter (Liste)
+
+== ams OSRAM ==
+  290 Stellen-Links gefunden
+  14 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  2 nach Ortsfilter (Liste)
+
+89 neue Stellen werden bewertet …
+  + Schaeffler: Internship - Project Management for HR Digital Transformation Program (d/f/m) [Praktikum, Personal (HR)]
+  + BSH Hausgeräte: Pflichtpraktikant/-in im Bereich Motoransteuerung (m/w/d) [Praktikum, Finanzen & Controlling]
+  + BSH Hausgeräte: Praktikant/in KI-gest. Analyse von App-Store-Feedback (m/w/d) [Praktikum, Digitalisierung, Daten & KI]
+  – Maschinenfabrik Reinhausen: Intern for Control of Multilevel Power Converters (m/f/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Intern for Embedded Test Platform (m/f/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Intern for Power Electronics and Control (m/f/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Intern in the Field of Test Automation (m/f/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant (m/w/d) - Vorpraktikum Februar & März 2027 (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Betriebsmittelkonstruktion (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Business Development - Components (m/w/d) [Praktikum, Business Development & Strategie]
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Business Development – Service Solutions (m/w/d) [Praktikum, Business Development & Strategie]
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Content und Kommunikation (m/w/d) [Praktikum, Marketing & Kommunikation]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Cybersecurity in Embedded Systems (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Digitale Kanäle - Corporate Website (m/w/d) [Praktikum, Digitalisierung, Daten & KI]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Diversity und Benefit Management (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Einkauf (m/w/d) [Praktikum, Einkauf & Supply Chain]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Elektromagnetik- und Mechanik-Simulation (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Employer Branding (m/w/d) [Praktikum, Marketing & Kommunikation]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Grundlagenentwicklung Hochspannungstechnik (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich HR Development (m/w/d) [Praktikum, Personal (HR)]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Konstruktion (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Multiprojektmanagement (m/w/d) [Praktikum, Projektmanagement]
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Product Management für Digital Customer Experience (m/w/d) [Praktikum, Vertrieb & Kundenmanagement]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Programmierung Backend Embedded Systems (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Programmierung Frontend Embedded Systems (m/w/d) (Stichwort-Regel)
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Sales Excellence (m/w/d) [Praktikum, Vertrieb & Kundenmanagement]
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Social Media (m/w/d) [Praktikum, Marketing & Kommunikation]
+  + Maschinenfabrik Reinhausen: Praktikant im Bereich Studentenrecruiting und -betreuung (m/w/d) [Praktikum, Personal (HR)]
+  – Maschinenfabrik Reinhausen: Praktikant im Bereich Technologie-Management und Netzapplikationen (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Betriebswirtschaft / Wirtschaftswissenschaften (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Elektrotechnik (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Informatik (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Maschinenbau (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Mechatronik (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Regenerative Energien (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Technische Informatik (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Wirtschaftsinformatik (m/w/d) (Stichwort-Regel)
+  – Maschinenfabrik Reinhausen: Praktikant Studienrichtung Wirtschaftsingenieurwesen (m/w/d) (Stichwort-Regel)
+  + Aumovio: Internship - Strategic Purchasing Electronics [Praktikum, Einkauf & Supply Chain]
+  – Aumovio: Internship – Manufacturing Technologies (Stichwort-Regel)
+  – Aumovio: Mandatory Internship - Application Engineering Excellence – Power BI and efficiency expert - REF9091H (Stichwort-Regel)
+  – Aumovio: Pflichtpraktikum - .NET Entwicklung - ADAS Testsysteme (Stichwort-Regel)
+  – Aumovio: Pflichtpraktikum - Embedded Linux Entwicklung - ADAS Testsysteme (Stichwort-Regel)
+  – Aumovio: Pflichtpraktikum - Entwicklung von Fertigungstechnologien/-verfahren (Stichwort-Regel)
+  – Aumovio: Pflichtpraktikum - IT Service, Hardware Lifecycle & IT-Projekte (Stichwort-Regel)
+  + Aumovio: Pflichtpraktikum - Supplier Management / Lieferanten Management / SCM [Praktikum, Einkauf & Supply Chain]
+  – Aumovio: Pflichtpraktikum – Entwicklung einer Messmethode in der optischen Messtechnik - REF8705R (Stichwort-Regel)
+  – Aumovio: Pflichtpraktikum – UX Technikum – 3D Konstruktionsprojekte für Prozesstechnologie und Sonderanlagenbau (Stichwort-Regel)
+  – Aumovio: Praktikum - Arbeitsschutz / Environment Safety Health (Stichwort-Regel)
+  + Aumovio: Praktikum - Automotive Communication & Public Affairs [Praktikum, Marketing & Kommunikation]
+  + Aumovio: Praktikum - Betriebliches Gesundheitsmanagement [Praktikum, Personal (HR)]
+  + Aumovio: Praktikum - Business Development und Marketing [Praktikum, Marketing & Kommunikation]
+  + Aumovio: Praktikum - Controlling [Praktikum, Finanzen & Controlling]
+  + Aumovio: Praktikum - Datenanalyse / Innovationsmanagement [Praktikum, Business Development & Strategie]
+  + Aumovio: Praktikum - Digitalprojekte [Praktikum, Projektmanagement]
+  + Aumovio: Praktikum - Disposition (Supply Chain Management) [Praktikum, Einkauf & Supply Chain]
+  – Aumovio: Praktikum - Entwicklung / Konstruktion Sicherheitselektronik (Stichwort-Regel)
+  – Aumovio: Praktikum - Fertigungsplanung (Stichwort-Regel)
+  + Aumovio: Praktikum - HR Employer Branding [Praktikum, Marketing & Kommunikation]
+  + Aumovio: Praktikum - HR Talent Acquisition [Praktikum, Personal (HR)]
+  – Aumovio: Praktikum - Human Relations (Stichwort-Regel)
+  – Aumovio: Praktikum - Human Relations (Stichwort-Regel)
+  – Aumovio: Praktikum - Human Relations / Studentenbetreuung (Stichwort-Regel)
+  – Aumovio: Praktikum - Human Relations / Weiterbildung (Stichwort-Regel)
+  – Aumovio: Praktikum - Industrial Engineering mit Schwerpunkt Mess- und Prüftechnik und optischer Systeme (Stichwort-Regel)
+  – Aumovio: Praktikum - Industrial Engineering mit Schwerpunkt Mess- und Prüftechnik und optischer Systeme - REF8426F (Stichwort-Regel)
+  + Aumovio: Praktikum - Innovationsmanagement [Praktikum, Business Development & Strategie]
+  + Aumovio: Praktikum - Innovationsmanagement und Marketing [Praktikum, Marketing & Kommunikation]
+  + Aumovio: Praktikum - IT / Mitarbeit an Plattformen des Innovations- und Ideenmanagements [Praktikum, Business Development & Strategie]
+  + Aumovio: Praktikum - Kommunikation & Marketing [Praktikum, Marketing & Kommunikation]
+  + Aumovio: Praktikum - Kommunikation, Marketing und Events [Praktikum, Marketing & Kommunikation]
+  + Aumovio: Praktikum - Lean Management - Digitalisierung und Standardisierung von Prozessabläufen [Praktikum, Digitalisierung, Daten & KI]
+  + Aumovio: Praktikum - Operative und strategische HR-Prozesse [Praktikum, Business Development & Strategie]
+  – Aumovio: Praktikum - Packaging Engineering & Container Management (Stichwort-Regel)
+  – Aumovio: Praktikum - Production Quality / Reporting / Audits (Stichwort-Regel)
+  + Aumovio: Praktikum - Produktionssteuerung (SCM) [Praktikum, Einkauf & Supply Chain]
+  + Aumovio: Praktikum - Projektmanagement / Value Management (ReDTC) [Praktikum, Projektmanagement]
+  + Aumovio: Praktikum - Projektmanagement / Value Management (ReDTC) - REF7641R [Praktikum, Projektmanagement]
+  + Aumovio: Praktikum - Sales [Praktikum, Vertrieb & Kundenmanagement]
+  – Aumovio: Praktikum - Softwareentwicklung mit .NET (Web, Mobile, Client) (Stichwort-Regel)
+  + Aumovio: Praktikum - Strategy and Portfolio / Value Management [Praktikum, Business Development & Strategie]
+  + Aumovio: Praktikum - Supply Chain Management [Praktikum, Einkauf & Supply Chain]
+  – Aumovio: Praktikum - System-Test bzw. System-Integration von High Performance Computern (Stichwort-Regel)
+  + Aumovio: Praktikum - Wirtschaftsrecht (International HR, Arbeitsrecht & Corporate Governance) [Praktikum, Personal (HR)]
+  – Aumovio: Praktikum – Messtechnik / Konstruktion / Erprobung (Stichwort-Regel)
+  – Aumovio: Praktikum – Tech Scouting / Emerging Technologies (Stichwort-Regel)
+  – Aumovio: Praktikum im Bereich Human Relations (Stichwort-Regel)
+  – ams OSRAM: Werkstudent*in (d/m/w) im Bereich IT - Production Data Management (Stichwort-Regel)
+  – ams OSRAM: Werkstudent *in (d/m/w) im Bereich Softwareentwicklung - ActiveMQ Monitoring (Stichwort-Regel)
+
+Fertig: 106 Stellen online.
+  OK  Infineon: 33 Links, 18s 
+  OK  Schaeffler: 2 Links, 21s 
+  OK  Siemens: 2 Links, 15s 
+  OK  Krones: 250 Links, 51s 
+  OK  Deutsche Telekom: 10 Links, 9s 
+  OK  BMW Group: 16 Links, 24s 
+  OK  BSH Hausgeräte: 73 Links, 19s 
+  OK  Bayernwerk: 45 Links, 37s 
+  OK  Maschinenfabrik Reinhausen: 130 Links, 267s 
+  OK  Continental: 566 Links, 78s 
+  OK  Aumovio: 558 Links, 86s 
+  OK  ams OSRAM: 290 Links, 91s 
