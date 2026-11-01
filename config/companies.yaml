@@ -29,6 +29,9 @@
     template: https://jobs.schaeffler.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow={offset}
     step: 25
     max_pages: 12
+  extra_urls:
+    - https://jobs.schaeffler.com/search/?q=&locationsearch=Regensburg&locale=en_US
+    - https://jobs.schaeffler.com/search/?q=Regensburg&locale=de_DE
 
 - name: Siemens
   career_url: https://jobs.siemens.com/de_DE/externaljobs
@@ -55,14 +58,20 @@
 - name: BMW Group
   career_url: https://www.bmwgroup.jobs/de/de.html
   enabled: true
-  list_url: https://www.bmwgroup.jobs/de/de/search.html
-  job_link: (jobfinder|job-description|/job/).*\d{4,}
+  list_url: https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=de_DE
+  job_link: jobs\.bmwgroup\.com/job/[^?#]+/\d+
+  card_has_location: true
+  pages:
+    template: https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow={offset}
+    step: 25
+    max_pages: 12
 
 - name: BSH Hausgeräte
   career_url: https://jobs.bsh-group.de/index
   enabled: true
   list_url: https://jobs.bsh-group.de/index?persist_lang=de
   job_link: /\d+-[^/]+/(de|en)/job\.html
+  card_has_location: true
   pages:
     template: https://jobs.bsh-group.de/index?persist_lang=de&page={page}
     max_pages: 10
@@ -72,30 +81,37 @@
   enabled: true
   list_url: https://jobs.bayernwerk.de/de
   job_link: /job/[^/]+/\d+
+  card_has_location: true
 
 - name: Maschinenfabrik Reinhausen
   career_url: https://www.reinhausen.com/de/karriere/jobs
   enabled: true
   list_url: https://www.reinhausen.com/de/karriere/jobs
-  job_link: career\.reinhausen\.com/(?!job_agent).*\d+|/karriere/jobs/(?!initiativbewerbung)[^?#]+
+  job_link: career\.reinhausen\.com/\d+-[^/]+/job\.html
+  card_has_location: true
 
 - name: Continental
   career_url: https://jobs.continental.com/de/
   enabled: true
-  list_url: https://jobs.continental.com/de/#/?location=Regensburg
+  list_url: https://jobs.continental.com/de/
   job_link: /detail-page/job-detail/
+  job_url: https://jobs.continental.com/de/detail-page/job-detail/{url}
+  next_click: 80
 
 - name: Aumovio
   career_url: https://jobs.aumovio.com/de/jobs/
   enabled: true
-  list_url: https://jobs.aumovio.com/de/jobs/#/?location=Regensburg
+  list_url: https://jobs.aumovio.com/de/jobs/
   job_link: /detail-page/job-detail/
+  job_url: https://jobs.aumovio.com/de/detail-page/job-detail/{url}
+  next_click: 80
 
 - name: ams OSRAM
   career_url: https://jobs.ams-osram.com/de
   enabled: true
   list_url: https://jobs.ams-osram.com/de
-  job_link: /job/[^?#]+\?id=\d+
+  job_link: /(de|en)/job/[^/?#]+/\d+
+  card_has_location: true
 
 - name: Schneider Electric
   career_url: https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg

@@ -33,9 +33,9 @@ LOAD_MORE = re.compile(
 TITLE_KEYS = ("name", "title", "jobTitle", "job_title", "positionTitle", "postingTitle", "displayName")
 ID_KEYS = ("id", "jobId", "job_id", "jobReqId", "reqId", "requisitionId", "displayJobId", "ats_job_id")
 URL_KEYS = ("canonicalPositionUrl", "positionUrl", "jobUrl", "url", "applyUrl", "externalUrl", "link", "href")
-LOC_KEYS = ("location", "locations", "full_location", "short_location", "city", "primaryLocation", "jobLocation", "locationName",
+LOC_KEYS = ("location", "locations", "full_location", "short_location", "cityLabel", "city", "primaryLocation", "jobLocation", "locationName",
             "standardizedLocations", "cityState", "workLocation")
-DATE_KEYS = ("posted_date", "t_create", "postedTs", "postedDate", "datePosted", "createdDate", "publishedDate",
+DATE_KEYS = ("posted_date", "publicationDate", "postingDate", "t_create", "postedTs", "postedDate", "datePosted", "createdDate", "publishedDate",
              "postingDate", "creationDate", "posted_on", "startDate_posted", "releasedDate")
 
 
@@ -86,6 +86,15 @@ def _collect_links(page: Page, link_re: str) -> list[dict]:
                 if (cardText.length > 800) cardText = cardText.slice(0, 800);
                 out.push({href, text: (a.innerText || a.getAttribute('title') || a.getAttribute('aria-label') || '').trim(), card: cardText});
             }
+            // Tabellenzeilen/Karten ohne <a>, die per data-href verlinken
+            for (const el of document.querySelectorAll('[data-href]')) {
+                const href = new URL(el.getAttribute('data-href'), location.href).href;
+                if (!re.test(href)) continue;
+                const first = el.querySelector('td, h2, h3, h4, [data-title]') || el;
+                const t = (first.innerText || '').trim();
+                const parts = [...el.querySelectorAll('td')].map(td => td.innerText.trim()).filter(Boolean);
+                out.push({href, text: t, card: (parts.length ? parts.join(' | ') : el.innerText).slice(0, 800)});
+            }
             return out;
         }""",
         link_re,
@@ -100,6 +109,25 @@ def _click_load_more(page: Page) -> bool:
                 loc.scroll_into_view_if_needed(timeout=1500)
                 loc.click(timeout=3000)
                 return True
+        except Exception:
+            continue
+    return False
+
+
+NEXT_PAGE = re.compile(r"(nächste( seite)?|next( page)?|weiter|^›$|^»$|^>$)", re.I)
+
+
+def _click_next(page: Page) -> bool:
+    for role in ("button", "link"):
+        try:
+            loc = page.get_by_role(role, name=NEXT_PAGE)
+            for i in range(min(loc.count(), 4)):
+                el = loc.nth(i)
+                if el.is_visible(timeout=400) and el.is_enabled(timeout=400) \
+                        and el.get_attribute("aria-disabled") != "true":
+                    el.scroll_into_view_if_needed(timeout=1500)
+                    el.click(timeout=3000)
+                    return True
         except Exception:
             continue
     return False
@@ -166,19 +194,21 @@ def jobs_from_json(payloads: list, company: dict, base_url: str) -> list[dict]:
             continue
         url = _first(d, URL_KEYS)
         jid = _first(d, ID_KEYS)
-        if isinstance(url, str) and url:
-            url = urljoin(base_url, url)
-        elif company.get("job_url"):
+        if company.get("job_url"):
             fields = {k: v for k, v in d.items() if isinstance(v, (str, int))}
             fields.setdefault("id", jid)
             try:
                 url = company["job_url"].format(**fields)
             except (KeyError, IndexError, ValueError):
-                continue
+                if not (isinstance(url, str) and url):
+                    continue
+                url = urljoin(base_url, url)
+        elif isinstance(url, str) and url:
+            url = urljoin(base_url, url)
         else:
             continue
         jobs.append({
-            "url": url,
+            "url": url.rstrip("/"),
             "title": clean(title),
             "location": _loc_to_text(_first(d, LOC_KEYS)),
             "posted": parse_date(_first(d, DATE_KEYS)),
@@ -241,6 +271,30 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
             if grab() == 0:
                 break
 
+    # Blättern per "Nächste Seite"-Knopf
+    if company.get("next_click"):
+        stale = 0
+        for _ in range(company["next_click"]):
+            before = len(payloads)
+            if not _click_next(page):
+                break
+            _settle(page, 1500)
+            if grab() == 0 and len(payloads) == before:
+                stale += 1
+                if stale >= 2:
+                    break
+            else:
+                stale = 0
+
+    # Weitere Start-Seiten (z. B. andere Sprache)
+    for extra in company.get("extra_urls", []):
+        try:
+            page.goto(extra, wait_until="domcontentloaded", timeout=60_000)
+            _settle(page, 1500)
+            grab()
+        except Exception:
+            pass
+
     # Blättern über URL-Vorlage
     if pages_cfg:
         step = pages_cfg.get("step", 10)
@@ -258,7 +312,7 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
 
     jobs: dict[str, dict] = {}
     for l in raw_links:
-        url = l["href"].split("#")[0]
+        url = l["href"].split("#")[0].rstrip("/")
         title = clean(l["text"]).split(" · ")[0]
         card = clean(l["card"])
         if len(title) < 4 or len(title) > 250:

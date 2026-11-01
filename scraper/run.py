@@ -84,8 +84,11 @@ def main() -> int:
     to_classify: list[dict] = []
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True, executable_path=os.environ.get("CHROME_PATH") or None)
-        ctx = browser.new_context(user_agent=UA, locale="de-DE", viewport={"width": 1366, "height": 900})
+        browser = pw.chromium.launch(headless=True, executable_path=os.environ.get("CHROME_PATH") or None,
+                                     args=["--disable-blink-features=AutomationControlled"])
+        ctx = browser.new_context(user_agent=UA, locale="de-DE", viewport={"width": 1366, "height": 900},
+                                  extra_http_headers={"Accept-Language": "de-DE,de;q=0.9,en;q=0.8"})
+        ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         page = ctx.new_page()
 
         for comp in companies:
@@ -106,7 +109,7 @@ def main() -> int:
                 for c in cands:
                     loc_text = " ".join([c.get("location", ""), c.get("card", "")])
                     hint = region_match(loc_text, settings)
-                    if c.get("location") and not hint:
+                    if not hint and (c.get("location") or (comp.get("card_has_location") and c.get("card"))):
                         continue  # Ort bekannt und nicht Regensburg
                     c["location_hint"] = hint or ""
                     filtered.append(c)
