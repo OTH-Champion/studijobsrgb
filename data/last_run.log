@@ -1,8 +1,14 @@
-Firmen: BMW Group, BSH Hausgeräte, Bayernwerk, Maschinenfabrik Reinhausen, Continental, Aumovio, ams OSRAM, Schneider Electric
+Firmen: Schaeffler, BMW Group, BSH Hausgeräte, Maschinenfabrik Reinhausen, Continental, Aumovio, ams OSRAM, Schneider Electric
 Bewertung: Stichwort-Regeln
 
+== Schaeffler ==
+  2 Stellen-Links gefunden
+  1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  1 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['Internship - Project Management for HR Digital Transformatio']
+
 == BMW Group ==
-  0 Stellen-Links gefunden
+  10 Stellen-Links gefunden
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
   (nur Liste) Beispiele: []
@@ -10,20 +16,14 @@ Bewertung: Stichwort-Regeln
 == BSH Hausgeräte ==
   73 Stellen-Links gefunden
   29 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  29 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['Praktikant Produktionssystem und Gesamtwertstrom (m/w/d)', 'Working Student – Product Communication Gaggenau (m/f/d)', 'Praktikum Marketing Retail Excellence & Support (m/w/d)', 'Werkstudent Umwelt-, Arbeits- und Energiemanagement (m/w/d)', 'Working Student – Venture Clienting Operations (m/f/d)']
-
-== Bayernwerk ==
-  45 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  2 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['Pflichtpraktikant/-in im Bereich Motoransteuerung (m/w/d)', 'Praktikant/in KI-gest. Analyse von App-Store-Feedback (m/w/d']
 
 == Maschinenfabrik Reinhausen ==
-  0 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  130 Stellen-Links gefunden
+  47 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  35 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['Intern for Control of Multilevel Power Converters (m/f/d)', 'Intern for Embedded Test Platform (m/f/d)', 'Intern for Power Electronics and Control (m/f/d)', 'Intern in the Field of Test Automation (m/f/d)', 'Praktikant (m/w/d) - Vorpraktikum Februar & März 2027']
 
 == Continental ==
   10 Stellen-Links gefunden
@@ -38,21 +38,21 @@ Bewertung: Stichwort-Regeln
   (nur Liste) Beispiele: ['Praktikum - HR Employer Branding', 'Praktikum - Fertigungsplanung', 'Internship - Strategic Purchasing Electronics']
 
 == ams OSRAM ==
-  0 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  290 Stellen-Links gefunden
+  14 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  2 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['Werkstudent*in (d/m/w) im Bereich IT - Production Data Manag', 'Werkstudent *in (d/m/w) im Bereich Softwareentwicklung - Act']
 
 == Schneider Electric ==
   0 Stellen-Links gefunden
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
   (nur Liste) Beispiele: []
-  ERR BMW Group: 0 Links, 8s Keine Stellen gefunden (Seite evtl. geändert)
+  OK  Schaeffler: 2 Links, 16s 
+  OK  BMW Group: 10 Links, 11s 
   OK  BSH Hausgeräte: 73 Links, 14s 
-  OK  Bayernwerk: 45 Links, 37s 
-  ERR Maschinenfabrik Reinhausen: 0 Links, 8s Keine Stellen gefunden (Seite evtl. geändert)
-  OK  Continental: 10 Links, 8s 
-  OK  Aumovio: 10 Links, 8s 
-  ERR ams OSRAM: 0 Links, 31s Keine Stellen gefunden (Seite evtl. geändert)
+  OK  Maschinenfabrik Reinhausen: 130 Links, 8s 
+  OK  Continental: 10 Links, 7s 
+  OK  Aumovio: 10 Links, 13s 
+  OK  ams OSRAM: 290 Links, 62s 
   ERR Schneider Electric: 0 Links, 7s Keine Stellen gefunden (Seite evtl. geändert)
