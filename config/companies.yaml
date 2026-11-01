@@ -61,9 +61,13 @@
   list_url: https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=de_DE
   job_link: jobs\.bmwgroup\.com/job/[^?#]+/\d+
   card_has_location: true
+  extra_urls:
+    - https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=en_US
+    - https://jobs.bmwgroup.com/search/?q=Praktikant&locationsearch=Regensburg&locale=de_DE
+    - https://jobs.bmwgroup.com/search/?q=Werkstudent&locationsearch=Regensburg&locale=de_DE
   pages:
     template: https://jobs.bmwgroup.com/search/?q=&locationsearch=Regensburg&locale=de_DE&startrow={offset}
-    step: 25
+    step: 10
     max_pages: 12
 
 - name: BSH Hausgeräte
@@ -97,6 +101,7 @@
   job_link: /detail-page/job-detail/
   job_url: https://jobs.continental.com/de/detail-page/job-detail/{url}
   next_click: 80
+  next_selector: li.c-pagination__item--next
 
 - name: Aumovio
   career_url: https://jobs.aumovio.com/de/jobs/
@@ -105,6 +110,7 @@
   job_link: /detail-page/job-detail/
   job_url: https://jobs.aumovio.com/de/detail-page/job-detail/{url}
   next_click: 80
+  next_selector: li.c-pagination__item--next
 
 - name: ams OSRAM
   career_url: https://jobs.ams-osram.com/de
@@ -113,9 +119,12 @@
   job_link: /(de|en)/job/[^/?#]+/\d+
   card_has_location: true
 
+# ---- derzeit nicht abfragbar ----
+
 - name: Schneider Electric
   career_url: https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg
-  enabled: true
+  enabled: false
+  # careers.se.com blockiert automatisierte Abrufe (Access Denied)
   list_url: https://careers.se.com/jobs?lang=de-DE&page=1&sortBy=relevance&country=Germany&city=Regensburg
   job_link: /jobs/\d+
   job_url: https://careers.se.com/jobs/{slug}?lang=de-DE
@@ -123,7 +132,6 @@
     template: https://careers.se.com/jobs?lang=de-DE&page={page}&sortBy=relevance&country=Germany&city=Regensburg
     max_pages: 10
 
-# ---- ohne eigene Stellenseite (wird nicht abgefragt) ----
 
 - name: 42 Coding Solutions
   career_url: https://42-coding-solutions.com/

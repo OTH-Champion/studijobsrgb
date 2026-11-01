@@ -117,7 +117,17 @@ def _click_load_more(page: Page) -> bool:
 NEXT_PAGE = re.compile(r"(nächste( seite)?|next( page)?|weiter|^›$|^»$|^>$)", re.I)
 
 
-def _click_next(page: Page) -> bool:
+def _click_next(page: Page, selector: str | None = None) -> bool:
+    if selector:
+        try:
+            el = page.locator(selector).first
+            if el.is_visible(timeout=1500) and "disabled" not in (el.get_attribute("class") or ""):
+                el.scroll_into_view_if_needed(timeout=1500)
+                el.click(timeout=3000)
+                return True
+        except Exception:
+            pass
+        return False
     for role in ("button", "link"):
         try:
             loc = page.get_by_role(role, name=NEXT_PAGE)
@@ -276,7 +286,7 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
         stale = 0
         for _ in range(company["next_click"]):
             before = len(payloads)
-            if not _click_next(page):
+            if not _click_next(page, company.get("next_selector")):
                 break
             _settle(page, 1500)
             if grab() == 0 and len(payloads) == before:
