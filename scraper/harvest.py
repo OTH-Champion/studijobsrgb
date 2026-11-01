@@ -121,12 +121,13 @@ def _click_next(page: Page, selector: str | None = None) -> bool:
     if selector:
         try:
             el = page.locator(selector).first
-            if el.is_visible(timeout=1500) and "disabled" not in (el.get_attribute("class") or ""):
-                el.scroll_into_view_if_needed(timeout=1500)
-                el.click(timeout=3000)
-                return True
-        except Exception:
-            pass
+            if "disabled" in (el.get_attribute("class", timeout=3000) or ""):
+                return False
+            el.scroll_into_view_if_needed(timeout=3000)
+            el.click(timeout=5000, force=True)
+            return True
+        except Exception as e:  # noqa: BLE001
+            print(f"    [next] {selector}: {e.__class__.__name__}: {str(e)[:160]}")
         return False
     for role in ("button", "link"):
         try:
@@ -287,6 +288,7 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
         for _ in range(company["next_click"]):
             before = len(payloads)
             if not _click_next(page, company.get("next_selector")):
+                print(f"    [next] kein weiterer Knopf nach {_ + 1} Klick(s)")
                 break
             _settle(page, 1500)
             if grab() == 0 and len(payloads) == before:
@@ -301,9 +303,9 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
         try:
             page.goto(extra, wait_until="domcontentloaded", timeout=60_000)
             _settle(page, 1500)
-            grab()
-        except Exception:
-            pass
+            print(f"    [extra] {extra[:90]} -> {grab()} neu")
+        except Exception as e:  # noqa: BLE001
+            print(f"    [extra] {extra[:90]} Fehler {e.__class__.__name__}")
 
     # Blättern über URL-Vorlage
     if pages_cfg:
@@ -313,9 +315,12 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=60_000)
                 _settle(page, 1500)
-            except Exception:
+            except Exception as e:  # noqa: BLE001
+                print(f"    [page] {url[:90]} Fehler {e.__class__.__name__}")
                 break
-            if grab() == 0:
+            n = grab()
+            print(f"    [page] {url[:90]} -> {n} neu")
+            if n == 0:
                 break
 
     page.remove_listener("response", on_response)
