@@ -24,10 +24,10 @@ MODELLE = ["Präsenz", "Hybrid", "Remote", KA]
 FACH_RULES = [
     ("Vertrieb & Kundenmanagement", r"vertrieb|sales|key account|account manag|kundenbetreuung|customer|innendienst|pricing|order management|auftragsmanagement|auftragsabwicklung|e-?business|e-?commerce"),
     ("Einkauf & Supply Chain", r"einkauf|procurement|purchas|beschaffung|sourcing|supply|logisti|\bscm\b|materialwirtschaft|disposition|lieferanten|zoll|customs|transport|spedition|total cost|\btco\b|scheduling|resource management|travel"),
-    ("Marketing & Kommunikation", r"marketing|kommunikation|communication|\bpr\b|social media|brand|content|event|employer branding|storytelling|video|redaktion|text"),
-    ("Finanzen & Controlling", r"controlling|controller|finance|finanz|accounting|buchhaltung|rechnungswesen|steuer|\btax|treasury|audit|revision|reporting|ifrs|financial|bilanz|konsolidierung"),
-    ("Business Development & Strategie", r"business development|strateg|m&a|corporate development|innovation|geschäftsentwicklung|portfolio|entrepreneur"),
     ("Personal (HR)", r"\bhr\b|human resources|personal|recruit|talent|people|learning|change management|adoption|health management|gesundheitsmanagement"),
+    ("Marketing & Kommunikation", r"marketing|kommunikation|communication|\bpr\b|social media|brand|content|event|employer branding|storytelling|video|redaktion|text"),
+    ("Finanzen & Controlling", r"controlling|controller|finance|finanz|accounting|buchhaltung|rechnungswesen|\bsteuer|\btax|treasury|audit|revision|reporting|ifrs|financial|bilanz|konsolidierung"),
+    ("Business Development & Strategie", r"business development|strateg|m&a|corporate development|innovation|geschäftsentwicklung|portfolio|entrepreneur"),
     ("Projektmanagement", r"projekt|project|\bpmo\b|program management|koordination|coordination"),
     ("Digitalisierung, Daten & KI", r"digital|data|daten|analytics|\bbi\b|power ?bi|business intelligence|\bsap\b|\bcrm\b|\bki\b|\bai\b|künstliche intelligenz|prozessmanagement|prozessoptimierung|process management|process transformation|it-?consult|business analyst|servicenow|microsoft 365|master data|stammdaten"),
     ("Recht & Compliance", r"legal|recht|compliance|contract|vertragsmanagement|export control|exportkontrolle|governance|datenschutz"),
@@ -39,7 +39,7 @@ TECH = re.compile(
     r"simulation|layout|frontend|backend|full.?stack|devops|cyber|robot|automatisier|"
     r"automation|fertigung|produktion|production|montage|wartung|maintenance|labor\b|\blab\b|chip|wafer|"
     r"r&d|research|forschung|programmier|informatik|sensor|messtechn|material|kunststoff|"
-    r"versuchstechn|servicetechn|cad\b|bim\b|unreal|unity|animation|qualitäts|quality|technolog",
+    r"versuchstechn|servicetechn|ansteuerung|motor|cad\b|bim\b|unreal|unity|animation|qualitäts|quality|technolog",
     re.I,
 )
 

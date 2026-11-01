@@ -49,7 +49,7 @@
    "career_url": "https://jobs.bsh-group.de/index",
    "ok": true,
    "note": "",
-   "stellen": 2
+   "stellen": 1
   },
   {
    "name": "Bayernwerk",
@@ -77,7 +77,7 @@
    "career_url": "https://jobs.aumovio.com/de/jobs/",
    "ok": true,
    "note": "",
-   "stellen": 25
+   "stellen": 24
   },
   {
    "name": "ams OSRAM",
@@ -120,7 +120,7 @@
    "art": "Praktikum",
    "standort": "Regensburg",
    "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
+   "fachbereich": "Personal (HR)",
    "start": "März 2027",
    "umfang": "5–6 Monate",
    "veroeffentlicht": "2026-10-30",
@@ -230,19 +230,6 @@
    "veroeffentlicht": "2026-10-22",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82087Y-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-kommunikation-marketing"
-  },
-  {
-   "titel": "Praktikum - Produktionssteuerung (SCM)",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "Februar 2027",
-   "umfang": "6 Monate",
-   "veroeffentlicht": "2026-10-22",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82086K-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-produktionssteuerung-scm-"
   },
   {
    "titel": "Praktikum - Sales",
@@ -406,7 +393,7 @@
    "art": "Praktikum",
    "standort": "Neutraubling",
    "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
+   "fachbereich": "Personal (HR)",
    "start": "ab sofort",
    "umfang": "6 Monate",
    "veroeffentlicht": "2026-10-15",
@@ -451,19 +438,6 @@
    "veroeffentlicht": "2026-10-14",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12360W-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-kommunikation-marketing-und-events-"
-  },
-  {
-   "titel": "Pflichtpraktikant/-in im Bereich Motoransteuerung (m/w/d)",
-   "firma": "BSH Hausgeräte",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "Januar 2027",
-   "umfang": "35 Std./Woche",
-   "veroeffentlicht": "2026-10-13",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.bsh-group.de/45827-pflichtpraktikant-in-im-bereich-motoransteuerung-m-w-d/de/job.html"
   },
   {
    "titel": "Werkstudent (m/w/d)* Customer & Travel Coordination",
@@ -575,7 +549,7 @@
    "art": "Praktikum",
    "standort": "Regensburg",
    "arbeitsmodell": "k. A.",
-   "fachbereich": "Business Development & Strategie",
+   "fachbereich": "Personal (HR)",
    "start": "März 2027",
    "umfang": "6 Monate",
    "veroeffentlicht": "2026-09-28",
@@ -1168,19 +1142,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=337"
   },
   {
-   "titel": "Praktikant (m/w/d)* Steuern",
-   "firma": "Krones",
-   "art": "Praktikum",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-09-01",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=342"
-  },
-  {
    "titel": "Praktikant (m/w/d)* Controlling",
    "firma": "Krones",
    "art": "Praktikum",
@@ -1439,6 +1400,19 @@
    "veroeffentlicht": "2026-09-01",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=957"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Steuern",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-09-01",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=342"
   },
   {
    "titel": "Praktikant/in KI-gest. Analyse von App-Store-Feedback (m/w/d)",
