@@ -298,6 +298,28 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
             else:
                 stale = 0
 
+    # Seitenlinks folgen (z. B. "2", "3" in einer Seitennavigation)
+    if company.get("follow"):
+        fre = company["follow"]
+        visited = {page.url}
+        queue = []
+        def add_follow_links():
+            for h in page.evaluate(
+                "(p) => [...document.querySelectorAll('a[href]')].map(a => a.href).filter(h => new RegExp(p).test(h))", fre):
+                if h not in visited and h not in queue:
+                    queue.append(h)
+        add_follow_links()
+        while queue and len(visited) <= company.get("follow_max", 15):
+            u = queue.pop(0)
+            visited.add(u)
+            try:
+                page.goto(u, wait_until="domcontentloaded", timeout=60_000)
+                _settle(page, 1500)
+                print(f"    [follow] {u[-70:]} -> {grab()} neu")
+                add_follow_links()
+            except Exception as e:  # noqa: BLE001
+                print(f"    [follow] {u[-70:]} Fehler {e.__class__.__name__}")
+
     # Weitere Start-Seiten (z. B. andere Sprache)
     for extra in company.get("extra_urls", []):
         try:
