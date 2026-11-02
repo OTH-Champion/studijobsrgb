@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T12:25+00:00",
+ "aktualisiert": "2026-11-02T12:35+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -144,7 +144,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "Götz Management",
@@ -1547,6 +1547,19 @@
    "veroeffentlicht": "2026-08-19",
    "datum_geschaetzt": false,
    "link": "https://jobs.bsh-group.de/45311-praktikant-in-ki-gest-analyse-von-app-store-feedback-m-w-d/de/job.html"
+  },
+  {
+   "titel": "Werkstudent (m/w/d) mit bankfachlicher Aus-/ oder Weiterbildung",
+   "firma": "Sparkasse Regensburg",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-06-11",
+   "datum_geschaetzt": false,
+   "link": "https://www.sparkasse.de/jobboerse/sparkasse-regensburg/werkstudent-m-w-d-mit-bankfachlicher-aus-oder-weiterbildung-sparkasse-regensburg-199988.html"
   },
   {
    "titel": "Praktikum - Projektmanagement / Value Management (ReDTC) - REF7641R",
