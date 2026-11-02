@@ -201,7 +201,7 @@
   career_url: https://www.ottolehmann.com/unternehmen/karriere/stellenangebote
   enabled: true
   list_url: https://www.ottolehmann.com/unternehmen/karriere/stellenangebote
-  job_link: (stellen|job|karriere)[^#]*[a-z0-9-]{6,}
+  job_link: ottolehmann\.com/unternehmen/karriere/stellenangebot/[a-z0-9-]+
 
 # ---- derzeit nicht abfragbar ----
 
