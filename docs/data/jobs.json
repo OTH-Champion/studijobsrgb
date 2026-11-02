@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T13:23+00:00",
+ "aktualisiert": "2026-11-02T13:53+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -193,6 +193,22 @@
    "note": "",
    "aktiv": true,
    "stellen": 1
+  },
+  {
+   "name": "Keyence",
+   "career_url": "https://career.keyence.de/go/JOBS/2945201/",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 1
+  },
+  {
+   "name": "KPMG",
+   "career_url": "https://karriere.kpmg.de/dein-einstieg/studierende.html",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 12
   },
   {
    "name": "Zippel",
@@ -611,6 +627,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72191"
   },
   {
+   "titel": "Junior VertriebsmitarbeiterIn im Außendienst / Trainee Vertrieb (m/w/d)",
+   "firma": "Keyence",
+   "art": "Trainee",
+   "standort": "bundesweit",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-10-10",
+   "datum_geschaetzt": false,
+   "link": "https://career.keyence.de/job/Bundesweit-Junior-VertriebsmitarbeiterIn-im-Au%C3%9Fendienst-Trainee-Vertrieb-%28mwd%29/578163201"
+  },
+  {
    "titel": "Praktikant im Bereich Business Development – Service Solutions (m/w/d)",
    "firma": "Maschinenfabrik Reinhausen",
    "art": "Praktikum",
@@ -921,6 +950,19 @@
    "veroeffentlicht": "2026-09-15",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114"
+  },
+  {
+   "titel": "Praktikum Controlling und Reporting (w/m/d)",
+   "firma": "KPMG",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-09-09",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/12722/?locale=de_DE"
   },
   {
    "titel": "Werkstudent (m/w/d)* FI Group Financial Statements IFRS",
@@ -1586,6 +1628,32 @@
    "link": "https://jobs.bsh-group.de/45311-praktikant-in-ki-gest-analyse-von-app-store-feedback-m-w-d/de/job.html"
   },
   {
+   "titel": "Praktikant / Werkstudent (w/m/d) Audit Technology - Digital Audit Innovation",
+   "firma": "KPMG",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-08-06",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/12916/?locale=de_DE"
+  },
+  {
+   "titel": "Werkstudent Marketing / Kommunikation (w/m/d)",
+   "firma": "KPMG",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "1.10.2026",
+   "umfang": "20 Std./Woche",
+   "veroeffentlicht": "2026-07-09",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/11225/?locale=de_DE"
+  },
+  {
    "titel": "Praktikum im Kulturamt – Bereich Event- und Projektmanagement, Konzept- und Öffentlichkeitsarbeit - Stellen-Nr. P41-03",
    "firma": "Stadt Regensburg",
    "art": "Praktikum",
@@ -1623,6 +1691,123 @@
    "veroeffentlicht": "2026-03-16",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF7641R-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-projektmanagement-value-management-redtc-ref7641r"
+  },
+  {
+   "titel": "Praktikum Audit / Wirtschaftsprüfung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "September 2026",
+   "umfang": "3–6 Monate",
+   "veroeffentlicht": "2025-12-02",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/312/?locale=de_DE"
+  },
+  {
+   "titel": "Werkstudent im Bereich Tax / Steuerberatung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "5 Std./Woche",
+   "veroeffentlicht": "2025-10-30",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/315/?locale=de_DE"
+  },
+  {
+   "titel": "Praktikum Controlling (Enterprise Performance Management) (w/m/d)",
+   "firma": "KPMG",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "3–6 Monate",
+   "veroeffentlicht": "2025-03-28",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/11143/?locale=de_DE"
+  },
+  {
+   "titel": "Werkstudent im Bereich Audit / Wirtschaftsprüfung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "September 2026",
+   "umfang": "5 Std./Woche",
+   "veroeffentlicht": "2024-12-23",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/313/?locale=de_DE"
+  },
+  {
+   "titel": "(Junior) Consultant Audit / Wirtschaftsprüfung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "ab sofort",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2024-12-23",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/220/?locale=de_DE"
+  },
+  {
+   "titel": "(Junior) Consultant / Berater für Tax / Steuerberatung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2023-10-30",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/585/?locale=de_DE"
+  },
+  {
+   "titel": "Praktikum im Bereich Tax / Steuerberatung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2023-03-10",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/314/?locale=de_DE"
+  },
+  {
+   "titel": "Volkswirt / Betriebswirt / Jurist als (Junior) Consultant Global Transfer Pricing (w/m/d)",
+   "firma": "KPMG",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2022-01-03",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/7781/?locale=de_DE"
+  },
+  {
+   "titel": "(Junior) Consultant IT Prozesse und Compliance (w/m/d)",
+   "firma": "KPMG",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Recht & Compliance",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2019-12-02",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/479/?locale=de_DE"
   }
  ]
 }
