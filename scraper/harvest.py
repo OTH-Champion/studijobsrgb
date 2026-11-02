@@ -270,6 +270,9 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
         debug["list_html"] = page.content()
         debug["list_text"] = page.evaluate("document.body.innerText")
         debug["screenshot"] = page.screenshot(full_page=False)
+        debug["all_links"] = page.evaluate(
+            "[...document.querySelectorAll('a[href], [data-href], iframe[src]')].slice(0, 800).map(a => "
+            "({href: a.href || a.getAttribute('data-href') || a.src, text: (a.innerText || '').trim().slice(0, 100)}))")
 
     # "Mehr laden"-Buttons
     for _ in range(company.get("max_load_more", 30)):

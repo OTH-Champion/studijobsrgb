@@ -121,6 +121,66 @@
   job_link: /(de|en)/job/[^/?#]+/\d+
   card_has_location: true
 
+- name: Gerresheimer
+  career_url: https://www.gerresheimer.com/karriere
+  enabled: true
+  list_url: https://www.gerresheimer.com/karriere
+  job_link: (job|stelle|position|vacanc)[^/]*/.*\d{3,}
+
+- name: Dallmeier
+  career_url: https://www.dallmeier.com/about-us/careers
+  enabled: true
+  list_url: https://www.dallmeier.com/about-us/careers
+  job_link: /about-us/careers/(?!online-application)[a-z0-9]
+
+- name: Zippel
+  career_url: https://www.zippel.com/karriere
+  enabled: true
+  list_url: https://www.zippel.com/karriere
+  job_link: (job|stelle|karriere/)[^?#]*[a-z0-9-]{8,}
+
+- name: REWAG
+  career_url: https://rewag-karriere.softgarden.io/de/vacancies
+  enabled: true
+  list_url: https://rewag-karriere.softgarden.io/de/vacancies
+  job_link: /job/\d+
+
+- name: das Stadtwerk Regensburg
+  career_url: https://www.das-stadtwerk-regensburg.de/karriere
+  enabled: true
+  list_url: https://www.das-stadtwerk-regensburg.de/karriere
+  job_link: (/job/\d+|stellenangebot|stellen/|position)
+
+- name: Sparkasse Regensburg
+  career_url: https://www.sparkasse.de/jobboerse/sparkasse-regensburg.html
+  enabled: true
+  list_url: https://www.sparkasse.de/jobboerse/sparkasse-regensburg.html
+  job_link: /jobboerse/jobangebot/.*sparkasse-regensburg-\d+
+
+- name: TELIS FINANZ
+  career_url: https://www.telis-finanz.de/karriere
+  enabled: true
+  list_url: https://www.telis-finanz.de/karriere
+  job_link: (job|stelle|karriere/)[^?#]*[a-z0-9-]{8,}
+
+- name: Götz Management
+  career_url: https://goetz-fm.com/karriere/
+  enabled: true
+  list_url: https://goetz-fm.com/karriere/
+  job_link: (job|stelle|karriere/)[^?#]*[a-z0-9-]{8,}
+
+- name: DV Immobilien
+  career_url: https://www.dv-immobilien.de/karriere
+  enabled: true
+  list_url: https://www.dv-immobilien.de/karriere
+  job_link: (job|stelle|karriere/)[^?#]*[a-z0-9-]{8,}
+
+- name: Mittelbayerische
+  career_url: https://www.mediengruppe-bayern.de/karriere
+  enabled: true
+  list_url: https://www.mediengruppe-bayern.de/karriere
+  job_link: (job|stelle|karriere/)[^?#]*[a-z0-9-]{8,}
+
 # ---- derzeit nicht abfragbar ----
 
 - name: Schneider Electric

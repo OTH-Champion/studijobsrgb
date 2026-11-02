@@ -81,6 +81,8 @@ def write_debug(company: dict, dbg: dict) -> None:
     if "screenshot" in dbg:
         (d / "screenshot.png").write_bytes(dbg["screenshot"])
     (d / "network.json").write_text(json.dumps(dbg.get("network", [])[:80], ensure_ascii=False, indent=1), encoding="utf-8")
+    if "all_links" in dbg:
+        (d / "all_links.json").write_text(json.dumps(dbg["all_links"], ensure_ascii=False, indent=1), encoding="utf-8")
     (d / "links.json").write_text(json.dumps(dbg.get("links", []), ensure_ascii=False, indent=1), encoding="utf-8")
     if "details" in dbg:
         (d / "details.json").write_text(json.dumps(dbg["details"], ensure_ascii=False, indent=1), encoding="utf-8")
