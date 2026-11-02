@@ -1,65 +1,30 @@
-Firmen: Gerresheimer, Zippel, REWAG, das Stadtwerk Regensburg, Sparkasse Regensburg, TELIS FINANZ, Götz Management, DV Immobilien, Mittelbayerische
+Firmen: TELIS FINANZ, Götz Management, DV Immobilien, Mittelbayerische
 Bewertung: Stichwort-Regeln
 
-== Gerresheimer ==
-  10 Stellen-Links gefunden
-  3 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  1 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['Praktikum - Treasury & Tax sowie Werkscontrolling (80:20) (m']
-
-== Zippel ==
-  0 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
-
-== REWAG ==
-  23 Stellen-Links gefunden
-  1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
-
-== das Stadtwerk Regensburg ==
-  6 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
-
-== Sparkasse Regensburg ==
-  10 Stellen-Links gefunden
-  1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  1 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['Werkstudent (m/w/d) mit bankfachlicher Aus-/ oder Weiterbild']
-
 == TELIS FINANZ ==
-  0 Stellen-Links gefunden
+  1 Stellen-Links gefunden
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
   (nur Liste) Beispiele: []
 
 == Götz Management ==
-  ! Fehler bei Götz Management: Page.goto: net::ERR_TIMED_OUT at https://goetz-fm.com/karriere-bei-goetz/jobs/
-Call log:
-  - navigating to "https://goetz-fm.com/karriere-bei-goetz/jobs/", waiting until "domcontentloaded"
-
+  98 Stellen-Links gefunden
+  3 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  0 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: []
 
 == DV Immobilien ==
-  ! Fehler bei DV Immobilien: Page.goto: Navigation to "https://www.dvimmobilien.de/" is interrupted by another navigation to "chrome-error://chromewebdata/"
-Call log:
-  - navigating to "https://www.dvimmobilien.de/", waiting until "domcontentloaded"
-
+  1 Stellen-Links gefunden
+  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  0 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: []
 
 == Mittelbayerische ==
-  ! Fehler bei Mittelbayerische: Page.goto: Navigation to "https://mediengruppe-bayern-gmbh.jobs.personio.de/" is interrupted by another navigation to "https://www.dvimmobilien.de/de/"
-Call log:
-  - navigating to "https://mediengruppe-bayern-gmbh.jobs.personio.de/", waiting until "domcontentloaded"
-
-  OK  Gerresheimer: 10 Links, 6s 
-  ERR Zippel: 0 Links, 7s Keine Stellen gefunden (Seite evtl. geändert)
-  OK  REWAG: 23 Links, 6s 
-  OK  das Stadtwerk Regensburg: 6 Links, 8s 
-  OK  Sparkasse Regensburg: 10 Links, 11s 
-  ERR TELIS FINANZ: 0 Links, 7s Keine Stellen gefunden (Seite evtl. geändert)
-  ERR Götz Management: 0 Links, 32s Fehler: Error
-  ERR DV Immobilien: 0 Links, 1s Fehler: Error
-  ERR Mittelbayerische: 0 Links, 1s Fehler: Error
+  35 Stellen-Links gefunden
+  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  0 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: []
+  OK  TELIS FINANZ: 1 Links, 6s 
+  OK  Götz Management: 98 Links, 10s 
+  OK  DV Immobilien: 1 Links, 8s 
+  OK  Mittelbayerische: 35 Links, 6s 

@@ -1,1 +1,7 @@
-[]
+[
+ {
+  "url": "https://api.digiaccess.org/subscriptions/active?site=goetz-fm.com",
+  "size": 634,
+  "sample": "{\"isActive\":true,\"version\":\"latest\",\"settings\":{\"position\":{\"desktop\":{\"position\":\"center\",\"side\":\"right\"},\"tablet\":{\"position\":\"center\",\"side\":\"right\"},\"mobile\":{\"position\":\"center\",\"side\":\"right\"}},\"theme\":{\"primaryColor\":\"#104e70\",\"secondaryColor\":\"#156089\",\"tertiaryColor\":\"#b84700\",\"primaryContrastColor\":\"#FFFFFF\",\"secondaryContrastColor\":\"#D1E4F3\",\"focusColor\":\"#FFD700\",\"highlightColor\":\"#0096FF\"},\"size\":{\"desktop\":66,\"tablet\":66,\"mobile\":66},\"icon\":\"default\",\"executionSettings\":{\"enableOptimalContrast\":false,\"enhancedLinkDescription\":true}},\"imageCaptioningConfig\":{\"enabled\":false,\"delayInSeconds\":5,\"targetBySrc\":false}}"
+ }
+]
