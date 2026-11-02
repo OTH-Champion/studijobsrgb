@@ -243,6 +243,8 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
                     payloads.append(json.loads(body))
                     if debug is not None:
                         debug.setdefault("network", []).append({"url": resp.url, "size": len(body), "sample": body[:8000]})
+                        if len(body) > 8000:
+                            debug.setdefault("network_full", []).append({"url": resp.url, "body": body})
         except Exception:
             pass
 
