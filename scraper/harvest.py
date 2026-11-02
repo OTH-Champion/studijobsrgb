@@ -219,6 +219,8 @@ def jobs_from_json(payloads: list, company: dict, base_url: str) -> list[dict]:
             url = urljoin(base_url, url)
         else:
             continue
+        if company.get("json_match_link") and not re.search(company["job_link"], url):
+            continue  # z. B. AOK: JSON enthält auch Bewerbungs-/Menülinks
         jobs.append({
             "url": url.rstrip("/"),
             "title": clean(title),

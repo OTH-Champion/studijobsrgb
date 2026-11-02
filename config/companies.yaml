@@ -8,6 +8,7 @@
 #   job_link    Muster (Regex), an dem Links zu einzelnen Stellen erkannt werden
 #   pages       optional: Blätter-Logik, {offset} bzw. {page} wird ersetzt
 #   job_url     optional: Link-Vorlage, falls die Stellen nur als Daten (JSON) kommen
+#   json_match_link  optional: JSON-Treffer nur übernehmen, wenn der Link zu job_link passt
 
 - name: Infineon
   career_url: https://jobs.infineon.com/careers
@@ -192,8 +193,9 @@
   enabled: true
   list_url: https://www.aok.de/karriere/stellenangebote/
   # Alle Stellen kommen als JSON (applications.json); Ortsfilter greift auf "locations"
-  job_link: /karriere/stellenangebote/[a-z0-9-]+-aok[a-z]+\d+
+  job_link: /karriere/stellenangebote/[a-z0-9-]+-aok-?[a-z]+\d+
   job_url: https://www.aok.de{slug}
+  json_match_link: true
 
 # ---- derzeit nicht abfragbar ----
 
