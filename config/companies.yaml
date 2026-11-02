@@ -214,10 +214,10 @@
 - name: KPMG
   career_url: https://karriere.kpmg.de/dein-einstieg/studierende.html
   enabled: true
-  list_url: https://karriere.kpmg.de/dein-einstieg/studierende.html
+  list_url: https://jobs.kpmg.de/?currentPage=1&pageSize=10&filter2=Studierende
   extra_urls:
-    - https://karriere.kpmg.de/dein-einstieg/absolventinnen.html
-  job_link: (job|stelle|position)[^#]*[a-z0-9-]{6,}
+    - https://jobs.kpmg.de/?currentPage=1&pageSize=10&filter2=Absolventen
+  job_link: jobs\.kpmg\.de/job/[^?#]+/\d+
 
 # ---- derzeit nicht abfragbar ----
 

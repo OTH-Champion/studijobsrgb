@@ -17,6 +17,12 @@ region:
   - Donaustauf
   - Mintraching
 
+# Stellen mit diesen Ortsangaben werden ebenfalls aufgenommen (Standort "bundesweit").
+# Gilt nur für Ortsangaben (Stellenkarte, Ortsfeld, Link), nicht für den Fließtext der Anzeige.
+bundesweit:
+  - bundesweit
+  - deutschlandweit
+
 # Stellenart: Titel muss eines dieser Muster enthalten (Kleinschreibung, Muster gilt ab Wortanfang, Regex erlaubt)
 include_title:
   - praktik          # Praktikum, Praktikant

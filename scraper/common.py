@@ -27,6 +27,7 @@ def load_settings() -> dict:
     s["_include"] = [re.compile(r"\b" + p, re.I) for p in s["include_title"]]
     s["_exclude"] = [re.compile(r"\b" + p, re.I) for p in s["exclude_title"]]
     s["_region"] = [re.compile(r"\b" + re.escape(p) + r"\b", re.I) for p in s["region"]]
+    s["_nationwide"] = [re.compile(r"\b" + re.escape(p) + r"\b", re.I) for p in s.get("bundesweit", [])]
     return s
 
 
@@ -58,14 +59,19 @@ def title_is_student_job(title: str, settings: dict) -> bool:
     return any(p.search(t) for p in settings["_include"])
 
 
-def region_match(text: str, settings: dict) -> str | None:
-    """Gibt den im Text zuerst genannten Regions-Ort zurück, sonst None."""
+def region_match(text: str, settings: dict, nationwide: bool = False) -> str | None:
+    """Gibt den im Text zuerst genannten Regions-Ort zurück, sonst None.
+    nationwide=True: "bundesweit" o. Ä. zählt ebenfalls (nur für Ortsangaben, nicht Fließtext)."""
     best = None
     for name, pat in zip(settings["region"], settings["_region"]):
         m = pat.search(text or "")
         if m and (best is None or m.start() < best[0]):
             best = (m.start(), name)
-    return best[1] if best else None
+    if best:
+        return best[1]
+    if nationwide and any(p.search(text or "") for p in settings.get("_nationwide", [])):
+        return "bundesweit"
+    return None
 
 
 _MONTHS = {

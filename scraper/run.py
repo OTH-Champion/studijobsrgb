@@ -153,7 +153,7 @@ def main() -> int:
                 filtered = []
                 for c in cands:
                     loc_text = " ".join([c.get("location", ""), c.get("card", "")])
-                    hint = region_match(loc_text, settings)
+                    hint = region_match(loc_text, settings, nationwide=True)
                     if not hint and (c.get("location") or (comp.get("card_has_location") and c.get("card"))):
                         continue  # Ort bekannt und nicht Regensburg
                     c["location_hint"] = hint or ""
@@ -184,8 +184,8 @@ def main() -> int:
                     except Exception as e:  # noqa: BLE001
                         print(f"  ! Detailseite fehlgeschlagen: {url} ({e.__class__.__name__})")
                         continue
-                    loc_hint = c.get("location_hint") or region_match(det["location"], settings) \
-                        or region_match(url.replace("-", " "), settings) \
+                    loc_hint = c.get("location_hint") or region_match(det["location"], settings, nationwide=True) \
+                        or region_match(url.replace("-", " "), settings, nationwide=True) \
                         or region_match(det["text"][:6000], settings)
                     if not loc_hint:
                         state["rejected"][url] = today
