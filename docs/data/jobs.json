@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T11:37+00:00",
+ "aktualisiert": "2026-11-02T12:22+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -99,6 +99,86 @@
    "stellen": 0
   },
   {
+   "name": "Gerresheimer",
+   "career_url": "https://www.gerresheimer.com/karriere/jobs/stellenangebote",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 1
+  },
+  {
+   "name": "Dallmeier",
+   "career_url": "https://www.dallmeier.com/about-us/careers",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "TELIS FINANZ",
+   "career_url": "https://telis-karriere.de/",
+   "ok": false,
+   "note": "Keine Stellen gefunden (Seite evtl. geändert)",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "REWAG",
+   "career_url": "https://rewag-karriere.softgarden.io/de/vacancies",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "das Stadtwerk Regensburg",
+   "career_url": "https://karriere.das-stadtwerk-regensburg.de/",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "Sparkasse Regensburg",
+   "career_url": "https://www.sparkasse.de/jobboerse/sparkasse-regensburg.html",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "Götz Management",
+   "career_url": "https://goetz-fm.com/karriere-bei-goetz/jobs/",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "DV Immobilien",
+   "career_url": "https://dv-gruppe.de/de/karriere",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "Mittelbayerische",
+   "career_url": "https://mediengruppe-bayern-gmbh.jobs.personio.de/",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "Zippel",
+   "career_url": "https://zippel.com/de/",
+   "ok": true,
+   "aktiv": false,
+   "note": "Stellen derzeit nicht automatisch abrufbar",
+   "stellen": 0
+  },
+  {
    "name": "Schneider Electric",
    "career_url": "https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg",
    "ok": true,
@@ -116,6 +196,19 @@
   }
  ],
  "stellen": [
+  {
+   "titel": "Praktikum - Treasury & Tax sowie Werkscontrolling (80:20) (m/w/d)",
+   "firma": "Gerresheimer",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "38 Std./Woche",
+   "veroeffentlicht": "2026-11-02",
+   "datum_geschaetzt": true,
+   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/47b91959-ec25-4305-8820-aa90b07c139c?cHash=701ceb1dda6bdf0d4de36c8129ec38948e5e5b86b8dddb79d94d5622663ba346"
+  },
   {
    "titel": "Internship - Project Management for HR Digital Transformation Program (d/f/m)",
    "firma": "Schaeffler",
