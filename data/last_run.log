@@ -1,17 +1,11 @@
-Firmen: Gerresheimer, Dallmeier, Zippel, REWAG, das Stadtwerk Regensburg, Sparkasse Regensburg, TELIS FINANZ, Götz Management, DV Immobilien, Mittelbayerische
+Firmen: Gerresheimer, Zippel, REWAG, das Stadtwerk Regensburg, Sparkasse Regensburg, TELIS FINANZ, Götz Management, DV Immobilien, Mittelbayerische
 Bewertung: Stichwort-Regeln
 
 == Gerresheimer ==
-  0 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
-
-== Dallmeier ==
-  14 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  10 Stellen-Links gefunden
+  3 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  1 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['Praktikum - Treasury & Tax sowie Werkscontrolling (80:20) (m']
 
 == Zippel ==
   0 Stellen-Links gefunden
@@ -22,8 +16,8 @@ Bewertung: Stichwort-Regeln
 == REWAG ==
   23 Stellen-Links gefunden
   1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  1 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: ['Werkstudent Energievertrieb & Promotion (m/w/d)']
+  0 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: []
 
 == das Stadtwerk Regensburg ==
   6 Stellen-Links gefunden
@@ -32,41 +26,40 @@ Bewertung: Stichwort-Regeln
   (nur Liste) Beispiele: []
 
 == Sparkasse Regensburg ==
-  0 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  10 Stellen-Links gefunden
+  1 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
+  1 nach Ortsfilter (Liste)
+  (nur Liste) Beispiele: ['Werkstudent (m/w/d) mit bankfachlicher Aus-/ oder Weiterbild']
 
 == TELIS FINANZ ==
-  2 Stellen-Links gefunden
+  0 Stellen-Links gefunden
   0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
   0 nach Ortsfilter (Liste)
   (nur Liste) Beispiele: []
 
 == Götz Management ==
-  2 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  ! Fehler bei Götz Management: Page.goto: net::ERR_TIMED_OUT at https://goetz-fm.com/karriere-bei-goetz/jobs/
+Call log:
+  - navigating to "https://goetz-fm.com/karriere-bei-goetz/jobs/", waiting until "domcontentloaded"
+
 
 == DV Immobilien ==
-  0 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
+  ! Fehler bei DV Immobilien: Page.goto: Navigation to "https://www.dvimmobilien.de/" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.dvimmobilien.de/", waiting until "domcontentloaded"
+
 
 == Mittelbayerische ==
-  37 Stellen-Links gefunden
-  0 davon Praktikum/Werkstudent/Junior/Trainee (Titel)
-  0 nach Ortsfilter (Liste)
-  (nur Liste) Beispiele: []
-  ERR Gerresheimer: 0 Links, 8s Keine Stellen gefunden (Seite evtl. geändert)
-  OK  Dallmeier: 14 Links, 23s 
-  ERR Zippel: 0 Links, 5s Keine Stellen gefunden (Seite evtl. geändert)
+  ! Fehler bei Mittelbayerische: Page.goto: Navigation to "https://mediengruppe-bayern-gmbh.jobs.personio.de/" is interrupted by another navigation to "https://www.dvimmobilien.de/de/"
+Call log:
+  - navigating to "https://mediengruppe-bayern-gmbh.jobs.personio.de/", waiting until "domcontentloaded"
+
+  OK  Gerresheimer: 10 Links, 6s 
+  ERR Zippel: 0 Links, 7s Keine Stellen gefunden (Seite evtl. geändert)
   OK  REWAG: 23 Links, 6s 
-  OK  das Stadtwerk Regensburg: 6 Links, 11s 
-  ERR Sparkasse Regensburg: 0 Links, 11s Keine Stellen gefunden (Seite evtl. geändert)
-  OK  TELIS FINANZ: 2 Links, 7s 
-  OK  Götz Management: 2 Links, 71s 
-  ERR DV Immobilien: 0 Links, 7s Keine Stellen gefunden (Seite evtl. geändert)
-  OK  Mittelbayerische: 37 Links, 8s 
+  OK  das Stadtwerk Regensburg: 6 Links, 8s 
+  OK  Sparkasse Regensburg: 10 Links, 11s 
+  ERR TELIS FINANZ: 0 Links, 7s Keine Stellen gefunden (Seite evtl. geändert)
+  ERR Götz Management: 0 Links, 32s Fehler: Error
+  ERR DV Immobilien: 0 Links, 1s Fehler: Error
+  ERR Mittelbayerische: 0 Links, 1s Fehler: Error
