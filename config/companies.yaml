@@ -197,6 +197,12 @@
   job_url: https://www.aok.de{slug}
   json_match_link: true
 
+- name: Otto Lehmann
+  career_url: https://www.ottolehmann.com/unternehmen/karriere/stellenangebote
+  enabled: true
+  list_url: https://www.ottolehmann.com/unternehmen/karriere/stellenangebote
+  job_link: (stellen|job|karriere)[^#]*[a-z0-9-]{6,}
+
 # ---- derzeit nicht abfragbar ----
 
 - name: Zippel
