@@ -114,6 +114,7 @@ def _click_load_more(page: Page) -> bool:
     return False
 
 
+GENERIC_LINK = re.compile(r"^\s*(jetzt )?(bewerben|mehr erfahren|mehr|details|zur stelle|apply( now)?|more|ansehen)\s*$|\s+(jetzt )?bewerben\s*$", re.I)
 NEXT_PAGE = re.compile(r"(nächste( seite)?|next( page)?|weiter|^›$|^»$|^>$)", re.I)
 
 
@@ -352,11 +353,12 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
 
     jobs: dict[str, dict] = {}
     for l in raw_links:
-        url = l["href"].split("#")[0].rstrip("/")
+        url = l["href"] if company.get("keep_hash") else l["href"].split("#")[0].rstrip("/")
         title = clean(l["text"]).split(" · ")[0]
         card = clean(l["card"])
-        if len(title) < 4 or len(title) > 250:
-            title = card[:200]
+        if len(title) < 4 or len(title) > 250 or GENERIC_LINK.match(title):
+            title = GENERIC_LINK.sub("", card)
+            title = re.sub(r"\s+[A-ZÄÖÜ][\wäöüß .\-/]*,\s*(Deutschland|Germany)\s*$", "", title).strip()[:200]
         jobs.setdefault(url, {"url": url, "title": title, "location": "", "posted": parse_date(card),
                               "card": card, "source": "link"})
     for j in jobs_from_json(payloads, company, company["list_url"]):
