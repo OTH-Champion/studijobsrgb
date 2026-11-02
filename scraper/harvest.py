@@ -359,6 +359,10 @@ def harvest(page: Page, company: dict, debug: dict | None = None) -> list[dict]:
     for l in raw_links:
         url = l["href"] if company.get("keep_hash") else l["href"].split("#")[0].rstrip("/")
         title = clean(l["text"]).split(" · ")[0]
+        if company.get("title_until"):  # Kartentext nach dem eigentlichen Titel abschneiden
+            m = re.search(company["title_until"], title)
+            if m:
+                title = re.sub(r"(\S)\(", r"\1 (", title[:m.end()]).strip()
         card = clean(l["card"])
         if len(title) < 4 or len(title) > 250 or GENERIC_LINK.match(title):
             title = GENERIC_LINK.sub("", card)

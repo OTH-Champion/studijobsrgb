@@ -9,6 +9,7 @@
 #   pages       optional: Blätter-Logik, {offset} bzw. {page} wird ersetzt
 #   job_url     optional: Link-Vorlage, falls die Stellen nur als Daten (JSON) kommen
 #   json_match_link  optional: JSON-Treffer nur übernehmen, wenn der Link zu job_link passt
+#   title_until optional: Titel nach diesem Muster abschneiden (Rest der Stellenkarte weg)
 
 - name: Infineon
   career_url: https://jobs.infineon.com/careers
@@ -202,6 +203,7 @@
   enabled: true
   list_url: https://www.ottolehmann.com/unternehmen/karriere/stellenangebote
   job_link: ottolehmann\.com/unternehmen/karriere/stellenangebot/[a-z0-9-]+
+  title_until: '\(m/w/d\)'
 
 # ---- derzeit nicht abfragbar ----
 
