@@ -133,11 +133,12 @@
   list_url: https://www.dallmeier.com/about-us/careers
   job_link: /about-us/careers/(?!online-application)[a-z0-9]
 
-- name: Zippel
-  career_url: https://www.zippel.com/
+- name: TELIS FINANZ
+  career_url: https://telis-karriere.de/
   enabled: true
-  list_url: https://www.zippel.com/
-  job_link: (job|stelle|karriere)[^?#]*[a-z0-9-]{8,}
+  list_url: https://telis-karriere.de/
+  job_link: telis-karriere\.de/.*(job|stelle|position|vacanc)[^?#]*[a-z0-9-]{6,}
+  card_has_location: true
 
 - name: REWAG
   career_url: https://rewag-karriere.softgarden.io/de/vacancies
@@ -158,12 +159,6 @@
   enabled: true
   list_url: https://www.sparkasse.de/jobboerse/sparkasse-regensburg.html
   job_link: /jobboerse/sparkasse-regensburg/.+-\d+\.html
-
-- name: TELIS FINANZ
-  career_url: https://www.telis-finanz.de/karriere/in-der-zentrale
-  enabled: true
-  list_url: https://www.telis-finanz.de/karriere/in-der-zentrale
-  job_link: (job|stelle|position|karriere/in-der-zentrale/)[^?#]*[a-z0-9-]{6,}
 
 - name: Götz Management
   career_url: https://goetz-fm.com/karriere-bei-goetz/jobs/
@@ -187,6 +182,11 @@
   card_has_location: true
 
 # ---- derzeit nicht abfragbar ----
+
+- name: Zippel
+  career_url: https://zippel.com/de/
+  enabled: false
+  # Zippel ist seit 2023 insolvent, das Team arbeitet als ITR GmbH (Pettendorf); keine Stellenliste vorhanden
 
 - name: Schneider Electric
   career_url: https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg

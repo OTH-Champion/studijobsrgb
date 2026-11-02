@@ -121,13 +121,26 @@ def main() -> int:
         page = ctx.new_page()
 
         for comp in companies:
+            # frische Seite je Firma: hängende Navigationen der Vorgängerin stören sonst
+            try:
+                page.close()
+            except Exception:
+                pass
+            page = ctx.new_page()
             name = comp["name"]
             dbg = {} if args.debug else None
             status = {"name": name, "career_url": comp["career_url"], "ok": True, "found": 0, "note": ""}
             t0 = time.time()
             print(f"\n== {name} ==")
             try:
-                raw = harvest(page, comp, dbg)
+                try:
+                    raw = harvest(page, comp, dbg)
+                except Exception as first:
+                    if not any(k in str(first) for k in ("ERR_", "Timeout", "interrupted")):
+                        raise
+                    print(f"  Wiederholung nach Fehler: {str(first)[:80]}")
+                    page.close(); page = ctx.new_page()
+                    raw = harvest(page, comp, dbg)
                 status["found"] = len(raw)
                 print(f"  {len(raw)} Stellen-Links gefunden")
                 cands = [r for r in raw if title_is_student_job(
