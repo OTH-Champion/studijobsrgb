@@ -188,7 +188,7 @@ def _first(d: dict, keys) -> object:
 
 def _loc_to_text(loc) -> str:
     if isinstance(loc, list):
-        return "; ".join(_loc_to_text(x) for x in loc[:10])
+        return "; ".join(_loc_to_text(x) for x in loc[:60])
     if isinstance(loc, dict):
         parts = [loc.get(k) for k in ("name", "city", "addressLocality", "locality", "state", "country") if loc.get(k)]
         return ", ".join(str(p) for p in parts)
@@ -224,7 +224,8 @@ def jobs_from_json(payloads: list, company: dict, base_url: str) -> list[dict]:
         jobs.append({
             "url": url.rstrip("/"),
             "title": clean(title),
-            "location": _loc_to_text(_first(d, LOC_KEYS)),
+            "location": _loc_to_text(d.get(company["json_location"]) if company.get("json_location")
+                                     else _first(d, LOC_KEYS)),
             "posted": parse_date(_first(d, DATE_KEYS)),
             "department": clean(str(_first(d, ("department", "category", "jobFamily", "business_unit")) or "")),
             "source": "json",

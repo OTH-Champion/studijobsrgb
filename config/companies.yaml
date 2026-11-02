@@ -9,6 +9,7 @@
 #   pages       optional: Blätter-Logik, {offset} bzw. {page} wird ersetzt
 #   job_url     optional: Link-Vorlage, falls die Stellen nur als Daten (JSON) kommen
 #   json_match_link  optional: JSON-Treffer nur übernehmen, wenn der Link zu job_link passt
+#   json_location optional: JSON-Feld mit den Standorten (wenn das Standardfeld nicht passt)
 #   title_until optional: Titel nach diesem Muster abschneiden (Rest der Stellenkarte weg)
 
 - name: Infineon
@@ -217,7 +218,10 @@
   list_url: https://jobs.kpmg.de/?currentPage=1&pageSize=10&filter2=Studierende
   extra_urls:
     - https://jobs.kpmg.de/?currentPage=1&pageSize=10&filter2=Absolventen
-  job_link: jobs\.kpmg\.de/job/[^?#]+/\d+
+  # Alle Stellen kommen aus einer Such-API (JSON); Städte stehen im Feld "addresses"
+  job_link: jobs\.kpmg\.de/job
+  json_location: addresses
+  json_match_link: true
 
 # ---- derzeit nicht abfragbar ----
 
