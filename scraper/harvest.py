@@ -36,7 +36,7 @@ URL_KEYS = ("canonicalPositionUrl", "positionUrl", "jobUrl", "url", "applyUrl", 
 LOC_KEYS = ("location", "locations", "full_location", "short_location", "cityLabel", "city", "primaryLocation", "jobLocation", "locationName",
             "standardizedLocations", "cityState", "workLocation")
 DATE_KEYS = ("posted_date", "publicationDate", "postingDate", "t_create", "postedTs", "postedDate", "datePosted", "createdDate", "publishedDate",
-             "postingDate", "creationDate", "posted_on", "startDate_posted", "releasedDate")
+             "postingDate", "creationDate", "posted_on", "startDate_posted", "releasedDate", "posting_start_date")
 
 
 def dismiss_cookies(page: Page) -> None:
