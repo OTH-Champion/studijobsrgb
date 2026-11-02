@@ -1,0 +1,7 @@
+[
+ {
+  "url": "https://consentcdn.cookiebot.com/consentconfig/979a0c03-59c4-4b9f-93c9-3c0130d58dca/settings.json",
+  "size": 619,
+  "sample": "{\"widget\":{\"enabled\":true,\"position\":{\"position\":\"bottom-left\",\"distanceVerticalPx\":10,\"distanceHorizontalPx\":10},\"theme\":{\"closed\":{\"backgroundColor\":\"#545454\",\"foregroundColor\":\"#FFFFFF\"},\"opened\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#1032CF\",\"shadeColor\":\"#D6D6D6\",\"changeBackgroundColor\":\"#1032CF\",\"changeTextColor\":\"#FFFFFF\",\"changeBorderColor\":\"#1032CF\",\"withdrawBackgroundColor\":\"#FFFFFF\",\"withdrawTextColor\":\"#141414\",\"withdrawBorderColor\":\"#1032CF\",\"detailsBackgroundColor\":\"#F2F2F2\"}},\"content\":{\"cultures\":[\"de\"],\"default\":\"de\",\"autodetectLanguage\":true}},\"twipla\":null}"
+ }
+]
