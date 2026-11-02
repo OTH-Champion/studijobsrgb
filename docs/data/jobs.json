@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T12:35+00:00",
+ "aktualisiert": "2026-11-02T13:09+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -165,6 +165,22 @@
   {
    "name": "Mittelbayerische",
    "career_url": "https://mediengruppe-bayern-gmbh.jobs.personio.de/",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "Stadt Regensburg",
+   "career_url": "https://www.regensburg.de/rathaus/karriere-und-ausbildung/aktuelle-stellenangebote",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 1
+  },
+  {
+   "name": "AOK Regensburg",
+   "career_url": "https://www.aok.de/karriere/stellenangebote/",
    "ok": true,
    "note": "",
    "aktiv": true,
@@ -1547,6 +1563,19 @@
    "veroeffentlicht": "2026-08-19",
    "datum_geschaetzt": false,
    "link": "https://jobs.bsh-group.de/45311-praktikant-in-ki-gest-analyse-von-app-store-feedback-m-w-d/de/job.html"
+  },
+  {
+   "titel": "Praktikum im Kulturamt – Bereich Event- und Projektmanagement, Konzept- und Öffentlichkeitsarbeit - Stellen-Nr. P41-03",
+   "firma": "Stadt Regensburg",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-06-17",
+   "datum_geschaetzt": false,
+   "link": "https://karriere.regensburg.de/10420-praktikum-im-kulturamt-bereich-event-und-projektmanagement-konzept-und-oeffentlichkeitsarbeit/job.html"
   },
   {
    "titel": "Werkstudent (m/w/d) mit bankfachlicher Aus-/ oder Weiterbildung",
