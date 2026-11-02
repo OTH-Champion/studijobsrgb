@@ -136,8 +136,8 @@
 - name: TELIS FINANZ
   career_url: https://telis-karriere.de/
   enabled: true
-  list_url: https://telis-karriere.de/
-  job_link: telis-karriere\.de/.*(job|stelle|position|vacanc)[^?#]*[a-z0-9-]{6,}
+  list_url: https://telis-karriere.de/stellenangebote.html
+  job_link: telis-karriere\.de/(?!stellenangebote\.html)[^?#]*(job|stelle|position)[^?#]*[a-z0-9-]{6,}
   card_has_location: true
 
 - name: REWAG
@@ -169,9 +169,9 @@
   card_has_location: true
 
 - name: DV Immobilien
-  career_url: https://www.dvimmobilien.de/
+  career_url: https://dv-gruppe.de/de/karriere
   enabled: true
-  list_url: https://www.dvimmobilien.de/
+  list_url: https://dv-gruppe.de/de/karriere
   job_link: (job|stelle|karriere)[^?#]*[a-z0-9-]{6,}
 
 - name: Mittelbayerische
