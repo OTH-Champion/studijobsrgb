@@ -181,6 +181,18 @@
   job_link: jobs\.personio\.de/job/\d+
   card_has_location: true
 
+- name: Stadt Regensburg
+  career_url: https://www.regensburg.de/rathaus/karriere-und-ausbildung/aktuelle-stellenangebote
+  enabled: true
+  list_url: https://www.regensburg.de/rathaus/karriere-und-ausbildung/aktuelle-stellenangebote
+  job_link: (stellen|job|karriere)[^#]*[a-z0-9-]{6,}
+
+- name: AOK Regensburg
+  career_url: https://www.aok.de/karriere/stellenangebote/
+  enabled: true
+  list_url: https://www.aok.de/karriere/stellenangebote/
+  job_link: (stellen|job)[^#]*[a-z0-9-]{6,}
+
 # ---- derzeit nicht abfragbar ----
 
 - name: Zippel
