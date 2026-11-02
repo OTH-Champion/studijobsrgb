@@ -26,7 +26,12 @@
 </header>
 
 <main class="wrap">
-  <section class="filters" aria-label="Filter">
+  <nav class="tabs" role="tablist" aria-label="Ansicht">
+    <button type="button" class="tab" role="tab" id="tab-alle" data-tab="alle" aria-selected="true">Alle Stellen</button>
+    <button type="button" class="tab" role="tab" id="tab-fav" data-tab="fav" aria-selected="false"><span class="star" aria-hidden="true">★</span> Favoriten <span class="n" id="fav-n">0</span></button>
+  </nav>
+
+  <section class="filters" id="filters" aria-label="Filter">
     <div class="search">
       <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Suche nach Titel oder Stichwort" autocomplete="off">
@@ -54,7 +59,7 @@
     <table class="jobs" id="jobs">
       <thead>
         <tr>
-          <th>Stelle</th><th>Art</th><th>Fachbereich</th><th>Standort</th><th>Modell</th>
+          <th>Stelle</th><th>Art</th><th>Fachbereich</th><th>Standort</th>
           <th>Start</th><th>Zeitraum</th><th>Veröffentlicht</th><th><span class="sr">Link</span></th>
         </tr>
       </thead>
@@ -62,12 +67,13 @@
     </table>
   </div>
   <p class="empty" id="empty" hidden>Keine Stellen passen zu deinen Filtern.</p>
+  <p class="empty" id="empty-fav" hidden>Noch keine Favoriten. Markiere Stellen mit dem Stern ☆, dann findest du sie hier gesammelt. Die Favoriten werden nur in diesem Browser auf diesem Gerät gespeichert.</p>
 
   <section class="sources" id="sources" aria-label="Unternehmen"></section>
 </main>
 
 <footer class="wrap foot">
-  <p>Alle Angaben ohne Gewähr. Maßgeblich ist immer die Originalanzeige auf der Karriereseite des Unternehmens. „k. A.“ heißt: steht nicht in der Anzeige. Ein Datum mit ≈ ist das Datum, an dem die Stelle hier zuerst erfasst wurde.</p>
+  <p>Alle Angaben ohne Gewähr. Maßgeblich ist immer die Originalanzeige auf der Karriereseite des Unternehmens. „k. A.“ heißt: steht nicht in der Anzeige. Ein Datum mit ≈ ist das Datum, an dem die Stelle hier zuerst erfasst wurde. Favoriten liegen ausschließlich im Speicher deines Browsers; eine Stelle, die nicht mehr online ist, verschwindet auch aus den Favoriten.</p>
   <p><a href="datenschutz.html">Hinweise &amp; Datenschutz</a></p>
 </footer>
 

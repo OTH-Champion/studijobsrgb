@@ -1,8 +1,21 @@
 (() => {
   const ARTEN = ["Praktikum", "Werkstudent", "Trainee", "Junior / Berufseinstieg"];
   const $ = (id) => document.getElementById(id);
-  const state = { art: new Set(), ort: "", firma: "", fach: "", datum: "", ab: "", q: "" };
+  const state = { tab: "alle", art: new Set(), ort: "", firma: "", fach: "", datum: "", ab: "", q: "" };
   let jobs = [];
+
+  // Favoriten: nur im Browser (localStorage), Schlüssel ist der Stellen-Link
+  const FAV_KEY = "studijobs-favoriten";
+  const loadFavs = () => {
+    try {
+      const raw = JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
+      return new Set(Array.isArray(raw) ? raw.filter((x) => typeof x === "string") : []);
+    } catch { return new Set(); }
+  };
+  const saveFavs = () => {
+    try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); } catch { /* Speicher gesperrt: Favoriten gelten nur bis zum Neuladen */ }
+  };
+  const favs = loadFavs();
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtDate = (iso) => {
@@ -15,11 +28,13 @@
 
   function readUrl() {
     const p = new URLSearchParams(location.hash.slice(1));
+    state.tab = p.get("tab") === "fav" ? "fav" : "alle";
     (p.get("art") || "").split(",").filter(Boolean).forEach((a) => state.art.add(a));
     for (const k of ["ort", "firma", "fach", "datum", "ab", "q"]) state[k] = p.get(k) || "";
   }
   function writeUrl() {
     const p = new URLSearchParams();
+    if (state.tab === "fav") p.set("tab", "fav");
     if (state.art.size) p.set("art", [...state.art].join(","));
     for (const k of ["ort", "firma", "fach", "datum", "ab", "q"]) if (state[k]) p.set(k, state[k]);
     history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
@@ -52,23 +67,41 @@
     }).join("");
   }
 
+  function renderTabs() {
+    const isFav = state.tab === "fav";
+    $("tab-alle").setAttribute("aria-selected", String(!isFav));
+    $("tab-fav").setAttribute("aria-selected", String(isFav));
+    $("fav-n").textContent = jobs.filter((j) => favs.has(j.link)).length;
+    $("filters").hidden = isFav;
+  }
+
   function render() {
+    const isFav = state.tab === "fav";
+    renderTabs();
     renderChips();
-    const list = jobs.filter((j) => matches(j));
-    $("rows").innerHTML = list.map((j) => `
+    const list = isFav ? jobs.filter((j) => favs.has(j.link)) : jobs.filter((j) => matches(j));
+    $("rows").innerHTML = list.map((j) => {
+      const on = favs.has(j.link);
+      return `
       <tr>
-        <td class="c-title"><div class="title">${esc(j.titel)}</div><div class="company">${esc(j.firma)}</div></td>
+        <td class="c-title"><div class="c-row">
+          <button type="button" class="fav" data-link="${esc(j.link)}" aria-pressed="${on}" aria-label="${on ? "Aus Favoriten entfernen" : "Als Favorit markieren"}: ${esc(j.titel)}" title="${on ? "Aus Favoriten entfernen" : "Als Favorit markieren"}">${on ? "★" : "☆"}</button>
+          <div class="c-text"><div class="title">${esc(j.titel)}</div><div class="company">${esc(j.firma)}</div></div>
+        </div></td>
         <td data-l="Art"><span class="badge">${esc(j.art)}</span></td>
         <td data-l="Fachbereich">${val(j.fachbereich)}</td>
         <td data-l="Standort">${val(j.standort)}</td>
-        <td data-l="Modell">${val(j.arbeitsmodell)}</td>
         <td data-l="Start">${val(j.start)}</td>
         <td data-l="Zeitraum">${val(j.umfang)}</td>
         <td class="c-date" data-l="Veröffentlicht" title="${j.datum_geschaetzt ? "Zuerst erfasst am" : "Veröffentlicht am"}">${j.datum_geschaetzt ? "≈ " : ""}${fmtDate(j.veroeffentlicht)}</td>
         <td class="c-link"><a class="go" href="${esc(j.link)}" target="_blank" rel="noopener noreferrer">Zur Stelle ↗</a></td>
-      </tr>`).join("");
-    $("count").textContent = `${list.length} von ${jobs.length} Stellen`;
-    $("empty").hidden = list.length > 0;
+      </tr>`;
+    }).join("");
+    $("count").textContent = isFav
+      ? `${list.length} ${list.length === 1 ? "Favorit" : "Favoriten"}`
+      : `${list.length} von ${jobs.length} Stellen`;
+    $("empty").hidden = isFav || list.length > 0;
+    $("empty-fav").hidden = !isFav || list.length > 0;
     document.querySelector(".table-wrap").hidden = list.length === 0;
     writeUrl();
   }
@@ -98,6 +131,28 @@
     $("meta").textContent = `${jobs.length} Stellen · zuletzt aktualisiert am ${upd.toLocaleDateString("de-DE", { day: "2-digit", month: "long", year: "numeric" })}`;
     renderSources(data);
     $("n-firmen").textContent = `${data.firmen.length} Arbeitgeber, z. B. Krones, Aumovio, Infineon`;
+
+    $("rows").addEventListener("click", (e) => {
+      const b = e.target.closest(".fav");
+      if (!b) return;
+      const link = b.dataset.link;
+      favs.has(link) ? favs.delete(link) : favs.add(link);
+      saveFavs();
+      render();
+    });
+    document.querySelector(".tabs").addEventListener("click", (e) => {
+      const t = e.target.closest(".tab");
+      if (!t) return;
+      state.tab = t.dataset.tab;
+      render();
+      window.scrollTo({ top: 0 });
+    });
+    window.addEventListener("storage", (e) => {
+      if (e.key !== FAV_KEY) return;
+      favs.clear();
+      loadFavs().forEach((l) => favs.add(l));
+      render();
+    });
 
     $("f-art").addEventListener("click", (e) => {
       const b = e.target.closest(".chip");
