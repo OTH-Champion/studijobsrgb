@@ -26,7 +26,7 @@ FACH_RULES = [
     ("Einkauf & Supply Chain", r"einkauf|procurement|purchas|beschaffung|sourcing|supply|logisti|\bscm\b|materialwirtschaft|disposition|lieferanten|zoll|customs|transport|spedition|total cost|\btco\b|scheduling|resource management|travel"),
     ("Personal (HR)", r"\bhr\b|human resources|personal|recruit|talent|people|learning|change management|adoption|health management|gesundheitsmanagement"),
     ("Marketing & Kommunikation", r"marketing|kommunikation|communication|\bpr\b|social media|brand|content|event|employer branding|storytelling|video|redaktion|text"),
-    ("Finanzen & Controlling", r"controlling|controller|finance|finanz|accounting|buchhaltung|rechnungswesen|\bsteuer|\btax|treasury|audit|revision|reporting|ifrs|financial|bilanz|konsolidierung"),
+    ("Finanzen & Controlling", r"controlling|controller|finance|finanz|accounting|buchhaltung|rechnungswesen|\bsteuer|\btax|treasury|audit|revision|reporting|ifrs|financial|bilanz|konsolidierung|bankfach|bankbetrieb|bankkaufm|kreditwesen|kundenberater|vermögensberat"),
     ("Business Development & Strategie", r"business development|strateg|m&a|corporate development|innovation|geschäftsentwicklung|portfolio|entrepreneur"),
     ("Projektmanagement", r"projekt|project|\bpmo\b|program management|koordination|coordination"),
     ("Digitalisierung, Daten & KI", r"digital|data|daten|analytics|\bbi\b|power ?bi|business intelligence|\bsap\b|\bcrm\b|\bki\b|\bai\b|künstliche intelligenz|prozessmanagement|prozessoptimierung|process management|process transformation|it-?consult|business analyst|servicenow|microsoft 365|master data|stammdaten"),
