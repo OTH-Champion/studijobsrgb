@@ -262,7 +262,9 @@ def main() -> int:
             j["kept_runs"] = j.get("kept_runs", 0) + 1
             active_urls.add(url)
     # Inaktive Stellen entfernen
-    state["jobs"] = {u: j for u, j in state["jobs"].items() if u in active_urls}
+    queried = {c["name"] for c in companies}
+    state["jobs"] = {u: j for u, j in state["jobs"].items()
+                     if u in active_urls or j["company"] not in queried}  # Teil-Läufe lassen andere Firmen unberührt
     for j in state["jobs"].values():
         if j["company"] not in failed:
             j.pop("kept_runs", None)
