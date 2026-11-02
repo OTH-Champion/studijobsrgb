@@ -2,8 +2,9 @@ name: Stellen aktualisieren
 
 on:
   schedule:
-    # Jeden Montag um 05:17 Uhr deutscher Zeit (04:17 UTC im Winter)
+    # Montags früh; Donnerstag als Ersatz, falls GitHub einen Termin auslässt
     - cron: "17 4 * * 1"
+    - cron: "43 3 * * 4"
   workflow_dispatch:
     inputs:
       debug:

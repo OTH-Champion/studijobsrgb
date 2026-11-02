@@ -1,7 +1,7 @@
 (() => {
   const ARTEN = ["Praktikum", "Werkstudent", "Trainee", "Junior / Berufseinstieg"];
   const $ = (id) => document.getElementById(id);
-  const state = { art: new Set(), ort: "", firma: "", fach: "", datum: "", q: "" };
+  const state = { art: new Set(), ort: "", firma: "", fach: "", datum: "", ab: "", q: "" };
   let jobs = [];
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -16,12 +16,12 @@
   function readUrl() {
     const p = new URLSearchParams(location.hash.slice(1));
     (p.get("art") || "").split(",").filter(Boolean).forEach((a) => state.art.add(a));
-    for (const k of ["ort", "firma", "fach", "datum", "q"]) state[k] = p.get(k) || "";
+    for (const k of ["ort", "firma", "fach", "datum", "ab", "q"]) state[k] = p.get(k) || "";
   }
   function writeUrl() {
     const p = new URLSearchParams();
     if (state.art.size) p.set("art", [...state.art].join(","));
-    for (const k of ["ort", "firma", "fach", "datum", "q"]) if (state[k]) p.set(k, state[k]);
+    for (const k of ["ort", "firma", "fach", "datum", "ab", "q"]) if (state[k]) p.set(k, state[k]);
     history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
   }
 
@@ -36,6 +36,7 @@
     if (state.firma && j.firma !== state.firma) return false;
     if (state.fach && j.fachbereich !== state.fach) return false;
     if (state.datum && daysAgo(j.veroeffentlicht) > Number(state.datum)) return false;
+    if (state.ab && j.veroeffentlicht < state.ab) return false;
     if (state.q) {
       const hay = `${j.titel} ${j.firma} ${j.fachbereich} ${j.standort}`.toLowerCase();
       if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
@@ -87,10 +88,12 @@
     fillSelect($("f-firma"), uniq(jobs.map((j) => j.firma)), "Alle Firmen", state.firma);
     fillSelect($("f-fach"), uniq(jobs.map((j) => j.fachbereich)), "Alle Fachbereiche", state.fach);
     $("f-datum").value = state.datum;
+    $("f-ab").value = state.ab;
     $("q").value = state.q;
     const upd = new Date(data.aktualisiert);
     $("meta").textContent = `${jobs.length} Stellen · zuletzt aktualisiert am ${upd.toLocaleDateString("de-DE", { day: "2-digit", month: "long", year: "numeric" })}`;
     renderSources(data);
+    $("n-firmen").textContent = `${data.firmen.length} Arbeitgeber, z. B. Krones, Aumovio, Infineon`;
 
     $("f-art").addEventListener("click", (e) => {
       const b = e.target.closest(".chip");
@@ -100,11 +103,11 @@
       render();
     });
     const bind = (id, key) => $(id).addEventListener("input", (e) => { state[key] = e.target.value; render(); });
-    bind("f-ort", "ort"); bind("f-firma", "firma"); bind("f-fach", "fach"); bind("f-datum", "datum"); bind("q", "q");
+    bind("f-ort", "ort"); bind("f-firma", "firma"); bind("f-fach", "fach"); bind("f-datum", "datum"); bind("f-ab", "ab"); bind("q", "q");
     $("reset").addEventListener("click", () => {
       state.art.clear();
-      for (const k of ["ort", "firma", "fach", "datum", "q"]) state[k] = "";
-      for (const id of ["f-ort", "f-firma", "f-fach", "f-datum", "q"]) $(id).value = "";
+      for (const k of ["ort", "firma", "fach", "datum", "ab", "q"]) state[k] = "";
+      for (const id of ["f-ort", "f-firma", "f-fach", "f-datum", "f-ab", "q"]) $(id).value = "";
       render();
     });
     render();

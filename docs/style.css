@@ -50,6 +50,19 @@ a { color: var(--accent); }
 h1 { margin: 0; font-size: clamp(28px, 4.5vw, 42px); line-height: 1.1; letter-spacing: -.02em; }
 .lead { margin: 12px 0 0; max-width: 60ch; color: var(--muted); font-size: 16px; }
 .meta { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
+.facts {
+  list-style: none; padding: 0; margin: 20px 0 0; display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; max-width: 860px;
+}
+.facts li {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 10px 12px; font-size: 14px; line-height: 1.35;
+}
+.facts strong {
+  display: block; font-size: 11px; font-weight: 600; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .05em; margin-bottom: 2px;
+}
+@media (max-width: 700px) { .facts { grid-template-columns: 1fr 1fr; } }
 
 /* Filter */
 .filters {
@@ -66,7 +79,7 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 42px); line-height: 1.1; letter-sp
   width: 100%; padding: 11px 12px 11px 38px; font: inherit; color: var(--ink);
   background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
 }
-.search input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.search input:focus, select:focus, input[type="date"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   border: 1px solid var(--line); background: var(--chip); color: var(--ink);
@@ -74,9 +87,9 @@ h1 { margin: 0; font-size: clamp(28px, 4.5vw, 42px); line-height: 1.1; letter-sp
 }
 .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .chip .n { opacity: .7; margin-left: 4px; font-size: 12px; }
-.selects { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) auto; gap: 10px; align-items: end; }
+.selects { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)) auto; gap: 10px; align-items: end; }
 .selects label { display: grid; gap: 4px; font-size: 12px; font-weight: 600; color: var(--muted); }
-select {
+select, input[type="date"] {
   width: 100%; padding: 9px 10px; font: inherit; font-size: 14px; color: var(--ink);
   background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
 }
