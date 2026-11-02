@@ -205,6 +205,20 @@
   job_link: ottolehmann\.com/unternehmen/karriere/stellenangebot/[a-z0-9-]+
   title_until: '\(m/w/d\)'
 
+- name: Keyence
+  career_url: https://career.keyence.de/go/JOBS/2945201/
+  enabled: true
+  list_url: https://career.keyence.de/go/JOBS/2945201/
+  job_link: /job/[^?#]+/\d+
+
+- name: KPMG
+  career_url: https://karriere.kpmg.de/dein-einstieg/studierende.html
+  enabled: true
+  list_url: https://karriere.kpmg.de/dein-einstieg/studierende.html
+  extra_urls:
+    - https://karriere.kpmg.de/dein-einstieg/absolventinnen.html
+  job_link: (job|stelle|position)[^#]*[a-z0-9-]{6,}
+
 # ---- derzeit nicht abfragbar ----
 
 - name: Zippel
