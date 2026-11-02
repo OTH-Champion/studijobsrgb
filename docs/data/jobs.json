@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T13:09+00:00",
+ "aktualisiert": "2026-11-02T13:23+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -187,6 +187,14 @@
    "stellen": 0
   },
   {
+   "name": "Otto Lehmann",
+   "career_url": "https://www.ottolehmann.com/unternehmen/karriere/stellenangebote",
+   "ok": true,
+   "note": "",
+   "aktiv": true,
+   "stellen": 1
+  },
+  {
    "name": "Zippel",
    "career_url": "https://zippel.com/de/",
    "ok": true,
@@ -224,6 +232,19 @@
    "veroeffentlicht": "2026-11-02",
    "datum_geschaetzt": true,
    "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/47b91959-ec25-4305-8820-aa90b07c139c?cHash=701ceb1dda6bdf0d4de36c8129ec38948e5e5b86b8dddb79d94d5622663ba346"
+  },
+  {
+   "titel": "Werkstudent Business Development(m/w/d) Neutraubling Hybrid Werkstudent ab sofort →",
+   "firma": "Otto Lehmann",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Business Development & Strategie",
+   "start": "ab sofort",
+   "umfang": "5 Std./Woche",
+   "veroeffentlicht": "2026-11-02",
+   "datum_geschaetzt": true,
+   "link": "https://www.ottolehmann.com/unternehmen/karriere/stellenangebot/werkstudent-business-development"
   },
   {
    "titel": "Internship - Project Management for HR Digital Transformation Program (d/f/m)",

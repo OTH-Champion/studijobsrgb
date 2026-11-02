@@ -1696,6 +1696,22 @@
    "umfang": "Vollzeit",
    "url": "https://www.krones.com/de/karriere/stellenausschreibung/?job=957"
   },
+  "https://www.ottolehmann.com/unternehmen/karriere/stellenangebot/werkstudent-business-development": {
+   "arbeitsmodell": "Hybrid",
+   "art": "Werkstudent",
+   "bewertet_von": "regeln",
+   "company": "Otto Lehmann",
+   "fachbereich": "Business Development & Strategie",
+   "first_seen": "2026-11-02",
+   "grund": "Stichwort-Regel",
+   "last_seen": "2026-11-02",
+   "posted": null,
+   "standort": "Neutraubling",
+   "start": "ab sofort",
+   "title": "Werkstudent Business Development(m/w/d) Neutraubling Hybrid Werkstudent ab sofort →",
+   "umfang": "5 Std./Woche",
+   "url": "https://www.ottolehmann.com/unternehmen/karriere/stellenangebot/werkstudent-business-development"
+  },
   "https://www.sparkasse.de/jobboerse/sparkasse-regensburg/werkstudent-m-w-d-mit-bankfachlicher-aus-oder-weiterbildung-sparkasse-regensburg-199988.html": {
    "arbeitsmodell": "k. A.",
    "art": "Werkstudent",
@@ -2029,6 +2045,7 @@
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=976": "2026-11-02",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=978": "2026-11-02",
   "https://www.krones.com/de/karriere/stellenausschreibung/?job=992": "2026-11-02",
+  "https://www.ottolehmann.com/unternehmen/karriere/stellenangebot/werkstudent-metallbau-maschinenbau": "2026-11-02",
   "https://www.sparkasse.de/jobboerse/sparkasse-regensburg/werkstudent-m-w-d-mit-bankfachlicher-aus-oder-weiterbildung-sparkasse-regensburg-199988.html": "2026-11-02"
  },
  "version": 1
