@@ -7,6 +7,7 @@
    "career_url": "https://jobs.infineon.com/careers",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 0
   },
   {
@@ -14,6 +15,7 @@
    "career_url": "https://jobs.schaeffler.com/default/?locale=de_DE",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 1
   },
   {
@@ -21,6 +23,7 @@
    "career_url": "https://jobs.siemens.com/de_DE/externaljobs",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 0
   },
   {
@@ -28,6 +31,7 @@
    "career_url": "https://www.krones.com/de/karriere/jobs/jobs-deutschland/",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 66
   },
   {
@@ -35,6 +39,7 @@
    "career_url": "https://careers.telekom.com/de/jobs",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 0
   },
   {
@@ -42,6 +47,7 @@
    "career_url": "https://www.bmwgroup.jobs/de/de.html",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 0
   },
   {
@@ -49,6 +55,7 @@
    "career_url": "https://jobs.bsh-group.de/index",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 1
   },
   {
@@ -56,6 +63,7 @@
    "career_url": "https://jobs.bayernwerk.de/de",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 0
   },
   {
@@ -63,6 +71,7 @@
    "career_url": "https://www.reinhausen.com/de/karriere/jobs",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 12
   },
   {
@@ -70,6 +79,7 @@
    "career_url": "https://jobs.continental.com/de/",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 0
   },
   {
@@ -77,6 +87,7 @@
    "career_url": "https://jobs.aumovio.com/de/jobs/",
    "ok": true,
    "note": "",
+   "aktiv": true,
    "stellen": 24
   },
   {
@@ -84,6 +95,23 @@
    "career_url": "https://jobs.ams-osram.com/de",
    "ok": true,
    "note": "",
+   "aktiv": true,
+   "stellen": 0
+  },
+  {
+   "name": "Schneider Electric",
+   "career_url": "https://careers.se.com/jobs?lang=de-DE&country=Germany&city=Regensburg",
+   "ok": true,
+   "aktiv": false,
+   "note": "Stellen derzeit nicht automatisch abrufbar",
+   "stellen": 0
+  },
+  {
+   "name": "42 Coding Solutions",
+   "career_url": "https://42-coding-solutions.com/",
+   "ok": true,
+   "aktiv": false,
+   "note": "Stellen derzeit nicht automatisch abrufbar",
    "stellen": 0
   }
  ],

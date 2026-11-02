@@ -63,7 +63,7 @@
         <td data-l="Standort">${val(j.standort)}</td>
         <td data-l="Modell">${val(j.arbeitsmodell)}</td>
         <td data-l="Start">${val(j.start)}</td>
-        <td data-l="Umfang">${val(j.umfang)}</td>
+        <td data-l="Zeitraum">${val(j.umfang)}</td>
         <td class="c-date" data-l="Veröffentlicht" title="${j.datum_geschaetzt ? "Zuerst erfasst am" : "Veröffentlicht am"}">${j.datum_geschaetzt ? "≈ " : ""}${fmtDate(j.veroeffentlicht)}</td>
         <td class="c-link"><a class="go" href="${esc(j.link)}" target="_blank" rel="noopener noreferrer">Zur Stelle ↗</a></td>
       </tr>`).join("");
@@ -76,7 +76,8 @@
   function renderSources(data) {
     const items = data.firmen.map((f) =>
       `<li><a href="${esc(f.career_url)}" target="_blank" rel="noopener noreferrer">${esc(f.name)}</a> (${f.stellen})` +
-      (f.ok ? "" : ` <span class="warn" title="${esc(f.note)}">· Abruf fehlgeschlagen</span>`) + "</li>").join("");
+      (f.aktiv === false ? ` <span class="ka">· ${esc(f.note || "nicht abrufbar")}</span>`
+        : f.ok ? "" : ` <span class="warn" title="${esc(f.note)}">· Abruf fehlgeschlagen</span>`) + "</li>").join("");
     $("sources").innerHTML = `<h2>Berücksichtigte Unternehmen</h2><ul>${items}</ul>`;
   }
 
@@ -85,7 +86,10 @@
     readUrl();
     const uniq = (arr) => [...new Set(arr)].sort((a, b) => a.localeCompare(b, "de"));
     fillSelect($("f-ort"), uniq(jobs.flatMap(orte).filter((o) => o !== "k. A.")), "Alle Orte", state.ort);
-    fillSelect($("f-firma"), uniq(jobs.map((j) => j.firma)), "Alle Firmen", state.firma);
+    const firmen = uniq([...data.firmen.map((f) => f.name), ...jobs.map((j) => j.firma)]);
+    const anzahl = (n) => jobs.filter((j) => j.firma === n).length;
+    $("f-firma").innerHTML = `<option value="">Alle Firmen</option>` + firmen.map((n) =>
+      `<option value="${esc(n)}"${n === state.firma ? " selected" : ""}>${esc(n)} (${anzahl(n)})</option>`).join("");
     fillSelect($("f-fach"), uniq(jobs.map((j) => j.fachbereich)), "Alle Fachbereiche", state.fach);
     $("f-datum").value = state.datum;
     $("f-ab").value = state.ab;

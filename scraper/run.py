@@ -16,7 +16,7 @@ from datetime import date, datetime, timezone
 from playwright.sync_api import sync_playwright
 
 from . import classify
-from .common import (DEBUG_DIR, KA, OUTPUT_FILE, STATE_FILE, clean, load_companies,
+from .common import (DEBUG_DIR, KA, OUTPUT_FILE, STATE_FILE, clean, load_companies, load_yaml,
                      load_settings, region_match, slug, title_is_student_job)
 from .detail import fetch_detail
 from .harvest import harvest
@@ -34,6 +34,33 @@ def pick_title(list_title: str, detail_title: str) -> str:
         return t
     d = re.split(r"\s+[|]\s+|\s+-\s+Job Detail|\s+Job Details", clean(detail_title))[0]
     return d or t[:160]
+
+
+def previous_output() -> dict:
+    try:
+        return json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def all_companies(company_status: list[dict], jobs_out: list[dict], prev: dict) -> list[dict]:
+    """Alle Firmen aus companies.yaml, auch deaktivierte oder in diesem Lauf nicht abgefragte."""
+    status = {s["name"]: s for s in company_status}
+    prev_f = {f["name"]: f for f in prev.get("firmen", [])}
+    out = []
+    for c in load_yaml("companies.yaml"):
+        name = c["name"]
+        if name in status:
+            s = status[name]
+            e = {"name": name, "career_url": c["career_url"], "ok": s["ok"], "note": s["note"], "aktiv": True}
+        elif c.get("enabled") and name in prev_f:
+            e = dict(prev_f[name])  # bei Teil-Läufen (--only) letzten Stand übernehmen
+        else:
+            e = {"name": name, "career_url": c["career_url"], "ok": True, "aktiv": bool(c.get("enabled")),
+                 "note": "" if c.get("enabled") else "Stellen derzeit nicht automatisch abrufbar"}
+        e["stellen"] = sum(1 for j in jobs_out if j["firma"] == name)
+        out.append(e)
+    return out
 
 
 def load_state() -> dict:
@@ -248,8 +275,7 @@ def main() -> int:
     out = {
         "aktualisiert": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "bewertung": "claude" if use_claude else "regeln",
-        "firmen": [{k: s[k] for k in ("name", "career_url", "ok", "note")} |
-                   {"stellen": sum(1 for j in jobs_out if j["firma"] == s["name"])} for s in company_status],
+        "firmen": all_companies(company_status, jobs_out, previous_output()),
         "stellen": jobs_out,
     }
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
