@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T13:53+00:00",
+ "aktualisiert": "2026-11-05T11:40+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -8,7 +8,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "Schaeffler",
@@ -32,7 +32,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 66
+   "stellen": 69
   },
   {
    "name": "Deutsche Telekom",
@@ -64,7 +64,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "Maschinenfabrik Reinhausen",
@@ -72,7 +72,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 12
+   "stellen": 10
   },
   {
    "name": "Continental",
@@ -88,7 +88,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 24
+   "stellen": 25
   },
   {
    "name": "ams OSRAM",
@@ -104,7 +104,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 2
   },
   {
    "name": "Dallmeier",
@@ -237,6 +237,32 @@
  ],
  "stellen": [
   {
+   "titel": "KIC Krones - Werkstudent (m/w/d)* Procurement / Einkauf",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-11-05",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72263"
+  },
+  {
+   "titel": "Praktikum HR Service Center / Personaladministration (m/w/d)",
+   "firma": "Gerresheimer",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Personal (HR)",
+   "start": "Januar",
+   "umfang": "38 Std./Woche",
+   "veroeffentlicht": "2026-11-05",
+   "datum_geschaetzt": true,
+   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/d1789655-1140-4950-b6e1-c679752fa138?cHash=45bedc8cd79fd2e8d7f775e974ae328bbb7494ccf28dd1777c21143c1ad26b95"
+  },
+  {
    "titel": "Praktikum - Treasury & Tax sowie Werkscontrolling (80:20) (m/w/d)",
    "firma": "Gerresheimer",
    "art": "Praktikum",
@@ -245,9 +271,74 @@
    "fachbereich": "Finanzen & Controlling",
    "start": "k. A.",
    "umfang": "38 Std./Woche",
-   "veroeffentlicht": "2026-11-02",
+   "veroeffentlicht": "2026-11-05",
    "datum_geschaetzt": true,
-   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/47b91959-ec25-4305-8820-aa90b07c139c?cHash=701ceb1dda6bdf0d4de36c8129ec38948e5e5b86b8dddb79d94d5622663ba346"
+   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/b2bfdc89-0e6c-488f-b47f-9844f9aea353?cHash=af17a5db975d4c1ee02995de927cdd68ea2d4111b05c9a60b54b46d012c211f4"
+  },
+  {
+   "titel": "Praktikant (m/w/d)* Project Controlling",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-11-04",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72262"
+  },
+  {
+   "titel": "Junior Business Controller (m/w/d)",
+   "firma": "Bayernwerk",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-11-04",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.bayernwerk.de/de/job/Junior-Business-Controller-m_w_d-Regensburg/1043"
+  },
+  {
+   "titel": "Working Student - Project Documents Management (f/m/div)",
+   "firma": "Infineon",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-11-03",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.infineon.com/careers/job/563808972302334"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Global Project Management & Training",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Projektmanagement",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-11-03",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72258"
+  },
+  {
+   "titel": "Praktikum - Employee Communication & Events",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-11-03",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82183L-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-employee-communication-events-"
   },
   {
    "titel": "Werkstudent Business Development (m/w/d)",
@@ -770,19 +861,6 @@
    "link": "https://career.reinhausen.com/11966-praktikant-im-bereich-business-development-components-m-w-d/job.html"
   },
   {
-   "titel": "Praktikant im Bereich HR Development (m/w/d)",
-   "firma": "Maschinenfabrik Reinhausen",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Personal (HR)",
-   "start": "k. A.",
-   "umfang": "k. A.",
-   "veroeffentlicht": "2026-09-24",
-   "datum_geschaetzt": false,
-   "link": "https://career.reinhausen.com/11970-praktikant-im-bereich-hr-development-m-w-d/job.html"
-  },
-  {
    "titel": "Praktikant im Bereich Einkauf (m/w/d)",
    "firma": "Maschinenfabrik Reinhausen",
    "art": "Praktikum",
@@ -846,19 +924,6 @@
    "veroeffentlicht": "2026-09-23",
    "datum_geschaetzt": false,
    "link": "https://career.reinhausen.com/11947-praktikant-im-bereich-studentenrecruiting-und-betreuung-m-w-d/job.html"
-  },
-  {
-   "titel": "Praktikant im Bereich Multiprojektmanagement (m/w/d)",
-   "firma": "Maschinenfabrik Reinhausen",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Projektmanagement",
-   "start": "k. A.",
-   "umfang": "k. A.",
-   "veroeffentlicht": "2026-09-23",
-   "datum_geschaetzt": false,
-   "link": "https://career.reinhausen.com/11951-praktikant-im-bereich-multiprojektmanagement-m-w-d/job.html"
   },
   {
    "titel": "Praktikant im Bereich Social Media (m/w/d)",
@@ -1732,19 +1797,6 @@
    "link": "https://jobs.kpmg.de/job-invite/11143/?locale=de_DE"
   },
   {
-   "titel": "Werkstudent im Bereich Audit / Wirtschaftsprüfung (w/m/d)",
-   "firma": "KPMG",
-   "art": "Werkstudent",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "September 2026",
-   "umfang": "5 Std./Woche",
-   "veroeffentlicht": "2024-12-23",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.kpmg.de/job-invite/313/?locale=de_DE"
-  },
-  {
    "titel": "(Junior) Consultant Audit / Wirtschaftsprüfung (w/m/d)",
    "firma": "KPMG",
    "art": "Junior / Berufseinstieg",
@@ -1756,6 +1808,19 @@
    "veroeffentlicht": "2024-12-23",
    "datum_geschaetzt": false,
    "link": "https://jobs.kpmg.de/job-invite/220/?locale=de_DE"
+  },
+  {
+   "titel": "Werkstudent im Bereich Audit / Wirtschaftsprüfung (w/m/d)",
+   "firma": "KPMG",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "September 2026",
+   "umfang": "5 Std./Woche",
+   "veroeffentlicht": "2024-12-23",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/313/?locale=de_DE"
   },
   {
    "titel": "(Junior) Consultant / Berater für Tax / Steuerberatung (w/m/d)",
