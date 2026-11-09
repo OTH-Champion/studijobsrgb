@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-05T11:40+00:00",
+ "aktualisiert": "2026-11-09T13:00+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -72,7 +72,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 10
+   "stellen": 9
   },
   {
    "name": "Continental",
@@ -88,7 +88,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 25
+   "stellen": 24
   },
   {
    "name": "ams OSRAM",
@@ -104,7 +104,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 2
+   "stellen": 1
   },
   {
    "name": "Dallmeier",
@@ -237,19 +237,6 @@
  ],
  "stellen": [
   {
-   "titel": "KIC Krones - Werkstudent (m/w/d)* Procurement / Einkauf",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-11-05",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72263"
-  },
-  {
    "titel": "Praktikum HR Service Center / Personaladministration (m/w/d)",
    "firma": "Gerresheimer",
    "art": "Praktikum",
@@ -263,17 +250,30 @@
    "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/d1789655-1140-4950-b6e1-c679752fa138?cHash=45bedc8cd79fd2e8d7f775e974ae328bbb7494ccf28dd1777c21143c1ad26b95"
   },
   {
-   "titel": "Praktikum - Treasury & Tax sowie Werkscontrolling (80:20) (m/w/d)",
-   "firma": "Gerresheimer",
-   "art": "Praktikum",
-   "standort": "Regensburg",
+   "titel": "KIC Krones - Werkstudent (m/w/d)* Procurement / Einkauf",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
    "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-11-05",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72263"
+  },
+  {
+   "titel": "Junior Business Controller (m/w/d)",
+   "firma": "Bayernwerk",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
    "fachbereich": "Finanzen & Controlling",
    "start": "k. A.",
-   "umfang": "38 Std./Woche",
-   "veroeffentlicht": "2026-11-05",
-   "datum_geschaetzt": true,
-   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/b2bfdc89-0e6c-488f-b47f-9844f9aea353?cHash=af17a5db975d4c1ee02995de927cdd68ea2d4111b05c9a60b54b46d012c211f4"
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-11-04",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.bayernwerk.de/de/job/Junior-Business-Controller-m_w_d-Regensburg/1043"
   },
   {
    "titel": "Praktikant (m/w/d)* Project Controlling",
@@ -289,17 +289,17 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72262"
   },
   {
-   "titel": "Junior Business Controller (m/w/d)",
-   "firma": "Bayernwerk",
-   "art": "Junior / Berufseinstieg",
+   "titel": "Praktikum - Employee Communication & Events",
+   "firma": "Aumovio",
+   "art": "Praktikum",
    "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-11-04",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-11-03",
    "datum_geschaetzt": false,
-   "link": "https://jobs.bayernwerk.de/de/job/Junior-Business-Controller-m_w_d-Regensburg/1043"
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82183L-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-employee-communication-events-"
   },
   {
    "titel": "Working Student - Project Documents Management (f/m/div)",
@@ -328,19 +328,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72258"
   },
   {
-   "titel": "Praktikum - Employee Communication & Events",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
-   "start": "März 2027",
-   "umfang": "6 Monate",
-   "veroeffentlicht": "2026-11-03",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82183L-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-employee-communication-events-"
-  },
-  {
    "titel": "Werkstudent Business Development (m/w/d)",
    "firma": "Otto Lehmann",
    "art": "Werkstudent",
@@ -365,19 +352,6 @@
    "veroeffentlicht": "2026-11-01",
    "datum_geschaetzt": true,
    "link": "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833"
-  },
-  {
-   "titel": "Internship - Strategic Purchasing Electronics",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "k. A.",
-   "veroeffentlicht": "2026-10-30",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82186O-p-0b8cd1d46f9963fb1bb9e140c36cb1c9/internship-strategic-purchasing-electronics"
   },
   {
    "titel": "Praktikum - HR Employer Branding",
@@ -625,19 +599,6 @@
    "veroeffentlicht": "2026-10-16",
    "datum_geschaetzt": false,
    "link": "https://career.reinhausen.com/12114-praktikant-im-bereich-sales-excellence-m-w-d/job.html"
-  },
-  {
-   "titel": "Praktikant im Bereich Content und Kommunikation (m/w/d)",
-   "firma": "Maschinenfabrik Reinhausen",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
-   "start": "k. A.",
-   "umfang": "k. A.",
-   "veroeffentlicht": "2026-10-16",
-   "datum_geschaetzt": false,
-   "link": "https://career.reinhausen.com/12137-praktikant-im-bereich-content-und-kommunikation-m-w-d/job.html"
   },
   {
    "titel": "Pflichtpraktikum - IT-Projektmanagement (all genders)",
