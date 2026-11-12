@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-09T13:00+00:00",
+ "aktualisiert": "2026-11-12T12:00+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -8,7 +8,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 2
   },
   {
    "name": "Schaeffler",
@@ -32,7 +32,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 69
+   "stellen": 68
   },
   {
    "name": "Deutsche Telekom",
@@ -144,7 +144,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 0
   },
   {
    "name": "Götz Management",
@@ -208,7 +208,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 12
+   "stellen": 13
   },
   {
    "name": "Zippel",
@@ -245,9 +245,48 @@
    "fachbereich": "Personal (HR)",
    "start": "Januar",
    "umfang": "38 Std./Woche",
-   "veroeffentlicht": "2026-11-05",
+   "veroeffentlicht": "2026-11-12",
    "datum_geschaetzt": true,
-   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/d1789655-1140-4950-b6e1-c679752fa138?cHash=45bedc8cd79fd2e8d7f775e974ae328bbb7494ccf28dd1777c21143c1ad26b95"
+   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/337841af-7b6a-44a5-9ce6-978546ded8c3?cHash=f323fae827f001fc1ca1f5f56841e21e23a95e07050d4eba3090bd937f32d4ab"
+  },
+  {
+   "titel": "Werkstudent - Corporate Accounting Data Automation and Business Intelligence (w/m/div)",
+   "firma": "Infineon",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "20 Std./Woche",
+   "veroeffentlicht": "2026-11-10",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.infineon.com/careers/job/563808972328309"
+  },
+  {
+   "titel": "Werkstudierende - Product Development & AI (all genders)",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-11-10",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72274"
+  },
+  {
+   "titel": "(Junior) Consultant Corporate Treasury (w/m/d)",
+   "firma": "KPMG",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-11-09",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.kpmg.de/job-invite/13034/?locale=de_DE"
   },
   {
    "titel": "KIC Krones - Werkstudent (m/w/d)* Procurement / Einkauf",
@@ -666,19 +705,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=627"
   },
   {
-   "titel": "Werkstudent (m/w/d)* Customer & Travel Coordination",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Vertrieb & Kundenmanagement",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-10-12",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72191"
-  },
-  {
    "titel": "Junior VertriebsmitarbeiterIn im Außendienst / Trainee Vertrieb (m/w/d)",
    "firma": "Keyence",
    "art": "Trainee",
@@ -950,19 +976,6 @@
    "veroeffentlicht": "2026-09-22",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12357F-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-betriebliches-gesundheitsmanagement-"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Digitalisierung / Prozessoptimierung / Analytics Reporting IOS Region Westeuropa",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "Januar 2027",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-20",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72126"
   },
   {
    "titel": "Werkstudent (m/w/d)* Global HR Systems & ServiceNow",
@@ -1691,19 +1704,6 @@
    "veroeffentlicht": "2026-06-17",
    "datum_geschaetzt": false,
    "link": "https://karriere.regensburg.de/10420-praktikum-im-kulturamt-bereich-event-und-projektmanagement-konzept-und-oeffentlichkeitsarbeit/job.html"
-  },
-  {
-   "titel": "Werkstudent (m/w/d) mit bankfachlicher Aus-/ oder Weiterbildung",
-   "firma": "Sparkasse Regensburg",
-   "art": "Werkstudent",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-06-11",
-   "datum_geschaetzt": false,
-   "link": "https://www.sparkasse.de/jobboerse/sparkasse-regensburg/werkstudent-m-w-d-mit-bankfachlicher-aus-oder-weiterbildung-sparkasse-regensburg-199988.html"
   },
   {
    "titel": "Praktikum - Projektmanagement / Value Management (ReDTC) - REF7641R",
