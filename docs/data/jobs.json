@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-12T12:00+00:00",
+ "aktualisiert": "2026-11-16T12:53+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -32,7 +32,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 68
+   "stellen": 67
   },
   {
    "name": "Deutsche Telekom",
@@ -64,7 +64,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 0
   },
   {
    "name": "Maschinenfabrik Reinhausen",
@@ -72,7 +72,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 9
+   "stellen": 10
   },
   {
    "name": "Continental",
@@ -88,7 +88,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 24
+   "stellen": 25
   },
   {
    "name": "ams OSRAM",
@@ -128,7 +128,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "das Stadtwerk Regensburg",
@@ -208,7 +208,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 13
+   "stellen": 12
   },
   {
    "name": "Zippel",
@@ -245,9 +245,22 @@
    "fachbereich": "Personal (HR)",
    "start": "Januar",
    "umfang": "38 Std./Woche",
-   "veroeffentlicht": "2026-11-12",
+   "veroeffentlicht": "2026-11-16",
    "datum_geschaetzt": true,
-   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/337841af-7b6a-44a5-9ce6-978546ded8c3?cHash=f323fae827f001fc1ca1f5f56841e21e23a95e07050d4eba3090bd937f32d4ab"
+   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/2ca313bd-3ead-4c7c-ad83-14309efb4330?cHash=bec69b65f60e2d63b950c03697044645c5bba147ab43df8288f4d97f374111da"
+  },
+  {
+   "titel": "Praktikant für digitale Lösungen (MS Power-Plattform) (m/w/d)",
+   "firma": "Maschinenfabrik Reinhausen",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Digitalisierung, Daten & KI",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-11-13",
+   "datum_geschaetzt": false,
+   "link": "https://career.reinhausen.com/12219-praktikant-fuer-digitale-loesungen-ms-power-plattform-m-w-d/job.html"
   },
   {
    "titel": "Werkstudent - Corporate Accounting Data Automation and Business Intelligence (w/m/div)",
@@ -276,19 +289,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72274"
   },
   {
-   "titel": "(Junior) Consultant Corporate Treasury (w/m/d)",
-   "firma": "KPMG",
-   "art": "Junior / Berufseinstieg",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-11-09",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.kpmg.de/job-invite/13034/?locale=de_DE"
-  },
-  {
    "titel": "KIC Krones - Werkstudent (m/w/d)* Procurement / Einkauf",
    "firma": "Krones",
    "art": "Werkstudent",
@@ -300,19 +300,6 @@
    "veroeffentlicht": "2026-11-05",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72263"
-  },
-  {
-   "titel": "Junior Business Controller (m/w/d)",
-   "firma": "Bayernwerk",
-   "art": "Junior / Berufseinstieg",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2026-11-04",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.bayernwerk.de/de/job/Junior-Business-Controller-m_w_d-Regensburg/1043"
   },
   {
    "titel": "Praktikant (m/w/d)* Project Controlling",
@@ -718,6 +705,19 @@
    "link": "https://career.keyence.de/job/Bundesweit-Junior-VertriebsmitarbeiterIn-im-Au%C3%9Fendienst-Trainee-Vertrieb-%28mwd%29/578163201"
   },
   {
+   "titel": "Werkstudent Energievertrieb & Promotion (m/w/d)",
+   "firma": "REWAG",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "Teilzeit",
+   "veroeffentlicht": "2026-10-06",
+   "datum_geschaetzt": false,
+   "link": "https://rewag-karriere.softgarden.io/job/67916622/Werkstudent-Energievertrieb-Promotion-m-w-d-?jobDbPVId=286891672&l=de"
+  },
+  {
    "titel": "Praktikant im Bereich Business Development – Service Solutions (m/w/d)",
    "firma": "Maschinenfabrik Reinhausen",
    "art": "Praktikum",
@@ -991,6 +991,19 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114"
   },
   {
+   "titel": "Internship - Global Travel and Project Management - REF4314U",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-09-11",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF4314U-p-a97aa6b9db70bc1d9a78a3f944487dc5/internship-global-travel-and-project-management-ref4314u"
+  },
+  {
    "titel": "Praktikum Controlling und Reporting (w/m/d)",
    "firma": "KPMG",
    "art": "Praktikum",
@@ -1171,19 +1184,6 @@
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71358"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Total Cost of Ownership (TCO)",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71634"
   },
   {
    "titel": "Werkstudent (m/w/d)* Process Transformation & Digitalization",
