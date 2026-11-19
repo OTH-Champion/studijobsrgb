@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-16T12:53+00:00",
+ "aktualisiert": "2026-11-19T12:18+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -88,7 +88,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 25
+   "stellen": 24
   },
   {
    "name": "ams OSRAM",
@@ -128,7 +128,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 0
   },
   {
    "name": "das Stadtwerk Regensburg",
@@ -144,7 +144,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "Götz Management",
@@ -208,7 +208,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 12
+   "stellen": 11
   },
   {
    "name": "Zippel",
@@ -237,6 +237,32 @@
  ],
  "stellen": [
   {
+   "titel": "Werkstudent (m/w/d)* Texterstellung und Storytelling - Unternehmenskommunikation",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "15–20 Std./Woche",
+   "veroeffentlicht": "2026-11-19",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1735"
+  },
+  {
+   "titel": "Praktikum - Advanced Purchasing",
+   "firma": "Aumovio",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Einkauf & Supply Chain",
+   "start": "März 2027",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-11-19",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82645M-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-advanced-purchasing"
+  },
+  {
    "titel": "Praktikum HR Service Center / Personaladministration (m/w/d)",
    "firma": "Gerresheimer",
    "art": "Praktikum",
@@ -245,9 +271,35 @@
    "fachbereich": "Personal (HR)",
    "start": "Januar",
    "umfang": "38 Std./Woche",
-   "veroeffentlicht": "2026-11-16",
+   "veroeffentlicht": "2026-11-19",
    "datum_geschaetzt": true,
-   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/2ca313bd-3ead-4c7c-ad83-14309efb4330?cHash=bec69b65f60e2d63b950c03697044645c5bba147ab43df8288f4d97f374111da"
+   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/41fc4ab7-439a-475d-8aaf-226f94dd612c?cHash=4269df3cbfdd156af37013a897f48832c14febdb19ca828f1cfbe018492e74e6"
+  },
+  {
+   "titel": "Werkstudent - Project Office and Digitalization (w/m/div)",
+   "firma": "Infineon",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Projektmanagement",
+   "start": "k. A.",
+   "umfang": "20 Std./Woche",
+   "veroeffentlicht": "2026-11-16",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.infineon.com/careers/job/563808972375274"
+  },
+  {
+   "titel": "(Junior) Baufinanzierungsberater (m/w/d)",
+   "firma": "Sparkasse Regensburg",
+   "art": "Junior / Berufseinstieg",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Finanzen & Controlling",
+   "start": "k. A.",
+   "umfang": "Vollzeit",
+   "veroeffentlicht": "2026-11-16",
+   "datum_geschaetzt": false,
+   "link": "https://www.sparkasse.de/jobboerse/sparkasse-regensburg/junior-baufinanzierungsberater-m-w-d-sparkasse-regensburg-239127.html"
   },
   {
    "titel": "Praktikant für digitale Lösungen (MS Power-Plattform) (m/w/d)",
@@ -326,19 +378,6 @@
    "veroeffentlicht": "2026-11-03",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82183L-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-employee-communication-events-"
-  },
-  {
-   "titel": "Working Student - Project Documents Management (f/m/div)",
-   "firma": "Infineon",
-   "art": "Werkstudent",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Projektmanagement",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-11-03",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.infineon.com/careers/job/563808972302334"
   },
   {
    "titel": "Werkstudent (m/w/d)* Global Project Management & Training",
@@ -484,19 +523,6 @@
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82087Y-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-kommunikation-marketing"
   },
   {
-   "titel": "Praktikum - Disposition (Supply Chain Management)",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "Februar 2027",
-   "umfang": "4–6 Monate",
-   "veroeffentlicht": "2026-10-22",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82090G-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-disposition-supply-chain-management-"
-  },
-  {
    "titel": "Praktikant (m/w/d)* für Supply Chain Management LDT",
    "firma": "Krones",
    "art": "Praktikum",
@@ -521,19 +547,6 @@
    "veroeffentlicht": "2026-10-21",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF11099N-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-wirtschaftsrecht-international-hr-arbeitsrecht-corporate-governance-"
-  },
-  {
-   "titel": "Praktikum - Supply Chain Management",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Einkauf & Supply Chain",
-   "start": "Februar 2027",
-   "umfang": "4–6 Monate",
-   "veroeffentlicht": "2026-10-20",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12559C-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-supply-chain-management"
   },
   {
    "titel": "Praktikum - Innovationsmanagement und Marketing",
@@ -703,19 +716,6 @@
    "veroeffentlicht": "2026-10-10",
    "datum_geschaetzt": false,
    "link": "https://career.keyence.de/job/Bundesweit-Junior-VertriebsmitarbeiterIn-im-Au%C3%9Fendienst-Trainee-Vertrieb-%28mwd%29/578163201"
-  },
-  {
-   "titel": "Werkstudent Energievertrieb & Promotion (m/w/d)",
-   "firma": "REWAG",
-   "art": "Werkstudent",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Vertrieb & Kundenmanagement",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-10-06",
-   "datum_geschaetzt": false,
-   "link": "https://rewag-karriere.softgarden.io/job/67916622/Werkstudent-Energievertrieb-Promotion-m-w-d-?jobDbPVId=286891672&l=de"
   },
   {
    "titel": "Praktikant im Bereich Business Development – Service Solutions (m/w/d)",
@@ -1002,32 +1002,6 @@
    "veroeffentlicht": "2026-09-11",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF4314U-p-a97aa6b9db70bc1d9a78a3f944487dc5/internship-global-travel-and-project-management-ref4314u"
-  },
-  {
-   "titel": "Praktikum Controlling und Reporting (w/m/d)",
-   "firma": "KPMG",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "6 Monate",
-   "veroeffentlicht": "2026-09-09",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.kpmg.de/job-invite/12722/?locale=de_DE"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* FI Group Financial Statements IFRS",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=12175"
   },
   {
    "titel": "Werkstudent (m/w/d)* Fülltechnik Supply Chain Management",
