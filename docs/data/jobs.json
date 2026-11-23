@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-19T12:18+00:00",
+ "aktualisiert": "2026-11-23T14:47+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -32,7 +32,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 67
+   "stellen": 68
   },
   {
    "name": "Deutsche Telekom",
@@ -48,7 +48,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "BSH Hausgeräte",
@@ -88,7 +88,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 24
+   "stellen": 23
   },
   {
    "name": "ams OSRAM",
@@ -192,7 +192,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 0
   },
   {
    "name": "Keyence",
@@ -200,7 +200,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 0
   },
   {
    "name": "KPMG",
@@ -208,7 +208,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 11
+   "stellen": 8
   },
   {
    "name": "Zippel",
@@ -237,17 +237,17 @@
  ],
  "stellen": [
   {
-   "titel": "Werkstudent (m/w/d)* Texterstellung und Storytelling - Unternehmenskommunikation",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
+   "titel": "Praktikant Innovation & Digitalisierung Gesamtfahrzeugqualität (w/m/x)",
+   "firma": "BMW Group",
+   "art": "Praktikum",
+   "standort": "Regensburg",
    "arbeitsmodell": "k. A.",
-   "fachbereich": "Marketing & Kommunikation",
-   "start": "März 2027",
-   "umfang": "15–20 Std./Woche",
-   "veroeffentlicht": "2026-11-19",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1735"
+   "fachbereich": "Business Development & Strategie",
+   "start": "k. A.",
+   "umfang": "6 Monate",
+   "veroeffentlicht": "2026-11-23",
+   "datum_geschaetzt": true,
+   "link": "https://jobs.bmwgroup.com/job/Praktikant-Innovation-&amp;-Digitalisierung-Gesamtfahrzeugqualit%C3%A4t-%28wmx%29/172747-de_DE"
   },
   {
    "titel": "Praktikum - Advanced Purchasing",
@@ -274,6 +274,32 @@
    "veroeffentlicht": "2026-11-19",
    "datum_geschaetzt": true,
    "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/41fc4ab7-439a-475d-8aaf-226f94dd612c?cHash=4269df3cbfdd156af37013a897f48832c14febdb19ca828f1cfbe018492e74e6"
+  },
+  {
+   "titel": "Werkstudent (m/w/d)* Texterstellung und Storytelling - Unternehmenskommunikation",
+   "firma": "Krones",
+   "art": "Werkstudent",
+   "standort": "Neutraubling",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "März 2027",
+   "umfang": "15–20 Std./Woche",
+   "veroeffentlicht": "2026-11-19",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=1735"
+  },
+  {
+   "titel": "Pflichtpraktikum Marketing and Communications (all genders)",
+   "firma": "Krones",
+   "art": "Praktikum",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Marketing & Kommunikation",
+   "start": "Februar 2027",
+   "umfang": "3 Monate",
+   "veroeffentlicht": "2026-11-19",
+   "datum_geschaetzt": false,
+   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72295"
   },
   {
    "titel": "Werkstudent - Project Office and Digitalization (w/m/div)",
@@ -393,19 +419,6 @@
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72258"
   },
   {
-   "titel": "Werkstudent Business Development (m/w/d)",
-   "firma": "Otto Lehmann",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Business Development & Strategie",
-   "start": "ab sofort",
-   "umfang": "5 Std./Woche",
-   "veroeffentlicht": "2026-11-02",
-   "datum_geschaetzt": true,
-   "link": "https://www.ottolehmann.com/unternehmen/karriere/stellenangebot/werkstudent-business-development"
-  },
-  {
    "titel": "Internship - Project Management for HR Digital Transformation Program (d/f/m)",
    "firma": "Schaeffler",
    "art": "Praktikum",
@@ -417,19 +430,6 @@
    "veroeffentlicht": "2026-11-01",
    "datum_geschaetzt": true,
    "link": "https://jobs.schaeffler.com/job/Regensburg-Internship-Project-Management-for-HR-Digital-Transformation-Program-%28dfm%29-93055/1452156833"
-  },
-  {
-   "titel": "Praktikum - HR Employer Branding",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Personal (HR)",
-   "start": "März 2027",
-   "umfang": "5–6 Monate",
-   "veroeffentlicht": "2026-10-30",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82270B-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-hr-employer-branding"
   },
   {
    "titel": "Praktikant (m/w/d)* Corporate HR Transformation, Leadership, Learning",
@@ -703,19 +703,6 @@
    "veroeffentlicht": "2026-10-14",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=627"
-  },
-  {
-   "titel": "Junior VertriebsmitarbeiterIn im Außendienst / Trainee Vertrieb (m/w/d)",
-   "firma": "Keyence",
-   "art": "Trainee",
-   "standort": "bundesweit",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Vertrieb & Kundenmanagement",
-   "start": "k. A.",
-   "umfang": "k. A.",
-   "veroeffentlicht": "2026-10-10",
-   "datum_geschaetzt": false,
-   "link": "https://career.keyence.de/job/Bundesweit-Junior-VertriebsmitarbeiterIn-im-Au%C3%9Fendienst-Trainee-Vertrieb-%28mwd%29/578163201"
   },
   {
    "titel": "Praktikant im Bereich Business Development – Service Solutions (m/w/d)",
@@ -1654,19 +1641,6 @@
    "link": "https://jobs.kpmg.de/job-invite/12916/?locale=de_DE"
   },
   {
-   "titel": "Werkstudent Marketing / Kommunikation (w/m/d)",
-   "firma": "KPMG",
-   "art": "Werkstudent",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Marketing & Kommunikation",
-   "start": "1.10.2026",
-   "umfang": "20 Std./Woche",
-   "veroeffentlicht": "2026-07-09",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.kpmg.de/job-invite/11225/?locale=de_DE"
-  },
-  {
    "titel": "Praktikum im Kulturamt – Bereich Event- und Projektmanagement, Konzept- und Öffentlichkeitsarbeit - Stellen-Nr. P41-03",
    "firma": "Stadt Regensburg",
    "art": "Praktikum",
@@ -1717,19 +1691,6 @@
    "veroeffentlicht": "2025-10-30",
    "datum_geschaetzt": false,
    "link": "https://jobs.kpmg.de/job-invite/315/?locale=de_DE"
-  },
-  {
-   "titel": "Praktikum Controlling (Enterprise Performance Management) (w/m/d)",
-   "firma": "KPMG",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Finanzen & Controlling",
-   "start": "k. A.",
-   "umfang": "3–6 Monate",
-   "veroeffentlicht": "2025-03-28",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.kpmg.de/job-invite/11143/?locale=de_DE"
   },
   {
    "titel": "(Junior) Consultant Audit / Wirtschaftsprüfung (w/m/d)",
@@ -1795,19 +1756,6 @@
    "veroeffentlicht": "2022-01-03",
    "datum_geschaetzt": false,
    "link": "https://jobs.kpmg.de/job-invite/7781/?locale=de_DE"
-  },
-  {
-   "titel": "(Junior) Consultant IT Prozesse und Compliance (w/m/d)",
-   "firma": "KPMG",
-   "art": "Junior / Berufseinstieg",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Recht & Compliance",
-   "start": "k. A.",
-   "umfang": "Vollzeit",
-   "veroeffentlicht": "2019-12-02",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.kpmg.de/job-invite/479/?locale=de_DE"
   }
  ]
 }
