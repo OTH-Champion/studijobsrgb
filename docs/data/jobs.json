@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-23T14:47+00:00",
+ "aktualisiert": "2026-11-26T13:19+00:00",
  "bewertung": "regeln",
  "firmen": [
   {
@@ -32,7 +32,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 68
+   "stellen": 66
   },
   {
    "name": "Deutsche Telekom",
@@ -64,7 +64,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "Maschinenfabrik Reinhausen",
@@ -88,7 +88,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 23
+   "stellen": 22
   },
   {
    "name": "ams OSRAM",
@@ -104,7 +104,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 1
+   "stellen": 0
   },
   {
    "name": "Dallmeier",
@@ -200,7 +200,7 @@
    "ok": true,
    "note": "",
    "aktiv": true,
-   "stellen": 0
+   "stellen": 1
   },
   {
    "name": "KPMG",
@@ -237,6 +237,19 @@
  ],
  "stellen": [
   {
+   "titel": "Werkstudent Wärmeprojekte & Erneuerbare Energien (m/w/d)",
+   "firma": "Bayernwerk",
+   "art": "Werkstudent",
+   "standort": "Regensburg",
+   "arbeitsmodell": "Hybrid",
+   "fachbereich": "Projektmanagement",
+   "start": "ab sofort",
+   "umfang": "15–20 Std./Woche",
+   "veroeffentlicht": "2026-11-24",
+   "datum_geschaetzt": false,
+   "link": "https://jobs.bayernwerk.de/de/job/Werkstudent-Waermeprojekte-Erneuerbare-Energien-m_w_d-Regensburg/1052"
+  },
+  {
    "titel": "Praktikant Innovation & Digitalisierung Gesamtfahrzeugqualität (w/m/x)",
    "firma": "BMW Group",
    "art": "Praktikum",
@@ -261,19 +274,6 @@
    "veroeffentlicht": "2026-11-19",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF82645M-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-advanced-purchasing"
-  },
-  {
-   "titel": "Praktikum HR Service Center / Personaladministration (m/w/d)",
-   "firma": "Gerresheimer",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "Hybrid",
-   "fachbereich": "Personal (HR)",
-   "start": "Januar",
-   "umfang": "38 Std./Woche",
-   "veroeffentlicht": "2026-11-19",
-   "datum_geschaetzt": true,
-   "link": "https://www.gerresheimer.com/en/careers/jobs/job-details/41fc4ab7-439a-475d-8aaf-226f94dd612c?cHash=4269df3cbfdd156af37013a897f48832c14febdb19ca828f1cfbe018492e74e6"
   },
   {
    "titel": "Werkstudent (m/w/d)* Texterstellung und Storytelling - Unternehmenskommunikation",
@@ -365,6 +365,19 @@
    "veroeffentlicht": "2026-11-10",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72274"
+  },
+  {
+   "titel": "Junior VertriebsmitarbeiterIn im Außendienst / Trainee Vertrieb (m/w/d)",
+   "firma": "Keyence",
+   "art": "Trainee",
+   "standort": "bundesweit",
+   "arbeitsmodell": "k. A.",
+   "fachbereich": "Vertrieb & Kundenmanagement",
+   "start": "k. A.",
+   "umfang": "k. A.",
+   "veroeffentlicht": "2026-11-08",
+   "datum_geschaetzt": false,
+   "link": "https://career.keyence.de/job/Bundesweit-Junior-VertriebsmitarbeiterIn-im-Au%C3%9Fendienst-Trainee-Vertrieb-%28mwd%29/578163201"
   },
   {
    "titel": "KIC Krones - Werkstudent (m/w/d)* Procurement / Einkauf",
@@ -926,19 +939,6 @@
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12351M-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-controlling"
   },
   {
-   "titel": "Praktikum - Lean Management - Digitalisierung und Standardisierung von Prozessabläufen",
-   "firma": "Aumovio",
-   "art": "Praktikum",
-   "standort": "Regensburg",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Digitalisierung, Daten & KI",
-   "start": "März 2027",
-   "umfang": "4 Monate",
-   "veroeffentlicht": "2026-09-22",
-   "datum_geschaetzt": false,
-   "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12354Y-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-lean-management-digitalisierung-und-standardisierung-von-prozessablaeufen"
-  },
-  {
    "titel": "Praktikum - Business Development und Marketing",
    "firma": "Aumovio",
    "art": "Praktikum",
@@ -963,19 +963,6 @@
    "veroeffentlicht": "2026-09-22",
    "datum_geschaetzt": false,
    "link": "https://jobs.aumovio.com/en/detail-page/job-detail/REF12357F-p-f42ca67bbab6dfe97a89a7af54d1788d/praktikum-betriebliches-gesundheitsmanagement-"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Global HR Systems & ServiceNow",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Personal (HR)",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-15",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=72114"
   },
   {
    "titel": "Internship - Global Travel and Project Management - REF4314U",
@@ -1171,19 +1158,6 @@
    "veroeffentlicht": "2026-09-02",
    "datum_geschaetzt": false,
    "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71792"
-  },
-  {
-   "titel": "Werkstudent (m/w/d)* Microsoft 365 Adoption & Change Management",
-   "firma": "Krones",
-   "art": "Werkstudent",
-   "standort": "Neutraubling",
-   "arbeitsmodell": "k. A.",
-   "fachbereich": "Personal (HR)",
-   "start": "k. A.",
-   "umfang": "Teilzeit",
-   "veroeffentlicht": "2026-09-02",
-   "datum_geschaetzt": false,
-   "link": "https://www.krones.com/de/karriere/stellenausschreibung/?job=71834"
   },
   {
    "titel": "Werkstudent (m/w/d)* Speditionslogistik – Excel-Tools",
